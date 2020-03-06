@@ -1,0 +1,155 @@
+/*celeste desing #6DBDC6
+azul letras: #4580CD
+celeste boton: #0099FF
+azul boton: ##004D80
+*/
+@font-face {
+  font-family: opensans;
+  src: url(../webfonts/OpenSans-Regular.woff);
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+div.imagenenf{
+   width:100%;
+   height:100%;
+
+}
+img.fondo1{
+    width:100%;
+    height:calc(width + 10%);
+    background:url(/img/enfermera.jpg) no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover; 
+}
+/*
+.form-group{
+text-align:left;
+}
+.form-group .label{
+    margin-top:20px;
+}
+.logo{
+    width:330px;
+    height:230px;
+    margin-top:-75px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #B7B7B7;
+    width:100%;
+    padding-left:30px;
+  }
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid #B7B7B7;
+    width:100%;
+    padding-left:30px;
+  }
+  .submitt{
+    color:white;
+    font-size:22px;
+    margin-top:25px;
+    width:100%; 
+    background-image:linear-gradient(to bottom, #0099FF , #004D80); 
+    border:0px;
+  }
+*/
+@media only screen and (max-width: 1209px) {
+#cajasubmenu{
+margin:auto;
+}
+#navid{
+margin:0px;
+padding:0px;
+}
+#inicio1{
+     border-style: solid; border-width:2px 0px 0px 0px;border-color:red;
+    padding-top:5px;
+    margin-bottom:5px;
+}
+#cursos1{
+     border-style: solid; border-width:1px 0px 0px 0px;border-color:gainsboro;
+    padding-top:5px;
+    margin-bottom:5px;
+}
+}
+
+@media only screen and (min-width: 1210px) {
+#cajasubmenu{
+margin-top:29px;
+}
+}
+
+.link1{
+    font-family:opensans;
+    margin-right:15px;
+}
+
+.link2{
+    color:#3c3b37;
+    font-family:opensans;
+    margin-right:15px;
+    
+}
+
+a{
+    color:#060C17;
+    font-size:16px;
+    font-family:OpenSansRegular;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color:#3c3b37;
+  text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+  color:rgb(222, 23, 45) !important;
+  text-decoration:none;
+}
+
+/* selected link */
+a:active {
+  color:#3c3b37;
+  text-decoration:none;
+}
+
+*/
+*:focus {
+    outline: none !important;
+}
+
+ a:hover.spancito{
+    border-style: solid; border-width:0px 0px 2px 0px;border-color:red;
+}
+
+
+
+
+/*
+.iconouser{
+  float: left;
+  margin-left: 4px;
+  margin-top: -28px;
+  position: relative;
+  z-index: 2;
+  color: #A9A9A9;
+  font-size:22px;
+}
+
+.iconopass{
+  float: left;
+  margin-left: 4px;
+  margin-top: -28px;
+  position: relative;
+  z-index: 2;
+  color: #A9A9A9;
+  font-size:22px;
+}
+*/
