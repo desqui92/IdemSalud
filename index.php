@@ -54,7 +54,7 @@
     <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Regístrate</button></div>-->
 </nav>
 <div class="imagenenf"><img src="img/enfermera.jpg" class="fondo1"></div>
-<div class="curso"><h1>Curso</h1></div>
+<div class="curso"><h1>Curso.</h1></div>
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
