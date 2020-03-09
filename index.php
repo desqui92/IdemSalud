@@ -21,6 +21,18 @@
       </div>
     </div>
   </div>
+  <div class="container-fluid h-100 cont-info">
+    <div class="row">
+      <div class="col-6">
+          <img src="img/worldwide.png" class="imagenformavirtual">
+      </div>
+      <div class="col-6 animated fadeInLeft slow">
+          <h1 class="titulo2">¡REALIZA LOS CURSOS DE FORMA VIRTUAL!</h1>
+          <h4 class="descripcion2">Desde tu casa a travez de tu computadora<br>
+           o celular de forma 100% online.</h4>
+      </div>
+    </div>
+  </div>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
