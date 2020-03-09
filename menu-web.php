@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-xl" id="navid" style="border-style: solid; border-width:0px 0px 2px 0px;border-color:red; font-family:monserrat; font-size:15px;">
+<nav class="navbar navbar-expand-xl" id="navid" style="border-style: solid; border-width:0px 0px 2px 0px;border-color:red; font-family:Montserrat; font-size:15px;">
 <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 <i class="fas fa-bars"></i>
@@ -6,16 +6,16 @@
 <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="text-align:center;">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item" id="inicio1">
-            <a class="link1 text-muted spancito" href="" style="font-family:monserrat;">Inicio</a>
+            <a class="link1 text-muted spancito" href="" style="font-family:Montserrat;">Inicio</a>
       </li>
       <li class="nav-item">
-          <a class="link1 text-muted spancito" href="#" style="font-family:monserrat;">Quienes Somos</a>
+          <a class="link1 text-muted spancito" href="#" style="font-family:Montserrat;">Quienes Somos</a>
       </li>
       <li class="nav-item">
-        <a class="link1 text-muted spancito"href="#" style="font-family:monserrat;">Cursos</a>
+        <a class="link1 text-muted spancito"href="#" style="font-family:Montserrat;">Cursos</a>
       </li>
         <li class="nav-item">
-        <a class="link1 text-muted spancito"href="#" style="font-family:monserrat;">Blog</a>
+        <a class="link1 text-muted spancito"href="#" style="font-family:Montserrat;">Blog</a>
       </li>
     </ul>
       <div style="margin-right:15px;" class="d-flex justify-content-center"><form class="form-inline my-2 my-lg-0">
