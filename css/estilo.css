@@ -45,10 +45,6 @@ margin:auto;
 }
 /*boton de inicio registro*/
 .btn-op1{
-  border-radius: 0px;
-  background: red;
-  font-weight: 300;
-  color: white;
   margin-bottom:10px;
 }
 
@@ -61,18 +57,11 @@ margin:auto;
       }
 
 
-}
+
 @media only screen and (min-width: 992px) {
   #cajasubmenu{
   margin-top:29px;
   }
-/*boton de inicio registro*/
-.btn-op1{
-  border-radius: 0px;
-  background: red;
-  font-weight: 300;
-  color: white;
-}
 
 }
 
