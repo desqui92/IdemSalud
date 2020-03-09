@@ -6,10 +6,10 @@
 <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="text-align:center;">
     <ul class="navbar-nav mr-auto margenabajo">
         <li class="nav-item margenabajo" id="inicio1">
-            <a class="link1 text-muted spancito" href="" style="font-family:Montserrat;">Inicio</a>
+            <a class="link1 text-muted spancito" href="index.php" style="font-family:Montserrat;">Inicio</a>
       </li>
       <li class="nav-item margenabajo" id="quienesomos">
-          <a class="link1 text-muted spancito" href="#" style="font-family:Montserrat;">Quienes Somos</a>
+          <a class="link1 text-muted spancito" href="nosotros.php" style="font-family:Montserrat;">Quienes Somos</a>
       </li>
       <li class="nav-item margenabajo" id="cursos">
         <a class="link1 text-muted spancito"href="#" style="font-family:Montserrat;">Cursos</a>

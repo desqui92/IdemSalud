@@ -82,6 +82,9 @@ html,body{
     .margenabajo{
       margin-bottom:10px;
     }
+    .navbar .navbar-collapse .navbar-nav .nav-item{
+      margin-top: 10px;
+    }
 }
 @media screen and (min-width:700px) and (max-width:991px) {
 #cajasubmenu{
@@ -113,11 +116,15 @@ margin-bottom:10px;
 
 }
 
-      /* MENU */
-      #navid{
-      margin:0px;
-      padding:0px;
-      }
+ /* MENU */
+#navid{
+ margin:0px;
+ padding:0px;
+}
+#navid > button{
+  outline: 0px;
+  box-shadow: none;
+}
 
 @media screen and (min-width: 992px) {
   #cajasubmenu{
