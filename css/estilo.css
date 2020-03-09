@@ -218,3 +218,16 @@ margin-bottom:10px;
   #form-login .btn{
     width: 100%;
   }
+
+  /* REGISTRO */
+  #form-registro{
+    margin-top: 15%;
+    padding: 20px;
+    background: white;
+  }
+  #form-registro .btn-group{
+    width: 100%;
+  }
+  #form-registro .btn{
+    width: 100%;
+  }
