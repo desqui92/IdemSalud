@@ -45,33 +45,29 @@ margin:auto;
 }
 
 
-/* MENU */
-#navid{
-margin:0px;
-padding:0px;
-}
+      /* MENU */
+      #navid{
+      margin:0px;
+      padding:0px;
+      }
 
-/* INICIO */
-#inicio1{
-     border-style: solid; border-width:2px 0px 0px 0px;border-color:red;
-    padding-top:5px;
-    margin-bottom:5px;
-}
 
-/* CURSOS */
-#cursos1{
-     border-style: solid; border-width:1px 0px 0px 0px;border-color:gainsboro;
-    padding-top:5px;
-    margin-bottom:5px;
-}
-}
 
 @media only screen and (min-width: 992px) {
 #cajasubmenu{
 margin-top:29px;
 }
-}
 
+/* INICIO */
+#inicio-seccion{
+  background-image:url('../img/enfermera.jpg');
+  background-attachment: fixed center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#inicio-seccion h1{
+
+}
 .link1{
  
     margin-right:15px;

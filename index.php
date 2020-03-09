@@ -13,7 +13,14 @@
   <?php
     include 'menu-web.php';
   ?>
-
+  <div class="container-fluid h-100" id="inicio-seccion">
+    <div class="row">
+      <div class="col">
+          <h1 class="titulo">¡Mira nuestros cursos!</h1>
+          <h4 class="descripcion">Ahora te podes anotar a nuestros cursos de enfermería</h4>
+      </div>
+    </div>
+  </div>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
