@@ -40,36 +40,44 @@ html,body{
 /* PARA ADAPTAR */
 
 @media only screen and (max-width: 1209px) {
-#cajasubmenu{
-margin:auto;
-}
+      #cajasubmenu{
+      margin:auto;
+      }
 
 
-/* MENU */
-#navid{
-margin:0px;
-padding:0px;
+      /* MENU */
+      #navid{
+      margin:0px;
+      padding:0px;
+      }
+
+
+
+      #inicio1{
+          border-style: solid; border-width:2px 0px 0px 0px;border-color:red;
+          padding-top:5px;
+          margin-bottom:5px;
+      }
+
+      /* CURSOS */
+      #cursos1{
+          border-style: solid; border-width:1px 0px 0px 0px;border-color:gainsboro;
+          padding-top:5px;
+          margin-bottom:5px;
+      }
+      }
+
+      @media only screen and (min-width: 1210px) {
+      #cajasubmenu{
+      margin-top:29px;
+      }
 }
 
 /* INICIO */
-#inicio1{
-     border-style: solid; border-width:2px 0px 0px 0px;border-color:red;
-    padding-top:5px;
-    margin-bottom:5px;
-}
-
-/* CURSOS */
-#cursos1{
-     border-style: solid; border-width:1px 0px 0px 0px;border-color:gainsboro;
-    padding-top:5px;
-    margin-bottom:5px;
-}
-}
-
-@media only screen and (min-width: 1210px) {
-#cajasubmenu{
-margin-top:29px;
-}
+#inicio-seccion{
+  background-image:url('../img/enfermera.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .link1{
