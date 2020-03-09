@@ -38,8 +38,35 @@ html,body{
 }
 
 /* PARA ADAPTAR */
+@media screen and (max-width: 699px) {
+  #cajasubmenu{
+    margin:auto;
+    }
+    /*boton de inicio registro*/
+    .btn-op1{
+      margin-bottom:10px;
+    }
 
-@media only screen and (max-width: 991px) {
+    #inicio-seccion .titulo{
+      font-weight: 800;
+      font-size: 36px;
+      text-align: center;
+      color:#e62f2d;
+      text-shadow: 1px 1px 1px black;
+    }
+    #inicio-seccion .descripcion{
+      font-weight: 600;
+      font-size: 18px;
+      text-align: center;
+      color:white;
+      text-shadow: 1px 1px 1px black;
+    }
+
+
+
+
+}
+@media screen and (min-width:700px) and (max-width:991px) {
 #cajasubmenu{
 margin:auto;
 }
@@ -47,6 +74,24 @@ margin:auto;
 .btn-op1{
   margin-bottom:10px;
 }
+
+#inicio-seccion .titulo{
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  color:#e62f2d;
+  text-shadow: 1px 1px 1px black;
+}
+#inicio-seccion .descripcion{
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color:white;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+
 
 }
 
@@ -56,15 +101,31 @@ margin:auto;
       padding:0px;
       }
 
-
-
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
   #cajasubmenu{
   margin-top:29px;
   }
 .btn-op1{
   margin-bottom:10px;
 }
+
+#inicio-seccion .titulo{
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  color:#e62f2d;
+  text-shadow: 1px 1px 1px black;
+}
+#inicio-seccion .descripcion{
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color:white;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+
 }
 
 
@@ -77,20 +138,7 @@ margin:auto;
     background-repeat: no-repeat;
     background-size: 100%;
   }
-  #inicio-seccion .titulo{
-    font-weight: 800;
-    font-size: 60px;
-    text-align: center;
-    color:#e62f2d;
-    text-shadow: 1px 1px 1px black;
-  }
-  #inicio-seccion .descripcion{
-    font-weight: 600;
-    font-size: 30px;
-    text-align: center;
-    color:white;
-    text-shadow: 1px 1px 1px black;
-  }
+
   .cont-inicio{
     margin-top: 12%;
   }
