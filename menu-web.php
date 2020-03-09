@@ -26,10 +26,12 @@
   <input type="text" class="form-control" placeholder="Buscar..." aria-label="Username" aria-describedby="basic-addon1" style="font-size:15px;font-family:opensans">
 </div>-->
           </form></div>
-  <!--  <div style="margin-right:15px;"><i class="fa fa-envelope text-danger"></i><span class="text-muted">&nbsp;info@idemsalud.com</span></div>
-    <div style="margin-right:15px;"><i class="fa fa-phone text-danger"></i><span class="text-muted">&nbsp;0221-4707735</span></div>-->
-    <div style="margin-right:15px;"><button type="button" class="btn btn-op1"><i class="far fa-user-circle fa-lg"></i> Entrar / Registrarse</button> </div>
-    </div>
+    <div style="margin-right:15px;">   <div style="margin-right:15px; margin-bottom:2px;">
+    <i class="fa fa-envelope text-danger"></i><span class="text-muted">&nbsp;info@idemsalud.com </span>
+    <i class="fa fa-phone text-danger"></i><span class="text-muted">&nbsp;0221-4707735</span>
+  </div>
+  <button type="button" class="btn btn-op1"><i class="far fa-user-circle fa-lg"></i> Entrar / Registrarse</button> </div>
+</div></div>
    <!-- <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Iniciar Sesión</button></div>
     <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Regístrate</button></div>-->
 </nav>
