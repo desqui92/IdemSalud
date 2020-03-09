@@ -16,19 +16,6 @@ html,body{
   font-family: 'Montserrat', sans-serif;
   font-weight:200;
 }
-div.imagenenf{
-   width:100%;
-   height:100%;
-}
-img.fondo1{
-    width:100%;
-    height:calc(width + 10%);
-    background:url(/img/enfermera.jpg) no-repeat fixed center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover; 
-}
 .btn-op1{
   border-radius: 0px;
   background: red;

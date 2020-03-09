@@ -13,8 +13,7 @@
   <?php
     include 'menu-web.php';
   ?>
-<div class="imagenenf"><img src="img/enfermera.jpg" class="fondo1"></div>
-<div class="curso"><h1>Curso.</h1></div>
+
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
