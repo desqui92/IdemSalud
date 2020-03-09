@@ -29,7 +29,7 @@
     <div style="margin-right:15px;"><i class="fa fa-envelope text-danger"></i><span class="text-muted">&nbsp;info@idemsalud.com</span></div>
     <div style="margin-right:15px;"><i class="fa fa-phone text-danger"></i><span class="text-muted">&nbsp;0221-4707735</span></div>
     <div style="margin-right:15px;"><i class="fas fa-shopping-cart text-danger"></i></div>
-    <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Entrar/Registrarse</button></div>
+    <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Entrar/Registrarse</button> </div>
     </div>
    <!-- <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Iniciar Sesión</button></div>
     <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Regístrate</button></div>-->
