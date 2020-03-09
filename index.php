@@ -21,8 +21,8 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid h-100 cont-info">
-    <div class="row">
+  <div class="container-fluid h-100" id="info-seccion">
+    <div class="row cont-info">
       <div class="col-6">
           <img src="img/worldwide.png" class="imagenformavirtual">
       </div>

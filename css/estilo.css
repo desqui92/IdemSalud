@@ -79,32 +79,9 @@ html,body{
       color:white;
       text-shadow: 1px 1px 1px black;
     }
-    .cont-info{
-      margin-top:12%;
-    }
-
-    .titulo2{
-      font-weight: 800;
-      font-size: 36px;
-      text-align: center;
-      color:#41137b;
-      text-shadow: 1px 1px 1px black;
-    }
-    .descripcion2{
-      font-weight: 600;
-      font-size: 18px;
-      text-align: center;
-      color:black;
-      text-shadow: 1px 1px 1px black;
-    }
-
-
     .margenabajo{
       margin-bottom:10px;
-      }
-
-
-
+    }
 }
 @media screen and (min-width:700px) and (max-width:991px) {
 #cajasubmenu{
@@ -183,6 +160,29 @@ margin-bottom:10px;
   .cont-inicio{
     margin-top: 12%;
   }
+
+
+
+  /* INFO */
+  #info-seccion .cont-info{
+    margin-top: 12%;
+  }
+  .titulo2{
+    font-weight: 800;
+    font-size: 36px;
+    text-align: center;
+    color:#41137b;
+    text-shadow: 1px 1px 1px black;
+  }
+  .descripcion2{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color:black;
+    text-shadow: 1px 1px 1px black;
+  }
+
+
 
   .imagenformavirtual{
     position: absolute;
