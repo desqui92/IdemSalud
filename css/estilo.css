@@ -1,14 +1,21 @@
+<<<<<<< HEAD
 
 /*aceleste desing #6DBDC6
 azul letras: #4580CD
 celeste boton: #0099FF
 azul boton: ##004D80
 */
+=======
+@font-face {
+  font-family: monserrat;
+  src: url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+}
+>>>>>>> 3dc4152691244a50e88674fe49a70fa5aca582e9
 html,body{
     height:100%;
     width:100%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 div.imagenenf{
    width:100%;
@@ -24,39 +31,10 @@ img.fondo1{
    -o-background-size: cover;
    background-size: cover; 
 }
-/*
-.form-group{
-text-align:left;
-}
-.form-group .label{
-    margin-top:20px;
-}
-.logo{
-    width:330px;
-    height:230px;
-    margin-top:-75px;
-}
-input[type=text] {
-    border: none;
-    border-bottom: 2px solid #B7B7B7;
-    width:100%;
-    padding-left:30px;
-  }
-input[type=password] {
-    border: none;
-    border-bottom: 2px solid #B7B7B7;
-    width:100%;
-    padding-left:30px;
-  }
-  .submitt{
-    color:white;
-    font-size:22px;
-    margin-top:25px;
-    width:100%; 
-    background-image:linear-gradient(to bottom, #0099FF , #004D80); 
-    border:0px;
-  }
-*/
+
+
+
+
 @media only screen and (max-width: 1209px) {
 #cajasubmenu{
 margin:auto;
@@ -130,25 +108,3 @@ a:active {
 
 
 
-
-/*
-.iconouser{
-  float: left;
-  margin-left: 4px;
-  margin-top: -28px;
-  position: relative;
-  z-index: 2;
-  color: #A9A9A9;
-  font-size:22px;
-}
-
-.iconopass{
-  float: left;
-  margin-left: 4px;
-  margin-top: -28px;
-  position: relative;
-  z-index: 2;
-  color: #A9A9A9;
-  font-size:22px;
-}
-*/
