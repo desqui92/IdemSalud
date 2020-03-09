@@ -36,6 +36,9 @@ html,body{
   outline: 0px;
   box-shadow:none;
 }
+.input-op1{
+  border-radius: 0px;
+}
 
 /* PARA ADAPTAR */
 @media screen and (max-width: 699px) {
@@ -191,4 +194,27 @@ margin-bottom:10px;
 
   a:hover.spancito{
       border-style: solid; border-width:0px 0px 2px 0px;border-color:#e62f2d;
+  }
+
+
+  /* LOGIN */
+
+  #cont-login{
+    height: 100%;
+    width: 100%;
+    background-image:url('../img/enfermeralogin.jpg');
+    background-attachment: fixed center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  #form-login{
+    margin-top: 30%;
+    padding: 20px;
+    background: white;
+  }
+  #form-login .btn-group{
+    width: 100%;
+  }
+  #form-login .btn{
+    width: 100%;
   }
