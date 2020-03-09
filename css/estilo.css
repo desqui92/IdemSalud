@@ -61,7 +61,9 @@ html,body{
       color:white;
       text-shadow: 1px 1px 1px black;
     }
-
+    .margenabajo{
+      margin-bottom:10px;
+      }
 
 
 
@@ -89,8 +91,9 @@ margin:auto;
   color:white;
   text-shadow: 1px 1px 1px black;
 }
-
-
+.margenabajo{
+margin-bottom:10px;
+}
 
 
 }
