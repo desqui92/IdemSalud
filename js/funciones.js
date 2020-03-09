@@ -7,8 +7,8 @@ function irLogin(){
     $('#form-registro').hide();
     $('#form-login').show();
 }
-
-function entrar(){
+function loguearme(){
     $('#form-login').hide();
-    $('#cont-login').show();
+    $('#cont-loading').show();
+    alert("No esperes que cargue falta el backend rata!!!!!!!!!");
 }
