@@ -4,22 +4,23 @@
 <i class="fas fa-bars"></i>
   </button>
 <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="text-align:center;">
-    <ul class="navbar-nav mr-auto">
-        <li class="nav-item" id="inicio1">
+    <ul class="navbar-nav mr-auto margenabajo">
+        <li class="nav-item margenabajo" id="inicio1">
             <a class="link1 text-muted spancito" href="" style="font-family:Montserrat;">Inicio</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item margenabajo" id="quienesomos">
           <a class="link1 text-muted spancito" href="#" style="font-family:Montserrat;">Quienes Somos</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item margenabajo" id="cursos">
         <a class="link1 text-muted spancito"href="#" style="font-family:Montserrat;">Cursos</a>
       </li>
-        <li class="nav-item">
+        <li class="nav-item margenabajo">
         <a class="link1 text-muted spancito"href="#" style="font-family:Montserrat;">Blog</a>
       </li>
     </ul>
-      <div style="margin-right:15px;" class="d-flex justify-content-center"><form class="form-inline my-2 my-lg-0">
-<div class="input-group mb-3" style="margin-right:10px; margin-top:15px;">
+    <div style="margin-right:15px;" class="d-flex justify-content-center">
+      <form class="form-inline my-2 my-lg-0">
+      <div class="input-group mb-3" style="margin-right:10px; margin-top:15px;">
  <!-- <div class="input-group-prepend">
     <span class="input-group-text" id="basic-addon1" style="background-color:red;"><i class="fa fa-search" style="color:white;"></i></span>
   </div>
