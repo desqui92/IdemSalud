@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-xl" id="navid" style="border-style: solid; border-width:0px 0px 2px 0px;border-color:red; font-family:Montserrat; font-size:15px;">
+<nav class="navbar navbar-expand-lg" id="navid" style="border-style: solid; border-width:0px 0px 2px 0px;border-color:red; font-family:Montserrat; font-size:15px;">
 <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 <i class="fas fa-bars"></i>
@@ -26,7 +26,7 @@
   <input type="text" class="form-control" placeholder="Buscar..." aria-label="Username" aria-describedby="basic-addon1" style="font-size:15px;font-family:opensans">
 </div>-->
           </form></div>
-    <div style="margin-right:15px;">   <div style="margin-right:15px; margin-bottom:2px;">
+    <div style="margin-right:15px;">   <div style="margin-right:15px; margin-bottom:5px; margin-top:5px;">
     <i class="fa fa-envelope text-danger"></i><span class="text-muted">&nbsp;info@idemsalud.com </span>
     <i class="fa fa-phone text-danger"></i><span class="text-muted">&nbsp;0221-4707735</span>
   </div>

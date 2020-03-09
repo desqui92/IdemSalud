@@ -39,10 +39,17 @@ html,body{
 
 /* PARA ADAPTAR */
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1209px) {
       #cajasubmenu{
       margin:auto;
       }
+=======
+@media only screen and (max-width: 992px) {
+#cajasubmenu{
+margin:auto;
+}
+>>>>>>> fa145b96148f8519af95d01ad8afbe38d45a7e1e
 
 
       /* MENU */
@@ -53,6 +60,7 @@ html,body{
 
 
 
+<<<<<<< HEAD
       #inicio1{
           border-style: solid; border-width:2px 0px 0px 0px;border-color:red;
           padding-top:5px;
@@ -71,6 +79,11 @@ html,body{
       #cajasubmenu{
       margin-top:29px;
       }
+=======
+@media only screen and (min-width: 993px) {
+#cajasubmenu{
+margin-top:29px;
+>>>>>>> fa145b96148f8519af95d01ad8afbe38d45a7e1e
 }
 
 /* INICIO */
