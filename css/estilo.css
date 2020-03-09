@@ -1,4 +1,21 @@
+<<<<<<< HEAD
 body{
+=======
+<<<<<<< HEAD
+
+/*aceleste desing #6DBDC6
+azul letras: #4580CD
+celeste boton: #0099FF
+azul boton: ##004D80
+*/
+=======
+@font-face {
+  font-family: monserrat;
+  src: url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+}
+>>>>>>> 3dc4152691244a50e88674fe49a70fa5aca582e9
+html,body{
+>>>>>>> a775980fb70b8674b0c4a126b2026fa1ce17f2e9
     height:100%;
     width:100%;
 }
