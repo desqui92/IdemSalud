@@ -43,7 +43,16 @@ html,body{
 #cajasubmenu{
 margin:auto;
 }
+/*boton de inicio registro*/
+.btn-op1{
+  border-radius: 0px;
+  background: red;
+  font-weight: 300;
+  color: white;
+  margin-bottom:10px;
+}
 
+}
 
       /* MENU */
       #navid{
@@ -57,6 +66,14 @@ margin:auto;
   #cajasubmenu{
   margin-top:29px;
   }
+/*boton de inicio registro*/
+.btn-op1{
+  border-radius: 0px;
+  background: red;
+  font-weight: 300;
+  color: white;
+}
+
 }
 
 
