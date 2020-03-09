@@ -52,67 +52,70 @@ margin:auto;
       }
 
 
-
+}
 @media only screen and (min-width: 992px) {
-#cajasubmenu{
-margin-top:29px;
+  #cajasubmenu{
+  margin-top:29px;
+  }
 }
-
-/* INICIO */
-#inicio-seccion{
-  background-image:url('../img/enfermera.jpg');
-  background-attachment: fixed center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-#inicio-seccion h1{
-  color: red;
-}
-.link1{
- 
-    margin-right:15px;
-}
-
-.link2{
-    color:#3c3b37;
+  /* INICIO */
+  #inicio-seccion{
+    background-image:url('../img/enfermera.jpg');
+    background-attachment: fixed center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  #inicio-seccion .titulo{
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+  }
+  #inicio-seccion .descripcion{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+  }
+  .link1{
   
-    margin-right:15px;
+      margin-right:15px;
+  }
+
+  .link2{
+      color:#3c3b37;
     
-}
+      margin-right:15px;
+      
+  }
 
-a{
-    color:#060C17;
-    font-size:16px;
+  a{
+      color:#060C17;
+      font-size:16px;
 
-    text-decoration: none;
-}
-/* visited link */
-a:visited {
-  color:#3c3b37;
-  text-decoration:none;
-}
+      text-decoration: none;
+  }
+  /* visited link */
+  a:visited {
+    color:#3c3b37;
+    text-decoration:none;
+  }
 
-/* mouse over link */
-a:hover {
-  color:rgb(222, 23, 45) !important;
-  text-decoration:none;
-}
+  /* mouse over link */
+  a:hover {
+    color:rgb(222, 23, 45) !important;
+    text-decoration:none;
+  }
 
-/* selected link */
-a:active {
-  color:#3c3b37;
-  text-decoration:none;
-}
+  /* selected link */
+  a:active {
+    color:#3c3b37;
+    text-decoration:none;
+  }
 
-*/
-*:focus {
-    outline: none !important;
-}
+  */
+  *:focus {
+      outline: none !important;
+  }
 
- a:hover.spancito{
-    border-style: solid; border-width:0px 0px 2px 0px;border-color:red;
-}
-
-
-
-/* LOGIN */
+  a:hover.spancito{
+      border-style: solid; border-width:0px 0px 2px 0px;border-color:red;
+  }

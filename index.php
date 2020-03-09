@@ -15,7 +15,7 @@
   ?>
   <div class="container-fluid h-100" id="inicio-seccion">
     <div class="row">
-      <div class="col">
+      <div class="col-6 cont-inicio">
           <h1 class="titulo">¡Mira nuestros cursos!</h1>
           <h4 class="descripcion">Ahora te podes anotar a nuestros cursos de enfermería</h4>
       </div>
