@@ -53,6 +53,8 @@ html,body{
    padding: 10px;
  }
 
+
+
 /* PARA ADAPTAR */
 @media screen and (max-width: 699px) {
   #cajasubmenu{
@@ -77,6 +79,26 @@ html,body{
       color:white;
       text-shadow: 1px 1px 1px black;
     }
+    .cont-info{
+      margin-top:12%;
+    }
+
+    .titulo2{
+      font-weight: 800;
+      font-size: 36px;
+      text-align: center;
+      color:#41137b;
+      text-shadow: 1px 1px 1px black;
+    }
+    .descripcion2{
+      font-weight: 600;
+      font-size: 18px;
+      text-align: center;
+      color:black;
+      text-shadow: 1px 1px 1px black;
+    }
+
+
     .margenabajo{
       margin-bottom:10px;
       }
@@ -162,7 +184,14 @@ margin-bottom:10px;
     margin-top: 12%;
   }
 
-
+  .imagenformavirtual{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: auto;
+  }
 
   .link1{
   
