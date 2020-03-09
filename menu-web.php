@@ -20,16 +20,15 @@
     </ul>
       <div style="margin-right:15px;" class="d-flex justify-content-center"><form class="form-inline my-2 my-lg-0">
 <div class="input-group mb-3" style="margin-right:10px; margin-top:15px;">
-  <div class="input-group-prepend">
+ <!-- <div class="input-group-prepend">
     <span class="input-group-text" id="basic-addon1" style="background-color:red;"><i class="fa fa-search" style="color:white;"></i></span>
   </div>
   <input type="text" class="form-control" placeholder="Buscar..." aria-label="Username" aria-describedby="basic-addon1" style="font-size:15px;font-family:opensans">
-</div>
+</div>-->
           </form></div>
-    <div style="margin-right:15px;"><i class="fa fa-envelope text-danger"></i><span class="text-muted">&nbsp;info@idemsalud.com</span></div>
-    <div style="margin-right:15px;"><i class="fa fa-phone text-danger"></i><span class="text-muted">&nbsp;0221-4707735</span></div>
-    <div style="margin-right:15px;"><i class="fas fa-shopping-cart text-danger"></i></div>
-    <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Entrar/Registrarse</button> </div>
+  <!--  <div style="margin-right:15px;"><i class="fa fa-envelope text-danger"></i><span class="text-muted">&nbsp;info@idemsalud.com</span></div>
+    <div style="margin-right:15px;"><i class="fa fa-phone text-danger"></i><span class="text-muted">&nbsp;0221-4707735</span></div>-->
+    <div style="margin-right:15px;"><button type="button" class="btn btn-op1"><i class="far fa-user-circle fa-lg"></i> Entrar / Registrarse</button> </div>
     </div>
    <!-- <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Iniciar Sesión</button></div>
     <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Regístrate</button></div>-->

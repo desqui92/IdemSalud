@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
+
+
+/*PALETA DE COLORES 
+Violeta azulado: #41137b
+Blanco: #ffffff
+Rojo: #e62f2d
+Gris: #6c757d
+*/
+
+/* GENERAL */
 html,body{
   height:100%;
   width:100%;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
+  font-weight:200;
 }
 div.imagenenf{
    width:100%;
@@ -19,23 +29,49 @@ img.fondo1{
    -o-background-size: cover;
    background-size: cover; 
 }
+.btn-op1{
+  border-radius: 0px;
+  background: red;
+  font-weight: 300;
+  color: white;
+}
+.btn-op1 i{
+  color:white;
+}
+.btn-op1:hover{
+  background:white;
+  border:1px solid red;
+}
+.btn-op1:hover i{
+  color:red;
+}
+.btn:focus{
+  outline: 0px;
+  box-shadow:none;
+}
 
-
-
+/* PARA ADAPTAR */
 
 @media only screen and (max-width: 1209px) {
 #cajasubmenu{
 margin:auto;
 }
+
+
+/* MENU */
 #navid{
 margin:0px;
 padding:0px;
 }
+
+/* INICIO */
 #inicio1{
      border-style: solid; border-width:2px 0px 0px 0px;border-color:red;
     padding-top:5px;
     margin-bottom:5px;
 }
+
+/* CURSOS */
 #cursos1{
      border-style: solid; border-width:1px 0px 0px 0px;border-color:gainsboro;
     padding-top:5px;
@@ -93,6 +129,11 @@ a:active {
  a:hover.spancito{
     border-style: solid; border-width:0px 0px 2px 0px;border-color:red;
 }
+
+
+
+/* LOGIN */
+
 
 
 
