@@ -83,6 +83,9 @@ html,body{
     .margenabajo{
       margin-bottom:10px;
     }
+    .navbar .navbar-collapse .navbar-nav .nav-item{
+      margin-top: 10px;
+    }
 }
 @media screen and (min-width:700px) and (max-width:991px) {
 #cajasubmenu{
@@ -114,11 +117,15 @@ margin-bottom:10px;
 
 }
 
-      /* MENU */
-      #navid{
-      margin:0px;
-      padding:0px;
-      }
+ /* MENU */
+#navid{
+ margin:0px;
+ padding:0px;
+}
+#navid > button{
+  outline: 0px;
+  box-shadow: none;
+}
 
 @media screen and (min-width: 992px) {
   #cajasubmenu{
@@ -259,4 +266,20 @@ margin-bottom:10px;
   }
   #form-registro .btn{
     width: 100%;
+  }
+
+  /* NOSOTROS */
+  .cont-nosotros .titulo{
+    font-weight: 800;
+    font-size:50px;
+    padding: 20px;
+    color:#e62f2d;
+    text-shadow: 1px 1px 1px black;
+  }
+  .cont-nosotros p{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .cont-nosotros ul>li{
+    font-weight: bold;
   }

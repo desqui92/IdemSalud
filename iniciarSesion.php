@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container-fluid" id="cont-login">
-        <div class="row h-100">
+        <div class="row h-100" style="display:none;" id="cont-loading">
             <div class="col-8 offset-2 text-center my-auto">
                     <div id="loading" class="d-block mx-auto">
                         <img src="img/loading.gif" height="80" width="80" alt="">
@@ -36,8 +36,8 @@
                     <p class="text-center">¡Los datos son incorrectos!</p>
                     <div class="text-center">
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" id="entrar" onclick="irRegistro()" class="btn btn-op1 mr-2"><i class="fas fa-user-plus fa-lg"></i> Registrarme</button>
-                            <button type="submit" id="registrarme" onclick="entrar()" class="btn btn-op1 ml-2"><i class="fas fa-sign-in-alt fa-lg"></i> Entrar</button>
+                            <button type="button" id="registrarme" onclick="irRegistro()" class="btn btn-op1 mr-2"><i class="fas fa-user-plus fa-lg"></i> Registrarme</button>
+                            <button type="button" id="entrar" onclick="loguearme()" class="btn btn-op1 ml-2"><i class="fas fa-sign-in-alt fa-lg"></i> Entrar</button>
                         </div>
                     </div>
                 </form>
