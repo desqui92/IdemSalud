@@ -15,6 +15,7 @@ html,body{
   width:100%;
   font-family: 'Montserrat', sans-serif;
   font-weight:200;
+  overflow-x: hidden;
 }
 .btn-op1{
   border-radius: 0px;
@@ -150,12 +151,6 @@ margin-bottom:10px;
 
 
   /* INICIO */
-  #inicio-seccion{
-    background-image:url('../img/enfermera.jpg');
-    background-attachment: fixed center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
 
   .cont-inicio{
     margin-top: 12%;
@@ -164,14 +159,11 @@ margin-bottom:10px;
 
 
   /* INFO */
-  #info-seccion .cont-info{
-    margin-top: 12%;
-  }
   .titulo2{
     font-weight: 800;
     font-size: 36px;
     text-align: center;
-    color:#41137b;
+    color:#FFFFFF;
     text-shadow: 1px 1px 1px black;
   }
   .descripcion2{
@@ -185,12 +177,7 @@ margin-bottom:10px;
 
 
   .imagenformavirtual{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left:0;
-    right:0;
-    margin: auto;
+ 
   }
 
   .link1{

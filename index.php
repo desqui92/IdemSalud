@@ -13,18 +13,19 @@
   <?php
     include 'menu-web.php';
   ?>
-  <div class="container-fluid h-100" id="inicio-seccion">
+  <div class="container-fluid" id="inicio-seccion">
     <div class="row">
-      <div class="col-6 cont-inicio animated fadeInLeft slow">
+         <img src="img/enfermera.jpg" style="width:100%; height:auto;">
+      <div class="col-6 cont-inicio animated fadeInLeft slow" style="position:absolute;">
           <h1 class="titulo">¡MIRA NUESTROS CURSOS!</h1>
           <h4 class="descripcion">Ahora te podes anotar a nuestros cursos de enfermería</h4>
       </div>
     </div>
   </div>
-  <div class="container-fluid h-100" id="info-seccion">
+  <div class="container-fluid" id="info-seccion">
     <div class="row cont-info">
       <div class="col-6">
-          <img src="img/worldwide.png" class="imagenformavirtual">
+          <img src="img/worldwideweb.jpg" class="imagenformavirtual">
       </div>
       <div class="col-6 animated fadeInLeft slow">
           <h1 class="titulo2">¡REALIZA LOS CURSOS DE FORMA VIRTUAL!</h1>
