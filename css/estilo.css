@@ -280,3 +280,19 @@ margin-bottom:10px;
   #form-registro .btn{
     width: 100%;
   }
+
+  /* NOSOTROS */
+  .cont-nosotros .titulo{
+    font-weight: 800;
+    font-size:50px;
+    padding: 20px;
+    color:#e62f2d;
+    text-shadow: 1px 1px 1px black;
+  }
+  .cont-nosotros p{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .cont-nosotros ul>li{
+    font-weight: bold;
+  }
