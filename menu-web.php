@@ -6,16 +6,16 @@
 <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="text-align:center;">
     <ul class="navbar-nav mr-auto margenabajo">
         <li class="nav-item margenabajo" id="inicio1">
-            <a class="link1 text-muted spancito" href="index.php" style="font-family:Montserrat;">Inicio</a>
+            <a class="link1 text-muted spancito" href="index.php" style="font-family:Montserrat;"><img style="vertical-align:baseline;" src="img/home.png" height="25" alt=""> Inicio</a>
       </li>
       <li class="nav-item margenabajo" id="quienesomos">
-          <a class="link1 text-muted spancito" href="nosotros.php" style="font-family:Montserrat;">Quienes Somos</a>
+          <a class="link1 text-muted spancito" href="nosotros.php" style="font-family:Montserrat;"><img style="vertical-align:baseline;" src="img/nosotros.png" height="25" alt=""> Quienes Somos</a>
       </li>
       <li class="nav-item margenabajo" id="cursos">
-        <a class="link1 text-muted spancito"href="misCursos.php" style="font-family:Montserrat;">Cursos</a>
+        <a class="link1 text-muted spancito"href="misCursos.php" style="font-family:Montserrat;"><img style="vertical-align:baseline;" src="img/cursos.png" height="25" alt=""> Cursos</a>
       </li>
         <li class="nav-item margenabajo">
-        <a class="link1 text-muted spancito"href="blog.php" style="font-family:Montserrat;">Blog</a>
+        <a class="link1 text-muted spancito"href="blog.php" style="font-family:Montserrat;"><img style="vertical-align:baseline;" src="img/blog.png" height="25" alt=""> Blog</a>
       </li>
     </ul>
     <div style="margin-right:15px;" class="d-flex justify-content-center">
