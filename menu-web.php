@@ -12,10 +12,10 @@
           <a class="link1 text-muted spancito" href="nosotros.php" style="font-family:Montserrat;">Quienes Somos</a>
       </li>
       <li class="nav-item margenabajo" id="cursos">
-        <a class="link1 text-muted spancito"href="#" style="font-family:Montserrat;">Cursos</a>
+        <a class="link1 text-muted spancito"href="misCursos.php" style="font-family:Montserrat;">Cursos</a>
       </li>
         <li class="nav-item margenabajo">
-        <a class="link1 text-muted spancito"href="#" style="font-family:Montserrat;">Blog</a>
+        <a class="link1 text-muted spancito"href="blog.php" style="font-family:Montserrat;">Blog</a>
       </li>
     </ul>
     <div style="margin-right:15px;" class="d-flex justify-content-center">
