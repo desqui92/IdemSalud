@@ -31,7 +31,7 @@
   </div>
   <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white;">
     <div class="row">
-      <div clas="col-12">
+      <div class="col-12">
       <h1 id="nuestroscursos">CURSOS MAS ELEGIDOS</h1>
       </div>
       <div class="col-12">
@@ -176,13 +176,19 @@
 </div>
 </div>
 </div>
-
-  <div class="container-fluid animated fadeInLeft slow" id="info-seccion">
+   <div class="container-fluid">
+   <div class="row">
+   <div class="col-12" style="text-align:center; margin-top:100px;">
+        <h1 style="margin-bottom:15px;">NUESTROS BENEFICIOS</h1>
+      </div>
+   </div>
+   </div>
+  <div class="container-fluid  animated fadeInRight slow">
     <div class="row cont-info">
       <div class="col-6" style="padding:0px;">
       <img src="img/enfermeracelu.png" style="width:100%; height:auto;">
       </div>
-      <div class="col-6" style="padding-top:3%; padding-bottom:3%; background-color:purple; text-align:center;">
+      <div class="col-6" style="padding-top:3%; padding-bottom:3%; background-color:#41137b; text-align:center;">
           <h1 class="titulo2">¡REALIZA LOS CURSOS DE FORMA VIRTUAL!</h1>
           <h4 class="descripcion2">Desde tu casa a travez de tu computadora<br>
            o celular de forma 100% online.</h4>

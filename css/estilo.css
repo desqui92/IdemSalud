@@ -201,7 +201,7 @@ margin-bottom:10px;
     font-weight: 600;
     font-size: 18px;
     text-align: center;
-    color:black;
+    color:white;
     text-shadow: 1px 1px 1px black;
   }
 
@@ -326,6 +326,3 @@ margin-bottom:10px;
 
 /*Seccion info de la home*/
 
-#info-seccion{
- margin-top:10%;
-}
