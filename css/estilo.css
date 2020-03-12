@@ -86,6 +86,14 @@ html,body{
     .navbar .navbar-collapse .navbar-nav .nav-item{
       margin-top: 10px;
     }
+
+/*carrucel*/
+.carousel-cell {
+  width: 66%;
+  height: 500px;
+  margin-right:1%;
+}
+
 }
 @media screen and (min-width:700px) and (max-width:991px) {
 #cajasubmenu{
@@ -114,6 +122,13 @@ margin:auto;
 margin-bottom:10px;
 }
 
+/*carrucel*/
+.carousel-cell {
+  width: 33%;
+  height: 500px;
+  margin-right:1%;
+}
+
 
 }
 
@@ -135,6 +150,10 @@ margin-bottom:10px;
   margin-bottom:10px;
 }
 
+#cartascursos{
+  margin-top:-200px;
+}
+
 #inicio-seccion .titulo{
   font-weight: 800;
   font-size: 60px;
@@ -150,7 +169,12 @@ margin-bottom:10px;
   text-shadow: 1px 1px 1px black;
 }
 
-
+/*carrucel*/
+.carousel-cell {
+  width: 22%;
+  height: 500px;
+  margin-right:1%;
+}
 
 }
 
@@ -181,10 +205,10 @@ margin-bottom:10px;
     text-shadow: 1px 1px 1px black;
   }
 
-
-
-  .imagenformavirtual{
- 
+  #nuestroscursos{
+    margin-top:5px;
+    text-align:center;
+    color:#6c757d;
   }
 
   .link1{
@@ -283,3 +307,25 @@ margin-bottom:10px;
   .cont-nosotros ul>li{
     font-weight: bold;
   }
+
+
+/*CARRUCEL*/
+
+.carousel {
+  background: #EEE;
+}
+
+
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+}
+
+/*Seccion info de la home*/
+
+#info-seccion{
+ margin-top:10%;
+}

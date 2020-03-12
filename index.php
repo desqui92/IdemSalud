@@ -3,10 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/carrucel.js"></script>
     <title>Inicio</title>
 </head>
 <body>
@@ -24,6 +29,154 @@
       </div>
     </div>
   </div>
+  <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white;">
+    <div class="row">
+      <div clas="col-12">
+      <h1 id="nuestroscursos">CURSOS MAS ELEGIDOS</h1>
+      </div>
+      <div class="col-12">
+      <div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="carousel-cell">
+  <div class="card">
+    <img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">10,50$ Dolares</small><small class="text-muted">&nbsp;&nbsp;5 Estrellas</small>
+    </div>
+  </div>
+  </div>
+  <div class="carousel-cell">
+  <div class="card">
+    <img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">10,50$ Dolares</small><small class="text-muted">&nbsp;&nbsp;5 Estrellas</small>
+    </div>
+  </div>
+  </div>
+  <div class="carousel-cell">
+  <div class="card">
+    <img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">10,50$ Dolares</small><small class="text-muted">&nbsp;&nbsp;5 Estrellas</small>
+    </div>
+  </div>
+  </div>
+  <div class="carousel-cell">
+  <div class="card">
+    <img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">10,50$ Dolares</small><small class="text-muted">&nbsp;&nbsp;5 Estrellas</small>
+    </div>
+  </div>
+  </div>
+  <div class="carousel-cell">
+  <div class="card">
+    <img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">10,50$ Dolares</small><small class="text-muted">&nbsp;&nbsp;5 Estrellas</small>
+    </div>
+  </div>
+  </div>
+  <div class="carousel-cell">
+  <div class="card">
+    <img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">10,50$ Dolares</small><small class="text-muted">&nbsp;&nbsp;5 Estrellas</small>
+    </div>
+  </div>
+  </div>
+  <div class="carousel-cell">
+  <div class="card">
+    <img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">10,50$ Dolares</small><small class="text-muted">&nbsp;&nbsp;5 Estrellas</small>
+    </div>
+  </div>
+  </div>
+  <div class="carousel-cell">
+  <div class="card">
+    <img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">10,50$ Dolares</small><small class="text-muted">&nbsp;&nbsp;5 Estrellas</small>
+    </div>
+  </div>
+  </div>
+  <div class="carousel-cell">
+  <div class="card">
+    <img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">10,50$ Dolares</small><small class="text-muted">&nbsp;&nbsp;5 Estrellas</small>
+    </div>
+  </div>
+  </div>
+  <div class="carousel-cell">
+  <div class="card">
+    <img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">10,50$ Dolares</small><small class="text-muted">&nbsp;&nbsp;5 Estrellas</small>
+    </div>
+  </div>
+  </div> 
+
+  
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
   <div class="container-fluid animated fadeInLeft slow" id="info-seccion">
     <div class="row cont-info">
       <div class="col-6" style="padding:0px;">
@@ -37,12 +190,11 @@
       </div>
     </div>
   </div>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    
 </body>
 </html>
 
-<!-- PARA EMPEZAR CON ESTOS ENLACES ESTA BIEN , TIENE JQUERY , BOOTSTRAP , LOS ICONOS DE FONT-AWESOME , LAS ANIMACIONES DE ANIMATED CSS , Y HAY UN ARCHIVO ESTILO.CSS 
+<!-- PARA EMPEZAR CON  ESTOS ENLACES ESTA BIEN , TIENE JQUERY , BOOTSTRAP , LOS ICONOS DE FONT-AWESOME , LAS ANIMACIONES DE ANIMATED CSS , Y HAY UN ARCHIVO ESTILO.CSS 
     QUE AHI PONEMOS EL CSS NUESTRO
 -->
 
