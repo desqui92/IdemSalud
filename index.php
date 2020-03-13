@@ -202,7 +202,7 @@
 <div class="container-fluid" style="position:relative; margin-top:80px;background-image: linear-gradient(to bottom, #e62f2d, #ea4642, #ed5956, #ee6b69, #ee7c7c);background-image: linear-gradient(to right top, #c80606, #cf1e1a, #d52d2a, #db3b39, #e04747);">
    <div class="row">
     <div class="col-12" style="text-align:center;">
-        <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:white;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> Nuestros beneficios</h1>
+        <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:white;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> ¡Tus beneficios!</h1>
     </div>
   </div>
   <div class="row">
@@ -259,8 +259,8 @@
    <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white; margin-top:1px;">
     <div class="row">
     <div class="col-12" style="text-align:center; margin-top:30px;margin-bottom:10px;">
-   <h1 style="font-size:25px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Nuestros Clientes</span></h1>
-      </div>
+    <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:black;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> Nuestros estudiantes</h1>
+    </div>
 </div>
 </div>
 <div class="container-fluid">
@@ -268,7 +268,7 @@
     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
 
       <div class="card" style="height:245px;margin-top:60px;width:100%;">
-        <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
+        <img class="card-img-top" src="img/opinion1.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
         <div class="card-body">
         <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
           <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
@@ -280,7 +280,7 @@
   <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
 
 <div class="card" style="height:245px;margin-top:60px;width:100%;">
-  <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
+  <img class="card-img-top" src="img/opinion2.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
   <div class="card-body">
   <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
     <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
@@ -292,7 +292,7 @@
 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
 
 <div class="card" style="height:245px;margin-top:60px;width:100%;">
-  <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
+  <img class="card-img-top" src="img/opinion3.jpeg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
   <div class="card-body">
   <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
     <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
@@ -304,7 +304,7 @@
 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
 
 <div class="card" style="height:245px;margin-top:60px;width:100%;">
-  <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
+  <img class="card-img-top" src="img/opinion4.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
   <div class="card-body">
   <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
     <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
