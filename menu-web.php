@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg" id="navid" style="border-style: solid; border-width:0px 0px 2px 0px;border-color:red; font-family:Montserrat; font-size:15px;">
-<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+<a class="navbar-brand animated fadeInLeft slow" href="#"><img src="img/logo.png"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 <i class="fas fa-bars"></i>
   </button>
