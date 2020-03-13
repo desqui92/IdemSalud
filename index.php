@@ -245,10 +245,10 @@
     <div class="col-12" style="text-align:center; margin-top:30px;margin-bottom:10px;">
    <h1 style="font-size:25px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Nuestros Clientes</span></h1>
       </div>
-
-
-      <ul style="list-style-type: none;">
-      <li style="float:left;">
+</div>
+</div>
+    <div class="container-fluid">
+    <div class="row">
       <div class="col-3">
 
   <div class="card" style="height:245px;margin-top:60px;">
@@ -260,8 +260,7 @@
     </div>
   </div>
   </div>
-</li>
-<li style="float:left;">
+
   <div class="col-3">
 
 <div class="card" style="height:245px;margin-top:60px;">
@@ -273,8 +272,7 @@
   </div>
 </div>
 </div>
-</li>
-<li style="float:left;">
+
 <div class="col-3">
 
 <div class="card" style="height:245px;margin-top:60px;">
@@ -286,8 +284,7 @@
   </div>
 </div>
 </div>
-</li>
-<li style="float:left;">
+
 <div class="col-3">
 
 <div class="card" style="height:245px;margin-top:60px;">
@@ -299,8 +296,7 @@
   </div>
 </div>
 </div>
-</li>
-</ul>
+
 </div>
 </div>
 </body>
