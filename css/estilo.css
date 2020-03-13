@@ -194,7 +194,7 @@ button.flickity-button.flickity-prev-next-button{
 .carousel-cell {
   width: 280px;
   height: 500px;
-  margin-right:3px;
+  margin-right:40px;
 }
 
 #inicio-seccion > div > div.cont-iniciocelu > table.imageniniciotipscelu{
@@ -252,7 +252,7 @@ button.flickity-button.flickity-prev-next-button{
 .carousel-cell {
   width: 280px;
   height: 500px;
-  margin-right:3px;
+  margin-right:40px;
 }
 
 #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
@@ -307,7 +307,7 @@ margin-bottom:10px;
 .carousel-cell {
   width: 280px;
   height: 500px;
-  margin-right:3px;
+  margin-right:40px;
 }
 #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
   display:none;
@@ -361,7 +361,7 @@ margin-bottom:10px;
   .carousel-cell {
     width: 280;
     height: 500px;
-    margin-right:3px;
+    margin-right:40px;
   }
   #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
     display:none;
@@ -464,7 +464,7 @@ margin-bottom:10px;
   .carousel-cell {
     width: 280px;
     height: 500px;
-    margin-right:3px;
+    margin-right:40px;
   }
   #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
     display:none;
