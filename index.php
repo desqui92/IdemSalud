@@ -199,14 +199,28 @@
 </div>
 </div>
 </div>
-<div class="container-fluid" style="position:relative; margin-top:80px;background-image: linear-gradient(to bottom, #e62f2d, #ea4642, #ed5956, #ee6b69, #ee7c7c);">
+<div class="container-fluid" style="position:relative; margin-top:80px;background-image: linear-gradient(to bottom, #e62f2d, #ea4642, #ed5956, #ee6b69, #ee7c7c);background-image: linear-gradient(to right top, #c80606, #cf1e1a, #d52d2a, #db3b39, #e04747);">
    <div class="row">
-   <div class="col-12" style="text-align:center;">
-   <h1 style="font-size:25px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Nuestros beneficios</span></h1>
-      </div>
-   </div>
-   <!--style="background-image:url('img/background.jpg'); background-repeat:no-repeat; background-size:cover;"-->
-  <div class="container-fluid">
+    <div class="col-12" style="text-align:center;">
+        <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:white;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> Nuestros beneficios</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4 offset-2">
+        <img src="img/bookread.png" class="imagenformavirtual img-responsive d-block mx-auto" style="width:64px;height:64px; margin-right:5px;">
+        <h1 class="titulo2 text-center">ESTUDIA EL DÍA Y LA HORA QUE QUIERAS</h1>
+        <h4 class="descripcion2 text-center">Aprovecha tus momentos libres para aprender un nuevo curso <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
+    </div>
+    <div class="col-4">
+      <img src="img/worldwide.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
+      <h1 class="titulo2">REALIZA LOS CURSOS DE FORMA VIRTUAL</h1>
+      <h4 class="descripcion2">Desde tu casa a travez de tu computadora o celular de forma online <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
+    </div>
+  </div>
+   <!--style="background-image:url('img/background.jpg'); background-repeat:no-repeat; background-size:cover;" 
+  background-image: linear-gradient(to bottom, #ffffff, #f9f2fb, #f9e3f0, #fcd3de, #fdc5c5);
+  -->
+ <!--<div class="container-fluid">
     <div style="margin-left:-5%">
     <div class="row cont-info" style="padding-top:20px;">
       <div class="col-lg-7 offset-lg-3" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
@@ -239,7 +253,7 @@
       </div>
       </div>
     </div>
-  </div>
+  </div>-->
   </div>
   
    <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white; margin-top:1px;">
