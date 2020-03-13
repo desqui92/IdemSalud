@@ -464,8 +464,7 @@ margin-bottom:10px;
 
   /* INFO */
   .imagenformavirtual{
-    margin-left:100px;
-    text-align:left;
+    text-align:center;
     float:left;
   }
 
@@ -473,12 +472,14 @@ margin-bottom:10px;
     font-weight: 400;
     font-size: 30px;
     text-align: left;
+    display: inline-block;
     color:#000000;
   }
   .descripcion2{
     font-weight: 400;
     font-size: 16px;
     text-align: left;
+    display: inline-block;
     color:#000000;
     margin-top:-5px;
   }

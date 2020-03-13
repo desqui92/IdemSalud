@@ -206,32 +206,34 @@
    </div>
    </div>
   <div class="container-fluid" style="background-image:url('img/background.jpg'); background-repeat:no-repeat; background-size:cover;">
+    <div style="margin-left:-5%">
     <div class="row cont-info" style="padding-top:20px;">
-      <div class="col-8 offset-2" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
-      <img src="img/bookread.png" class="imagenformavirtual img-fluid" style="display:inline; width:64px;height:64px; margin-right:5px;">
+      <div class="col-lg-7 offset-lg-3" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
+      <img src="img/bookread.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
           <h1 class="titulo2">ESTUDIA EL DÍA Y LA HORA QUE QUIERAS</h1>
           <h4 class="descripcion2">Aprovecha tus momentos libres para aprender un nuevo curso <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
       </div>
       </div>
       <div class="row cont-info" style="margin-top:-1px;">
-      <div class="col-8 offset-2" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
-      <img src="img/worldwide.png" class="imagenformavirtual img-fluid" style="display:inline; width:64px;height:64px; margin-right:5px;">
+      <div class="col-lg-7 offset-lg-3" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
+      <img src="img/worldwide.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
           <h1 class="titulo2">REALIZA LOS CURSOS DE FORMA VIRTUAL</h1>
           <h4 class="descripcion2">Desde tu casa a travez de tu computadora o celular de forma online <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
       </div>
       </div>
       <div class="row cont-info" style="margin-top:-1px;">
-      <div class="col-8 offset-2" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
-      <img src="img/books.png" class="imagenformavirtual img-fluid" style="display:inline; width:64px;height:64px; margin-right:5px;">
+      <div class="col-lg-7 offset-lg-3" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
+      <img src="img/books.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
           <h1 class="titulo2">COMPLETA EL CURSO Y OBTEN TU CERTIFICADO</h1>
           <h4 class="descripcion2">Todos los cursos vienen con certificado que avala que terminaste el mismo <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
       </div>
       </div>
       <div class="row cont-info" style="margin-top:-1px; padding-bottom:20px;">
-      <div class="col-8 offset-2" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
-      <img src="img/certificate.png" class="imagenformavirtual img-fluid" style="display:inline; width:64px;height:64px; margin-right:5px;">
+      <div class="col-lg-7 offset-lg-3" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
+      <img src="img/certificate.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
           <h1 class="titulo2">APROVECHA TODO NUESTRO MATERIAL ONLINE</h1>
           <h4 class="descripcion2">Sigue los video tutoriales paso a paso y también descarga el material adicional <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
+      </div>
       </div>
       </div>
       </div>
