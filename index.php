@@ -68,7 +68,7 @@
       </div>
       <div class="col-12">
       <div class="carousel"
-  data-flickity='{ "wrapAround": true }'>
+  data-flickity='{ "wrapAround": true, "cellAlign": "left" }'>
   <div class="carousel-cell">
   <div class="card">
     <img class="card-img-top" src="img/card4.jpg" style="width:280px;height:160px;" alt="Card image cap">
@@ -198,26 +198,53 @@
 </div>
 </div>
 </div>
-   <div class="container-fluid">
+<div class="container-fluid">
    <div class="row">
    <div class="col-12" style="text-align:center; margin-top:100px;">
    <h1 style="font-size:25px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Nuestros beneficios</span></h1>
       </div>
    </div>
    </div>
-  <div class="container-fluid  animated fadeInRight slow">
-    <div class="row cont-info">
-      <div class="col-6" style="padding:0px;">
-      <img src="img/enfermeracelu.png" style="width:100%; height:auto;">
+  <div class="container-fluid" style="background-image:url('img/background.jpg');">
+    <div class="row cont-info" style="padding-top:20px;">
+      <div class="col-8 offset-2" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
+      <img src="img/bookread.png" class="imagenformavirtual img-fluid" style="display:inline; width:64px;height:64px; margin-right:5px;">
+          <h1 class="titulo2">ESTUDIA EL DÍA Y LA HORA QUE QUIERAS</h1>
+          <h4 class="descripcion2">Aprovecha tus momentos libres para aprender un nuevo curso <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
       </div>
-      <div class="col-6" style="padding-top:3%; padding-bottom:3%; background-color:#41137b; text-align:center;">
-          <h1 class="titulo2">¡REALIZA LOS CURSOS DE FORMA VIRTUAL!</h1>
-          <h4 class="descripcion2">Desde tu casa a travez de tu computadora<br>
-           o celular de forma 100% online.</h4>
-          <img src="img/global-education.png" class="imagenformavirtual img-fluid">
+      </div>
+      <div class="row cont-info" style="margin-top:-1px;">
+      <div class="col-8 offset-2" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
+      <img src="img/worldwide.png" class="imagenformavirtual img-fluid" style="display:inline; width:64px;height:64px; margin-right:5px;">
+          <h1 class="titulo2">REALIZA LOS CURSOS DE FORMA VIRTUAL</h1>
+          <h4 class="descripcion2">Desde tu casa a travez de tu computadora o celular de forma online <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
+      </div>
+      </div>
+      <div class="row cont-info" style="margin-top:-1px;">
+      <div class="col-8 offset-2" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
+      <img src="img/books.png" class="imagenformavirtual img-fluid" style="display:inline; width:64px;height:64px; margin-right:5px;">
+          <h1 class="titulo2">COMPLETA EL CURSO Y OBTEN TU CERTIFICADO</h1>
+          <h4 class="descripcion2">Todos los cursos vienen con certificado que avala que terminaste el mismo <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
+      </div>
+      </div>
+      <div class="row cont-info" style="margin-top:-1px; padding-bottom:20px;">
+      <div class="col-8 offset-2" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
+      <img src="img/certificate.png" class="imagenformavirtual img-fluid" style="display:inline; width:64px;height:64px; margin-right:5px;">
+          <h1 class="titulo2">APROVECHA TODO NUESTRO MATERIAL ONLINE</h1>
+          <h4 class="descripcion2">Sigue los video tutoriales paso a paso y también descarga el material adicional <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
+      </div>
+      </div>
       </div>
     </div>
   </div>
+  
+  <div class="container-fluid">
+   <div class="row">
+   <div class="col-12" style="text-align:center; margin-top:10px;">
+   <h1 style="font-size:25px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Nuestros Alumnos</span></h1>
+      </div>
+   </div>
+   </div>
     
 </body>
 </html>
