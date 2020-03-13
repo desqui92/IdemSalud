@@ -249,14 +249,12 @@
       <div class="carousel"
   data-flickity='{ "wrapAround": true, "percentPosition": false, "cellAlign": "left" }'>
   <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card4.jpg" style="width:278px;height:160px;" alt="Card image cap">
+  <div class="card" style="text-align:center;">
+    <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px;" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Curso de Enfermería 1</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Rodrigo Garcia</h6>
+    <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
       <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">750$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:gold; display:inline;border:0px;">Mas barato</button>
+      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br>(Curso de Enfermería 1)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">750$/mes (6 meses)</span>
     </div>
   </div>
   </div>
@@ -264,8 +262,7 @@
   <div class="card">
     <img class="card-img-top" src="img/card5.jpg" style="width:278px;height:160px;" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Curso de Enfermería 2</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Juan Perez</h6>
+    <h5 class="card-title">Mariano</h5>
       <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
       <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
     <br><button style="font-size:12px;color:white;background-color:purple; display:inline;border:0px;">Mas reseñas</button>
@@ -276,8 +273,7 @@
   <div class="card">
     <img class="card-img-top" src="img/card6.jpg" style="width:278px;height:160px;"alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Curso de Enfermería 3</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Lucia Fernandez</h6>
+    <h5 class="card-title">Juan</h5>
       <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
       <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
     <br><button style="font-size:12px;color:white;background-color:blue; display:inline;border:0px;">Mejor valorado</button>
@@ -288,8 +284,7 @@
   <div class="card">
     <img class="card-img-top" src="img/card7.jpg" style="width:278px;height:160px;" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Curso de Enfermería 4</h5>
-    <h6 class="card-subtitle mb-2 text-muted">María Flores</h6>
+    <h5 class="card-title">Ricardo</h5>
       <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
       <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
     <br><button style="font-size:12px;color:white;background-color:purple; display:inline;border:0px;"></button>
@@ -300,8 +295,7 @@
   <div class="card">
     <img class="card-img-top" src="img/card8.jpg" style="width:278px;height:160px;" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Curso de Enfermería 5</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Fabricio Castro</h6>
+    <h5 class="card-title">Laura</h5>
       <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
       <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
     <br><button style="font-size:12px;color:white;background-color:green; display:inline;border:0px;"></button>
@@ -312,8 +306,7 @@
   <div class="card">
     <img class="card-img-top" src="img/card9.jpg" style="width:278px;height:160px;" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Curso de Enfermería 6</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Mariano Bolaños</h6>
+    <h5 class="card-title">Maria</h5>
       <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
       <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
     <br><button style="font-size:12px;color:white;background-color:green; display:inline;border:0px;"></button>
@@ -324,8 +317,7 @@
   <div class="card">
     <img class="card-img-top" src="img/card10.jpg" style="width:278px;height:160px;" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Curso de Enfermería 7</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Ernesto Gonzalez</h6>
+    <h5 class="card-title">Roberto</h5>
       <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
       <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
     <br><button style="font-size:12px;color:white;background-color:green; display:inline;border:0px;"></button>
@@ -336,8 +328,7 @@
   <div class="card">
     <img class="card-img-top" src="img/card.jpg" style="width:278px;height:160px;" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Curso de Enfermeria 8</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Justo Rodriguez</h6>
+    <h5 class="card-title">Susana</h5>
       <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
       <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
     <br><button style="font-size:12px;color:white;background-color:green; display:inline;border:0px;"></button>
@@ -348,26 +339,13 @@
   <div class="card">
     <img class="card-img-top" src="img/card2.jpg" style="width:278px;height:160px;" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Curso de Enfermeria 9</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Armando Suarez</h6>
+    <h5 class="card-title">Matías</h5>
       <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
       <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
     <br><button style="font-size:12px;color:white;background-color:red; display:inline;border:0px;">Mas alumnos</button>
     </div>
   </div>
   </div>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card3.jpg" style="width:278px;height:160px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Curso de Enfermería 10</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Lucio Guerra</h6>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:green; display:inline;border:0px;">Mas vendido</button>
-    </div>
-  </div>
-  </div> 
 
   
 </div>
