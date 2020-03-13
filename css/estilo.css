@@ -17,6 +17,9 @@ html,body{
   font-weight:200;
   overflow-x: hidden;
 }
+.txt-shadow{
+  text-shadow: 2px 2px 2px black;
+}
 .btn-op1{
   border-radius: 0px;
   background: #e62f2d;
