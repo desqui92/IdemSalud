@@ -49,11 +49,19 @@ html,body{
   border-bottom:1px solid #e62f2d;
 }
 
-/* PELOTITAS DE SLIDE */
+/*  SLIDE */
 #cartascursos .dot{
   background: #e62f2d;
   height: 14px;
   width: 14px;
+}
+#cartascursos .dot.is-selected{
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+button.flickity-button.flickity-prev-next-button{
+  background: white;
+  color:red;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 
@@ -122,17 +130,17 @@ html,body{
       margin-top: 10px;
     }
 
-/*carrucel*/
-.carousel-cell {
-  width: 280px;
-  height: 500px;
-  margin-right:1%;
-}
+    /*carrucel*/
+    .carousel-cell {
+      width: 280px;
+      height: 500px;
+      margin-right:1%;
+    }
 
-#inicio-seccion > div > div.cont-iniciocelu > table.imageniniciotipscelu{
-  display:block;
-  font-size:10px !important;
-}
+    #inicio-seccion > div > div.cont-iniciocelu > table.imageniniciotipscelu{
+      display:block;
+      font-size:10px !important;
+    }
 
 }
 
@@ -410,7 +418,7 @@ margin-bottom:10px;
 .carousel-cell {
   width: 280px;
   height: 500px;
-  margin-right:3px;
+  margin-right:40px;
 }
 #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
   display:none;
