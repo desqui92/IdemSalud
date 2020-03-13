@@ -60,39 +60,40 @@
     <div class="row">
       <div class="col-12">
         <div id="nuestroscursos">
-      <h1 style="font-size:22px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Cursos mas demandados</span></h1><h2 style="font-size:18px; font-weight:300; color:#6c757d;margin-bottom:18px;">Elige uno de nuestros cursos y empieza a aprender con un profesional calificado.</h2>
-      <div style="border-bottom:1px #d0d0d0 solid; padding-bottom:8px;">
+        <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;"><img style="vertical-align:sub;" src="img/cursos-pc.png" height="40" alt=""> Cursos mas demandados</h1>
+        <h2 class="text-center" style="font-size:22px; font-weight:300; color:#6c757d;margin-bottom:18px;margin-top:20px;">Elige uno de nuestros cursos y empieza a aprender con un profesional calificado.</h2>
+      <div  style="border-bottom:1px #d0d0d0 solid; padding-bottom:8px;margin-top:60px;">
         <a href="" style="padding-bottom:9px; border-bottom:2px #000000 solid"><h2 style="font-size:21px; display:inline;">Enfermería</h2></a>&nbsp;&nbsp;<a href=""><h2 style="font-size:21px; display:inline;">Otros</h2></a>
       </div>
-      </div>
-      </div>
+    </div>
+  </div>
       <div class="col-12">
       <div class="carousel"
-  data-flickity='{ "wrapAround": true, "percentPosition": false, "cellAlign": "left" }'>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card4.jpg" style="width:278px;height:160px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Curso de Enfermería 1</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Rodrigo Garcia</h6>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">750$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:gold; display:inline;border:0px;">Mas barato</button>
+        data-flickity='{ "wrapAround": true, "percentPosition": false, "cellAlign": "left" }'>
+    <div class="carousel-cell">
+    <div class="card">
+      <img class="card-img-top" src="img/card4.jpg" style="width:278px;height:160px;" alt="Card image cap">
+      <div class="card-body">
+      <h5 class="card-title">Curso de Enfermería 1</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Rodrigo Garcia</h6>
+        <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
+        <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">750$/mes (6 meses)</span>
+      <br><button style="font-size:12px;color:white;background-color:gold; display:inline;border:0px;">Mas barato</button>
+      </div>
     </div>
-  </div>
-  </div>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card5.jpg" style="width:278px;height:160px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Curso de Enfermería 2</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Juan Perez</h6>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:purple; display:inline;border:0px;">Mas reseñas</button>
     </div>
-  </div>
-  </div>
+    <div class="carousel-cell">
+    <div class="card">
+      <img class="card-img-top" src="img/card5.jpg" style="width:278px;height:160px;" alt="Card image cap">
+      <div class="card-body">
+      <h5 class="card-title">Curso de Enfermería 2</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Juan Perez</h6>
+        <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
+        <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
+      <br><button style="font-size:12px;color:white;background-color:purple; display:inline;border:0px;">Mas reseñas</button>
+      </div>
+    </div>
+    </div>
   <div class="carousel-cell">
   <div class="card">
     <img class="card-img-top" src="img/card6.jpg" style="width:278px;height:160px;"alt="Card image cap">
