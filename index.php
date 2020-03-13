@@ -217,6 +217,18 @@
       <h4 class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Desde tu casa a travez de tu computadora o celular de forma online</h4>
     </div>
   </div>
+  <div class="row">
+    <div class="col-4 offset-2" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
+      <img src="img/books.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
+      <h1 class="titulo2">COMPLETA EL CURSO Y OBTEN TU CERTIFICADO</h1>
+      <h4 class="descripcion2">Todos los cursos vienen con certificado que avala que terminaste el mismo <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
+    </div>
+    <div class="col-4" style="background:white;margin-left:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
+      <img src="img/certificate.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
+      <h1 class="titulo2">APROVECHA TODO NUESTRO MATERIAL ONLINE</h1>
+      <h4 class="descripcion2">Sigue los video tutoriales paso a paso y también descarga el material adicional <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
+    </div>
+  </div>
    <!--style="background-image:url('img/background.jpg'); background-repeat:no-repeat; background-size:cover;" 
   background-image: linear-gradient(to bottom, #ffffff, #f9f2fb, #f9e3f0, #fcd3de, #fdc5c5);
   -->
