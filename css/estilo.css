@@ -601,3 +601,7 @@ margin-bottom:10px;
 
 /*Seccion info de la home*/
 
+.card{
+  width:280px;
+  height:410px;
+}
