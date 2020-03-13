@@ -11,7 +11,6 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="js/carrucel.js"></script>
     <title>Inicio</title>
 </head>
 <body>
@@ -21,18 +20,51 @@
   <div class="container-fluid" id="inicio-seccion" style="position:relative;">
     <div class="row">
       <div clas="col-12">
-         <img src="img/enfermera.jpg" style="width:100%; height:auto;">
+         <img src="img/enfermera2.jpg" style="width:100%; height:auto;">
       </div>
-      <div class="col-6 cont-inicio animated fadeInLeft slow" style="position:absolute;">
-          <h1 class="titulo">¡MIRA NUESTROS CURSOS!</h1>
-          <h4 class="descripcion">Ahora te podes anotar a nuestros cursos de enfermería</h4>
+      <div class="cont-inicio" style="position:absolute;">
+          <h1 class="titulo">MIRA NUESTROS CURSOS</h1>
+          <h4 class="descripcion">Realizado por profesionales con amplia<br>experiencia en la rama de la salud.</h4>
+          <table style="border:2px; color:white; font-weight:bold;" class="imageniniciotips">
+            <tr>
+              <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Material adicional</td>
+              <td style="padding-left:10px; padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Reseñas de los cursos</td>
+            </tr>
+            <tr >
+            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Variedad de cursos</td>
+            <td  style="padding-left:10px;padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Seccion comentarios</td>
+            </tr> 
+            <tr>
+            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Videos explicativos</td>
+            <td style="padding-left:10px;padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Consultas al profesor</td> 
+          </table>
+          </div>
+          <!-- Tabla en celulares pequeños-->
+          <div class="cont-iniciocelu" style="position:absolute;">
+          <h1 class="titulo">NUESTROS CURSOS</h1>
+          <h4 class="descripcion">Realizado por profesionales<br>con amplia experiencia</h4>
+          <table style="border:2px; color:white; font-weight:bold;" class="imageniniciotipscelu">
+            <tr>
+              <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Variedad de cursos y reseñas</td>
+            </tr>
+            <tr >
+            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Material adicional y comentarios</td>
+            </tr> 
+            <tr>
+            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Videos explicativos y consultas</td>
+          </table>
       </div>
     </div>
   </div>
   <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white;">
     <div class="row">
       <div class="col-12">
-      <h1 id="nuestroscursos">CURSOS MAS ELEGIDOS</h1>
+        <div id="nuestroscursos">
+      <h1 style="font-size:22px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Cursos mas demandados</span></h1><h2 style="font-size:18px; font-weight:300; color:#6c757d;margin-bottom:18px;">Elige uno de nuestros cursos y empieza a aprender con un profesional calificado.</h2>
+      <div style="border-bottom:1px #d0d0d0 solid; padding-bottom:5px;">
+        <a href="" style="padding-bottom:5px; border-bottom:2px #000000 solid"><h2 style="font-size:21px; display:inline;">Enfermería&nbsp;&nbsp;</h2></a><a href=""><h2 style="font-size:21px; display:inline;">Odontología&nbsp;&nbsp;</h2></a><a href=""><h2 style="font-size:21px; display:inline;">Otros</h2></a>
+      </div>
+      </div>
       </div>
       <div class="col-12">
       <div class="carousel"

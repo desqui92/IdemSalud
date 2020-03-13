@@ -57,7 +57,8 @@ html,body{
 
 
 /* PARA ADAPTAR */
-@media screen and (max-width: 699px) {
+
+@media screen and (max-width: 500px) {
   #cajasubmenu{
     margin:auto;
     }
@@ -66,19 +67,31 @@ html,body{
       margin-bottom:10px;
     }
 
+    .cont-inicio{
+      display:none;
+    }
+
+    .cont-iniciocelu{
+      margin-top:10%;
+      display:block;
+      margin-left: 2%;
+    }
+
+    #inicio-seccion > div > div.cont-inicio > table{
+      display:none;
+    }
+
     #inicio-seccion .titulo{
       font-weight: 800;
-      font-size: 36px;
-      text-align: center;
+      font-size: 19px;
+      text-align: left;
       color:#e62f2d;
-      text-shadow: 1px 1px 1px black;
     }
     #inicio-seccion .descripcion{
       font-weight: 600;
-      font-size: 18px;
-      text-align: center;
+      font-size: 14px;
+      text-align: left;
       color:white;
-      text-shadow: 1px 1px 1px black;
     }
     .margenabajo{
       margin-bottom:10px;
@@ -89,13 +102,128 @@ html,body{
 
 /*carrucel*/
 .carousel-cell {
-  width: 66%;
+  width: 99%;
   height: 500px;
   margin-right:1%;
 }
 
+#inicio-seccion > div > div.cont-iniciocelu > table.imageniniciotipscelu{
+  display:block;
+  font-size:10px !important;
 }
-@media screen and (min-width:700px) and (max-width:991px) {
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 650px){
+  #cajasubmenu{
+    margin:auto;
+    }
+    /*boton de inicio registro*/
+    .btn-op1{
+      margin-bottom:10px;
+    }
+
+    .cont-inicio{
+      display:block;
+      margin-left:3%;
+    }
+
+    .cont-iniciocelu{
+      display:none;
+    }
+
+    #inicio-seccion > div > div.cont-inicio > table{
+      display:block;
+      font-size:11px !important;
+    }
+
+    #inicio-seccion .titulo{
+      font-weight: 800;
+      font-size: 24px;
+      text-align: left;
+      color:#e62f2d;
+    }
+    #inicio-seccion .descripcion{
+      font-weight: 600;
+      font-size: 18px;
+      text-align: left;
+      color:white;
+    }
+    .margenabajo{
+      margin-bottom:10px;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-item{
+      margin-top: 10px;
+    }
+
+/*carrucel*/
+.carousel-cell {
+  width: 99%;
+  height: 500px;
+  margin-right:1%;
+}
+
+#inicio-seccion > div > div.cont-iniciocelu > table.imageniniciotipscelu{
+  display:none;
+}
+
+}
+
+
+@media screen and (min-width: 651px) and (max-width: 699px){
+  #cajasubmenu{
+    margin:auto;
+    }
+    /*boton de inicio registro*/
+    .btn-op1{
+      margin-bottom:10px;
+    }
+
+    .cont-inicio{
+      margin-left: 3%;
+    }
+
+    .cont-iniciocelu{
+      display:none;
+    }
+
+    #inicio-seccion > div > div.cont-inicio > table.imageniniciotips{
+      font-size:11px !important;
+    }
+
+    #inicio-seccion .titulo{
+      font-weight: 800;
+      font-size: 28px;
+      text-align: left;
+      color:#e62f2d;
+    }
+    #inicio-seccion .descripcion{
+      font-weight: 600;
+      font-size: 16px;
+      text-align: left;
+      color:white;
+    }
+    .margenabajo{
+      margin-bottom:10px;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-item{
+      margin-top: 10px;
+    }
+
+/*carrucel*/
+.carousel-cell {
+  width: 99%;
+  height: 500px;
+  margin-right:1%;
+}
+
+#inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
+  display:none;
+}
+
+
+}
+@media screen and (min-width:700px) and (max-width:799px) {
 #cajasubmenu{
 margin:auto;
 }
@@ -104,19 +232,29 @@ margin:auto;
   margin-bottom:10px;
 }
 
+.cont-inicio{
+  margin-left: 6%;
+}
+
+.cont-iniciocelu{
+  display:none;
+}
+
+#inicio-seccion > div > div.cont-inicio > table.imageniniciotips{
+  font-size:13px !important;
+}
+
 #inicio-seccion .titulo{
   font-weight: 800;
-  font-size: 60px;
-  text-align: center;
+  font-size: 27px;
+  text-align: left;
   color:#e62f2d;
-  text-shadow: 1px 1px 1px black;
 }
 #inicio-seccion .descripcion{
   font-weight: 600;
-  font-size: 30px;
-  text-align: center;
+  font-size: 18px;
+  text-align: left;
   color:white;
-  text-shadow: 1px 1px 1px black;
 }
 .margenabajo{
 margin-bottom:10px;
@@ -128,9 +266,62 @@ margin-bottom:10px;
   height: 500px;
   margin-right:1%;
 }
-
+#inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
+  display:none;
+}
 
 }
+
+@media screen and (min-width:800px) and (max-width:991px) {
+  #cajasubmenu{
+  margin:auto;
+  }
+  /*boton de inicio registro*/
+  .btn-op1{
+    margin-bottom:10px;
+  }
+  
+  .cont-inicio{
+    margin-left: 10%;
+  }
+
+  .cont-iniciocelu{
+    display:none;
+  }
+
+  #inicio-seccion > div > div.cont-inicio > table.imageniniciotips{
+    font-size:14px !important;
+  }
+
+  #inicio-seccion .titulo{
+    font-weight: 800;
+    font-size: 30px;
+    text-align: left;
+    color:#e62f2d;
+  }
+  #inicio-seccion .descripcion{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    color:white;
+  }
+  .margenabajo{
+  margin-bottom:10px;
+  }
+  
+  /*carrucel*/
+  .carousel-cell {
+    width: 33%;
+    height: 500px;
+    margin-right:1%;
+  }
+  #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
+    display:none;
+  }  
+  
+  }
+
+
 
  /* MENU */
 #navid{
@@ -142,7 +333,7 @@ margin-bottom:10px;
   box-shadow: none;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width:1400px){
   #cajasubmenu{
   margin-top:29px;
   }
@@ -154,30 +345,84 @@ margin-bottom:10px;
   margin-top:-200px;
 }
 
+.cont-inicio{
+  margin-left: 10%;
+}
+.cont-iniciocelu{
+  display:none;
+}
+
+
 #inicio-seccion .titulo{
   font-weight: 800;
-  font-size: 60px;
-  text-align: center;
+  font-size: 38px;
+  text-align: left;
   color:#e62f2d;
-  text-shadow: 1px 1px 1px black;
 }
 #inicio-seccion .descripcion{
   font-weight: 600;
-  font-size: 30px;
-  text-align: center;
+  font-size: 25px;
+  text-align: left;
   color:white;
-  text-shadow: 1px 1px 1px black;
 }
 
 /*carrucel*/
 .carousel-cell {
-  width: 22%;
+  width: 33%;
   height: 500px;
   margin-right:1%;
 }
-
+#inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
+  display:none;
 }
 
+}
+@media screen and (min-width: 1401px) {
+
+  #cajasubmenu{
+    margin-top:29px;
+    }
+  .btn-op1{
+    margin-bottom:10px;
+  }
+  
+  #cartascursos{
+    margin-top:-300px;
+  }
+  
+  .cont-inicio{
+    margin-left: 10%;
+  }
+  .cont-iniciocelu{
+    display:none;
+  }
+
+  #inicio-seccion .titulo{
+    font-weight: 800;
+    font-size: 42px;
+    text-align: left;
+    color:#e62f2d;
+
+  }
+  #inicio-seccion .descripcion{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: left;
+    color:white;
+
+  }
+  
+  /*carrucel*/
+  .carousel-cell {
+    width: 19%;
+    height: 500px;
+    margin-right:1%;
+  }
+  #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
+    display:none;
+  }
+
+}
 
 
 
@@ -206,9 +451,11 @@ margin-bottom:10px;
   }
 
   #nuestroscursos{
-    margin-top:5px;
-    text-align:center;
-    color:#6c757d;
+    margin-top:2%;
+    margin-left:5%;
+    margin-bottom:2%;
+    text-align:left;
+    color:#000000;
   }
 
   .link1{
