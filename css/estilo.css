@@ -112,7 +112,7 @@ html,body{
 
 /*carrucel*/
 .carousel-cell {
-  width: 99%;
+  width: 280px;
   height: 500px;
   margin-right:1%;
 }
@@ -172,9 +172,9 @@ html,body{
 
 /*carrucel*/
 .carousel-cell {
-  width: 99%;
+  width: 280px;
   height: 500px;
-  margin-right:1%;
+  margin-right:3px;
 }
 
 #inicio-seccion > div > div.cont-iniciocelu > table.imageniniciotipscelu{
@@ -230,9 +230,9 @@ html,body{
 
 /*carrucel*/
 .carousel-cell {
-  width: 99%;
+  width: 280px;
   height: 500px;
-  margin-right:1%;
+  margin-right:3px;
 }
 
 #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
@@ -285,9 +285,9 @@ margin-bottom:10px;
 
 /*carrucel*/
 .carousel-cell {
-  width: 33%;
+  width: 280px;
   height: 500px;
-  margin-right:1%;
+  margin-right:3px;
 }
 #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
   display:none;
@@ -339,9 +339,9 @@ margin-bottom:10px;
   
   /*carrucel*/
   .carousel-cell {
-    width: 32%;
+    width: 280;
     height: 500px;
-    margin-right:1%;
+    margin-right:3px;
   }
   #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
     display:none;
@@ -396,9 +396,9 @@ margin-bottom:10px;
 
 /*carrucel*/
 .carousel-cell {
-  width: 32%;
+  width: 280px;
   height: 500px;
-  margin-right:1%;
+  margin-right:3px;
 }
 #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
   display:none;
@@ -442,9 +442,9 @@ margin-bottom:10px;
   
   /*carrucel*/
   .carousel-cell {
-    width: 19%;
+    width: 280px;
     height: 500px;
-    margin-right:1%;
+    margin-right:3px;
   }
   #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
     display:none;
@@ -593,6 +593,7 @@ margin-bottom:10px;
 
 .carousel {
   background: #EEE;
+  height:420px;
 }
 
 
