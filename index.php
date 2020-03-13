@@ -61,8 +61,8 @@
       <div class="col-12">
         <div id="nuestroscursos">
       <h1 style="font-size:22px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Cursos mas demandados</span></h1><h2 style="font-size:18px; font-weight:300; color:#6c757d;margin-bottom:18px;">Elige uno de nuestros cursos y empieza a aprender con un profesional calificado.</h2>
-      <div style="border-bottom:1px #d0d0d0 solid; padding-bottom:5px;">
-        <a href="" style="padding-bottom:5px; border-bottom:2px #000000 solid"><h2 style="font-size:21px; display:inline;">Enfermería&nbsp;&nbsp;</h2></a><a href=""><h2 style="font-size:21px; display:inline;">Otros</h2></a>
+      <div style="border-bottom:1px #d0d0d0 solid; padding-bottom:8px;">
+        <a href="" style="padding-bottom:9px; border-bottom:2px #000000 solid"><h2 style="font-size:21px; display:inline;">Enfermería</h2></a>&nbsp;&nbsp;<a href=""><h2 style="font-size:21px; display:inline;">Otros</h2></a>
       </div>
       </div>
       </div>
