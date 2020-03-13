@@ -20,7 +20,7 @@
   <div class="container-fluid" id="inicio-seccion" style="position:relative;">
     <div class="row">
       <div clas="col-12">
-         <img src="img/enfermera2.jpg" style="width:100%; height:auto;">
+         <img src="img/enfermera3.jpg" style="width:100%; height:auto;">
       </div>
       <div class="cont-inicio" style="position:absolute;">
           <h1 class="titulo txt-shadow mb-2 animated fadeInLeft slow">MIRA NUESTROS CURSOS</h1>
