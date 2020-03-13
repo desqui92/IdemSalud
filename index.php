@@ -315,6 +315,18 @@
 
 </div>
 </div>
+<style>
+  .loco{
+    background-image: linear-gradient(to right bottom, #e62f2d, #c42322, #a31718, #840a0e, #660000);
+    background-repeat:no-repeat;
+    opacity:0.9;
+    background-size:cover;
+  }
+</style>
+<div style="background-image:url('img/fondo2-2.jpg'); width:100%;height:100%;">
+<div class="loco" style="width:100%; height:100%; position:relative;">
+</div>
+</div>
 </body>
 </html>
 
