@@ -49,6 +49,14 @@ html,body{
   border-bottom:1px solid #e62f2d;
 }
 
+/* PELOTITAS DE SLIDE */
+#cartascursos .dot{
+  background: #e62f2d;
+  height: 14px;
+  width: 14px;
+}
+
+
 
  /* LOADING */
  #loading{
@@ -597,7 +605,7 @@ margin-bottom:10px;
 /*CARRUCEL*/
 
 .carousel {
-  background: #EEE;
+  background: white;
   height:420px;
 }
 
