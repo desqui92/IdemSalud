@@ -23,20 +23,20 @@
          <img src="img/enfermera2.jpg" style="width:100%; height:auto;">
       </div>
       <div class="cont-inicio" style="position:absolute;">
-          <h1 class="titulo">MIRA NUESTROS CURSOS</h1>
-          <h4 class="descripcion">Realizado por profesionales con amplia<br>experiencia en la rama de la salud.</h4>
-          <table style="border:2px; color:white; font-weight:bold;" class="imageniniciotips">
+          <h1 class="titulo txt-shadow mb-2 animated fadeInLeft slow">MIRA NUESTROS CURSOS</h1>
+          <h4 class="descripcion mb-4 animated fadeInUp slow delay-1s">Realizado por profesionales con amplia<br>experiencia en la rama de la salud.</h4>
+          <table style="border:2px; color:white; font-weight:bold;" class="imageniniciotips animated fadeInUp slow delay-1s">
             <tr>
-              <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Material adicional</td>
-              <td style="padding-left:10px; padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Reseñas de los cursos</td>
+              <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;vertical-align:sub;">&nbsp;Material adicional</td>
+              <td style="padding-left:10px; padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;vertical-align:sub;">&nbsp;Reseñas de los cursos</td>
             </tr>
             <tr >
-            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Variedad de cursos</td>
-            <td  style="padding-left:10px;padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Seccion comentarios</td>
+            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;vertical-align:sub;">&nbsp;Variedad de cursos</td>
+            <td  style="padding-left:10px;padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;vertical-align:sub;">&nbsp;Seccion comentarios</td>
             </tr> 
             <tr>
-            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Videos explicativos</td>
-            <td style="padding-left:10px;padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Consultas al profesor</td> 
+            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;vertical-align:sub;">&nbsp;Videos explicativos</td>
+            <td style="padding-left:10px;padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;vertical-align:sub;">&nbsp;Consultas al profesor</td> 
           </table>
           </div>
           <!-- Tabla en celulares pequeños-->
