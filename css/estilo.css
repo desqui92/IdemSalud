@@ -32,6 +32,7 @@ html,body{
 .btn-op1:hover{
   background:white;
   border:1px solid #e62f2d;
+  font-weight: 300;
 }
 .btn-op1:hover i{
   color:#e62f2d;
