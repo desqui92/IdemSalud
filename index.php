@@ -205,7 +205,7 @@
       </div>
    </div>
    </div>
-  <div class="container-fluid" style="background-image:url('img/background.jpg');">
+  <div class="container-fluid" style="background-image:url('img/background.jpg'); background-repeat:no-repeat; background-size:cover;">
     <div class="row cont-info" style="padding-top:20px;">
       <div class="col-8 offset-2" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
       <img src="img/bookread.png" class="imagenformavirtual img-fluid" style="display:inline; width:64px;height:64px; margin-right:5px;">
