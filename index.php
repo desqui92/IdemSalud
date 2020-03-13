@@ -248,23 +248,23 @@
       </div>
 </div>
 </div>
-    <div class="container-fluid">
-    <div class="row">
-      <div class="col-3">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
 
-  <div class="card" style="height:245px;margin-top:60px;">
-    <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1<h1></span><small class="text-muted"></small>
-    </div>
+      <div class="card" style="height:245px;margin-top:60px;width:100%;">
+        <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
+          <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
+          <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1<h1></span><small class="text-muted"></small>
+      </div>
   </div>
   </div>
 
-  <div class="col-3">
+  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
 
-<div class="card" style="height:245px;margin-top:60px;">
+<div class="card" style="height:245px;margin-top:60px;width:100%;">
   <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
   <div class="card-body">
   <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
@@ -274,9 +274,9 @@
 </div>
 </div>
 
-<div class="col-3">
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
 
-<div class="card" style="height:245px;margin-top:60px;">
+<div class="card" style="height:245px;margin-top:60px;width:100%;">
   <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
   <div class="card-body">
   <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
@@ -286,9 +286,9 @@
 </div>
 </div>
 
-<div class="col-3">
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
 
-<div class="card" style="height:245px;margin-top:60px;">
+<div class="card" style="height:245px;margin-top:60px;width:100%;">
   <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
   <div class="card-body">
   <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
