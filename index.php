@@ -199,9 +199,9 @@
 </div>
 </div>
 </div>
-<div class="container-fluid" style="position:relative;">
+<div class="container-fluid" style="position:relative; margin-top:80px;">
    <div class="row">
-   <div class="col-12" style="text-align:center; margin-top:100px;">
+   <div class="col-12" style="text-align:center;">
    <h1 style="font-size:25px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Nuestros beneficios</span></h1>
       </div>
    </div>
@@ -246,109 +246,62 @@
     <div class="col-12" style="text-align:center; margin-top:30px;margin-bottom:10px;">
    <h1 style="font-size:25px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Nuestros Clientes</span></h1>
       </div>
-      <div class="col-12">
-      <div class="carousel"
-  data-flickity='{ "wrapAround": true, "percentPosition": false, "cellAlign": "left" }'>
-  <div class="carousel-cell">
-  <div class="card" style="text-align:center;">
-    <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px;" alt="Card image cap">
+
+
+      <ul style="list-style-type: none;">
+      <li style="float:left;">
+      <div class="col-3">
+
+  <div class="card" style="height:245px;margin-top:60px;">
+    <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
     <div class="card-body">
     <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
       <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br>(Curso de Enfermería 1)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">750$/mes (6 meses)</span>
+      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1<h1></span><small class="text-muted"></small>
     </div>
   </div>
   </div>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card5.jpg" style="width:278px;height:160px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Mariano</h5>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:purple; display:inline;border:0px;">Mas reseñas</button>
-    </div>
-  </div>
-  </div>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card6.jpg" style="width:278px;height:160px;"alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Juan</h5>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:blue; display:inline;border:0px;">Mejor valorado</button>
-    </div>
-  </div>
-  </div>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card7.jpg" style="width:278px;height:160px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Ricardo</h5>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:purple; display:inline;border:0px;"></button>
-    </div>
-  </div>
-  </div>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card8.jpg" style="width:278px;height:160px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Laura</h5>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:green; display:inline;border:0px;"></button>
-    </div>
-  </div>
-  </div>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card9.jpg" style="width:278px;height:160px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Maria</h5>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:green; display:inline;border:0px;"></button>
-    </div>
-  </div>
-  </div>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card10.jpg" style="width:278px;height:160px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Roberto</h5>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:green; display:inline;border:0px;"></button>
-    </div>
-  </div>
-  </div>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card.jpg" style="width:278px;height:160px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Susana</h5>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:green; display:inline;border:0px;"></button>
-    </div>
-  </div>
-  </div>
-  <div class="carousel-cell">
-  <div class="card">
-    <img class="card-img-top" src="img/card2.jpg" style="width:278px;height:160px;" alt="Card image cap">
-    <div class="card-body">
-    <h5 class="card-title">Matías</h5>
-      <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-      <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;(1820)</span><small class="text-muted"></small><br><span style="font-size:14px; font-weight:400;margin-top:5px;">1550$/mes (6 meses)</span>
-    <br><button style="font-size:12px;color:white;background-color:red; display:inline;border:0px;">Mas alumnos</button>
-    </div>
-  </div>
-  </div>
+</li>
+<li style="float:left;">
+  <div class="col-3">
 
-  
+<div class="card" style="height:245px;margin-top:60px;">
+  <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
+    <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
+    <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1<h1></span><small class="text-muted"></small>
+  </div>
+</div>
+</div>
+</li>
+<li style="float:left;">
+<div class="col-3">
+
+<div class="card" style="height:245px;margin-top:60px;">
+  <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
+    <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
+    <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1<h1></span><small class="text-muted"></small>
+  </div>
+</div>
+</div>
+</li>
+<li style="float:left;">
+<div class="col-3">
+
+<div class="card" style="height:245px;margin-top:60px;">
+  <img class="card-img-top" src="img/card4.jpg" style="width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
+    <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
+    <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1<h1></span><small class="text-muted"></small>
+  </div>
+</div>
+</div>
+</li>
+</ul>
 </div>
 </div>
 </body>
