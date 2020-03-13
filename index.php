@@ -199,14 +199,14 @@
 </div>
 </div>
 </div>
-<div class="container-fluid" style="position:relative; margin-top:80px;">
+<div class="container-fluid" style="position:relative; margin-top:80px;background-image: linear-gradient(to bottom, #e62f2d, #ea4642, #ed5956, #ee6b69, #ee7c7c);">
    <div class="row">
    <div class="col-12" style="text-align:center;">
    <h1 style="font-size:25px; margin-bottom:5px;"><span style="border-bottom:1px solid; border-color:#d0d0d0;">Nuestros beneficios</span></h1>
       </div>
    </div>
-   </div>
-  <div class="container-fluid" style="background-image:url('img/background.jpg'); background-repeat:no-repeat; background-size:cover;">
+   <!--style="background-image:url('img/background.jpg'); background-repeat:no-repeat; background-size:cover;"-->
+  <div class="container-fluid">
     <div style="margin-left:-5%">
     <div class="row cont-info" style="padding-top:20px;">
       <div class="col-lg-7 offset-lg-3" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
@@ -239,6 +239,7 @@
       </div>
       </div>
     </div>
+  </div>
   </div>
   
    <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white; margin-top:1px;">
