@@ -45,13 +45,13 @@
           <h4 class="descripcion">Realizado por profesionales<br>con amplia experiencia</h4>
           <table style="border:2px; color:white; font-weight:bold;" class="imageniniciotipscelu">
             <tr>
-              <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Variedad de cursos y reseñas</td>
+              <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Variedad de cursos</td>
             </tr>
             <tr >
-            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Material adicional y comentarios</td>
+            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Material adicional</td>
             </tr> 
             <tr>
-            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Videos explicativos y consultas</td>
+            <td style="padding-bottom:12px;"><img src="img/tickrojo.png" style="width:20px;height:20px;">&nbsp;Videos explicativos</td>
           </table>
       </div>
     </div>
