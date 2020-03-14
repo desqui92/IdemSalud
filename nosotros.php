@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <title>Nosotros - Idemsalud</title>
 </head>
 <body>
