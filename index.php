@@ -214,35 +214,37 @@
 <!-- CONTENEDOR DE BENEFICIOS -->
 <div class="container-fluid" style="background-image:url('img/fondo2-2.jpg');width:100%;height:100%;position:relative;background-size: 100% 100%;margin-top:80px;padding-right:0px;padding-left:0px;">
 <div class="imgCortina" style="width:100%; height:100%; position:relative;">
-   <div class="row">
+  <div class="container-fluid">
+    <div class="row">
     <div class="col-12" style="text-align:center;">
         <h1 class="text-center" style="font-size:36px;margin-top:60px;color:white;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> ¡Tus beneficios!</h1>
     </div>
+    </div>
+    <div class="row">
+      <div class="col-4 offset-2" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
+        <img src="img/bookread.png" class="imagenformavirtual img-responsive d-block mx-auto" style="width:64px;height:64px; margin-right:5px;">
+        <h1 class="titulo2 text-center ">ESTUDIA EL DÍA Y LA HORA QUE QUIERAS</h1>
+        <h4 class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Aprovecha tus momentos libres para aprender un nuevo curso</h4>
+      </div>
+      <div class="col-4" style="background:white;margin-left:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
+        <img src="img/worldwide.png" class="imagenformavirtual img-responsive d-block mx-auto" style="display:inline; width:64px;height:64px; margin-right:5px;">
+        <h1 class="titulo2 text-center">REALIZA LOS CURSOS DE FORMA VIRTUAL</h1>
+        <h4 class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Desde tu casa a travez de tu computadora o celular de forma online</h4>
+      </div>
+    </div>
+    <div class="row pb-5">
+      <div class="col-4 offset-2" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
+        <img src="img/books.png" class="imagenformavirtual img-responsive d-block m-auto" style="width:64px;height:64px; margin-right:5px;">
+        <h1  class="titulo2 text-center">APROVECHA TODO NUESTRO MATERIAL ONLINE</h1>
+        <h4  class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Sigue los video tutoriales paso a paso y también descarga el material adicional</h4>
+      </div>
+      <div class="col-4" style="background:white;margin-left:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
+        <img src="img/certificate.png" class="imagenformavirtual img-responsive d-block m-auto" style="width:64px;height:64px; margin-right:5px;">
+        <h1  class="titulo2 text-center">COMPLETA EL CURSO Y OBTEN TU CERTIFICADO</h1>
+        <h4  class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Todos los cursos vienen con certificado que avala que terminaste el mismo</h4>
+      </div>
+    </div>
   </div>
-<!--   <div class="row">
-    <div class="col-4 offset-2" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
-      <img src="img/bookread.png" class="imagenformavirtual img-responsive d-block mx-auto" style="width:64px;height:64px; margin-right:5px;">
-      <h1 class="titulo2 text-center ">ESTUDIA EL DÍA Y LA HORA QUE QUIERAS</h1>
-      <h4 class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Aprovecha tus momentos libres para aprender un nuevo curso</h4>
-    </div>
-    <div class="col-4" style="background:white;margin-left:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
-      <img src="img/worldwide.png" class="imagenformavirtual img-responsive d-block mx-auto" style="display:inline; width:64px;height:64px; margin-right:5px;">
-      <h1 class="titulo2 text-center">REALIZA LOS CURSOS DE FORMA VIRTUAL</h1>
-      <h4 class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Desde tu casa a travez de tu computadora o celular de forma online</h4>
-    </div>
-  </div>
-  <div class="row pb-5">
-    <div class="col-4 offset-2" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
-      <img src="img/books.png" class="imagenformavirtual img-responsive d-block m-auto" style="width:64px;height:64px; margin-right:5px;">
-      <h1  class="titulo2 text-center">APROVECHA TODO NUESTRO MATERIAL ONLINE</h1>
-      <h4  class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Sigue los video tutoriales paso a paso y también descarga el material adicional</h4>
-    </div>
-    <div class="col-4" style="background:white;margin-left:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
-      <img src="img/certificate.png" class="imagenformavirtual img-responsive d-block m-auto" style="width:64px;height:64px; margin-right:5px;">
-      <h1  class="titulo2 text-center">COMPLETA EL CURSO Y OBTEN TU CERTIFICADO</h1>
-      <h4  class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Todos los cursos vienen con certificado que avala que terminaste el mismo</h4>
-    </div>
-  </div>-->
   </div>
 </div>
 
