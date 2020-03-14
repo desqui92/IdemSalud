@@ -636,9 +636,6 @@ div.carta{
       outline: none !important;
   }
 
-  a:hover.spancito{
-      border-style: solid; border-width:0px 0px 2px 0px;border-color:#e62f2d;
-  }
 
 
   /* LOGIN */
