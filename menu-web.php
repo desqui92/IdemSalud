@@ -4,7 +4,7 @@
 <i class="fas fa-bars"></i>
   </button>
 <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="text-align:justify;">
-    <ul class="navbar-nav mr-auto margenabajo ordenaritems">
+    <ul class="navbar-nav mr-auto margenabajo ordenaritems" style="font-weight:600;">
         <li class="nav-item margenabajo" id="inicio1">
             <a class="link1 text-muted spancito" href="index.php" style="font-family:Montserrat;"><img class="iconos" style="vertical-align:baseline;" src="img/home.png" height="25" alt=""> Inicio</a>
       </li>
