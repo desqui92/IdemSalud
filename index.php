@@ -216,10 +216,10 @@
 <div class="imgCortina" style="width:100%; height:100%; position:relative;">
    <div class="row">
     <div class="col-12" style="text-align:center;">
-        <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:white;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> ¡Tus beneficios!</h1>
+        <h1 class="text-center" style="font-size:36px;margin-top:60px;color:white;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> ¡Tus beneficios!</h1>
     </div>
   </div>
-  <div class="row">
+<!--   <div class="row">
     <div class="col-4 offset-2" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
       <img src="img/bookread.png" class="imagenformavirtual img-responsive d-block mx-auto" style="width:64px;height:64px; margin-right:5px;">
       <h1 class="titulo2 text-center ">ESTUDIA EL DÍA Y LA HORA QUE QUIERAS</h1>
@@ -242,7 +242,7 @@
       <h1  class="titulo2 text-center">COMPLETA EL CURSO Y OBTEN TU CERTIFICADO</h1>
       <h4  class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Todos los cursos vienen con certificado que avala que terminaste el mismo</h4>
     </div>
-  </div>
+  </div>-->
   </div>
 </div>
 
