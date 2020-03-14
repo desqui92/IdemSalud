@@ -642,4 +642,18 @@ margin-bottom:10px;
 }
 
 
-/*FOOTER */
+/*BOTON CONTACTO*/
+.boton-contacto{
+  background: white;
+  padding: 15px;
+  /*border: 1px solid #b88c36;*/
+  border:1px solid #e62f2d;
+  border-radius: 100%;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 1;
+  animation: bounceInRight 1s forwards;
+}

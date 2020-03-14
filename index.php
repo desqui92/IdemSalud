@@ -314,7 +314,6 @@
 
 <?php
   include 'footer.php';
-
 ?>
 
 
