@@ -13,6 +13,15 @@
     <script>
       new WOW().init();
     </script>
+    <script>
+      $( document ).ready(function() {
+        setTimeout(function(){
+          var snd = new Audio("sound/mensaje.mp3");
+          snd.play();
+          $('.mensaje-ayuda').show();
+        },5000);
+      });
+    </script>
    <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <title>Inicio</title>
@@ -236,7 +245,7 @@
         <h4 class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Desde tu casa a travez de tu computadora o celular de forma online</h4>
       </div>
     </div>
-    <div class="row pb-5">
+    <div class="row">
       <div class="col-4 offset-2 wow fadeInLeft" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
         <img src="img/books.png" class="imagenformavirtual img-responsive d-block m-auto" style="width:64px;height:64px; margin-right:5px;">
         <h1  class="titulo2 text-center">APROVECHA TODO NUESTRO MATERIAL ONLINE</h1>
