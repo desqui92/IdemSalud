@@ -77,11 +77,9 @@
             </div>
     </div>
     <div class="row mt-4">
-        <div class="col-xl-9 col-sm-8 col-xs-12">
+        <div class="col-xl-12 col-sm-12 col-xs-12">
             <hr  style="background:white;width:100%;">
-        </div>
-        <div class="col-xl-3 col-sm-4 col-xs-12">
-            <p class="text-white">© Copyright 2020 Idemsalud - Todos los Derechos Reservados -</p>
+            <p class="text-white" style="text-align:center;">© Copyright 2020 Idemsalud - Todos los Derechos Reservados -</p>
         </div>
     </div>
 </div>
