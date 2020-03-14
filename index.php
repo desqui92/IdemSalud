@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/estilo.css">
     <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
     </script>
+   <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <title>Inicio</title>
 </head>
@@ -73,7 +73,10 @@
     <div class="row">
       <div class="col-12">
         <div id="nuestroscursos">
-        <h1 class="text-center wow fadeInUp" style="font-size:36px; margin-bottom:5px;margin-top:60px;"><img style="vertical-align:sub;" src="img/cursos-pc.png" height="40" alt=""> Cursos mas demandados</h1>
+          <div class="wow fadeInUp">
+        <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;"><img style="vertical-align:sub;" src="img/cursos-pc.png" height="40" alt=""> Cursos mas demandados</h1>
+        <hr style="border-top: 2px solid red; width:60px;">
+          </div>
         <h2 class="text-center wow fadeInUp" style="font-size:22px; font-weight:300; color:#6c757d;margin-bottom:18px;margin-top:20px;">Elige uno de nuestros cursos y empieza a aprender con un profesional calificado.</h2>
       <div  style="padding-bottom:8px;margin-top:60px;text-align:center;">
         <a  href="" style="padding-bottom:9px;"><h2 style="font-size:21px; display:inline;">Enfermería</h2></a>&nbsp;|&nbsp;<a href=""><h2 style="font-size:21px; display:inline;">Otros</h2></a>
@@ -216,8 +219,9 @@
 <div class="imgCortina" style="width:100%; height:100%; position:relative;">
   <div class="container-fluid">
     <div class="row">
-    <div class="col-12" style="text-align:center;">
-        <h1 class="text-center wow fadeInUp" style="font-size:36px;margin-top:60px;color:white;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> ¡Tus beneficios!</h1>
+    <div class="col-12 wow fadeInUp" style="text-align:center;">
+        <h1 class="text-center" style="font-size:36px;margin-top:60px;color:white;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> ¡Tus beneficios!</h1>
+        <hr style="border-top: 2px solid white; width:60px;margin-bottom:40px;">
     </div>
     </div>
     <div class="row">
@@ -254,8 +258,9 @@
 <!-- CONTENEDOR DE CLIENTES  -->
 <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white; margin-top:1px;">
     <div class="row">
-      <div class="col-12" style="text-align:center; margin-top:30px;margin-bottom:10px;">
-        <h1 class="text-center wow fadeInUp" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:black;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt=""> Nuestros estudiantes</h1>
+      <div class="col-12 wow fadeInUp" style="text-align:center; margin-top:30px;margin-bottom:10px;">
+        <h1 class="text-center wow fadeInUp" style="font-size:36px;margin-top:60px;color:black;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Nuestros estudiantes</h1>
+        <hr style="border-top: 2px solid red; width:60px;margin-bottom:40px;">
       </div>
     </div>
     <div class="row  wow fadeIn slow" style="margin-bottom:150px;">
@@ -297,7 +302,6 @@
       </div>
 
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
-
         <div class="card" style="height:245px;margin-top:60px;width:100%;">
           <img class="card-img-top" src="img/opinion4.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
           <div class="card-body">
