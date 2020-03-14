@@ -48,6 +48,12 @@ html,body{
   border:none;
   border-bottom:1px solid #e62f2d;
 }
+.imgCortina{
+  background-image: linear-gradient(to right bottom, #e62f2d, #c42322, #a31718, #840a0e, #660000);
+  background-repeat:no-repeat;
+  opacity:0.9;
+  background-size:cover;
+}
 
 /*  SLIDE */
 #cartascursos .dot{

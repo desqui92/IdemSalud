@@ -190,16 +190,13 @@
     </div>
   </div>
   </div> 
-
-  
-</div>
-</div>
-
-
 </div>
 </div>
 </div>
-<div class="container-fluid" style="position:relative; margin-top:80px;background-image: linear-gradient(to bottom, #e62f2d, #ea4642, #ed5956, #ee6b69, #ee7c7c);background-image: linear-gradient(to right top, #c80606, #cf1e1a, #d52d2a, #db3b39, #e04747);">
+</div>
+</div>
+<div class="container-fluid" style="background-image:url('img/fondo2-2.jpg');width:100%;height:100%;position:relative;background-size: 100% 100%;margin-top:80px;padding-right:0px;padding-left:0px;">
+<div class="imgCortina" style="width:100%; height:100%; position:relative;">
    <div class="row">
     <div class="col-12" style="text-align:center;">
         <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:white;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> ¡Tus beneficios!</h1>
@@ -217,64 +214,27 @@
       <h4 class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Desde tu casa a travez de tu computadora o celular de forma online</h4>
     </div>
   </div>
-  <div class="row">
+  <div class="row pb-5">
     <div class="col-4 offset-2" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
-      <img src="img/books.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
-      <h1 class="titulo2">COMPLETA EL CURSO Y OBTEN TU CERTIFICADO</h1>
-      <h4 class="descripcion2">Todos los cursos vienen con certificado que avala que terminaste el mismo <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
+      <img src="img/books.png" class="imagenformavirtual img-responsive d-block m-auto" style="width:64px;height:64px; margin-right:5px;">
+      <h1  class="titulo2 text-center">APROVECHA TODO NUESTRO MATERIAL ONLINE</h1>
+      <h4  class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Sigue los video tutoriales paso a paso y también descarga el material adicional</h4>
     </div>
     <div class="col-4" style="background:white;margin-left:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
-      <img src="img/certificate.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
-      <h1 class="titulo2">APROVECHA TODO NUESTRO MATERIAL ONLINE</h1>
-      <h4 class="descripcion2">Sigue los video tutoriales paso a paso y también descarga el material adicional <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
+      <img src="img/certificate.png" class="imagenformavirtual img-responsive d-block m-auto" style="width:64px;height:64px; margin-right:5px;">
+      <h1  class="titulo2 text-center">COMPLETA EL CURSO Y OBTEN TU CERTIFICADO</h1>
+      <h4  class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Todos los cursos vienen con certificado que avala que terminaste el mismo</h4>
     </div>
   </div>
-   <!--style="background-image:url('img/background.jpg'); background-repeat:no-repeat; background-size:cover;" 
-  background-image: linear-gradient(to bottom, #ffffff, #f9f2fb, #f9e3f0, #fcd3de, #fdc5c5);
-  -->
- <!--<div class="container-fluid">
-    <div style="margin-left:-5%">
-    <div class="row cont-info" style="padding-top:20px;">
-      <div class="col-lg-7 offset-lg-3" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
-      <img src="img/bookread.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
-          <h1 class="titulo2">ESTUDIA EL DÍA Y LA HORA QUE QUIERAS</h1>
-          <h4 class="descripcion2">Aprovecha tus momentos libres para aprender un nuevo curso <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
-      </div>
-      </div>
-      <div class="row cont-info" style="margin-top:-1px;">
-      <div class="col-lg-7 offset-lg-3" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
-      <img src="img/worldwide.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
-          <h1 class="titulo2">REALIZA LOS CURSOS DE FORMA VIRTUAL</h1>
-          <h4 class="descripcion2">Desde tu casa a travez de tu computadora o celular de forma online <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
-      </div>
-      </div>
-      <div class="row cont-info" style="margin-top:-1px;">
-      <div class="col-lg-7 offset-lg-3" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
-      <img src="img/books.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
-          <h1 class="titulo2">COMPLETA EL CURSO Y OBTEN TU CERTIFICADO</h1>
-          <h4 class="descripcion2">Todos los cursos vienen con certificado que avala que terminaste el mismo <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
-      </div>
-      </div>
-      <div class="row cont-info" style="margin-top:-1px; padding-bottom:20px;">
-      <div class="col-lg-7 offset-lg-3" style="padding-top:1%; padding-bottom:1%; background-color:#FFFFFF;border:1px #034158 solid;">
-      <img src="img/certificate.png" class="imagenformavirtual img-responsive" style="display:inline; width:64px;height:64px; margin-right:5px;">
-          <h1 class="titulo2">APROVECHA TODO NUESTRO MATERIAL ONLINE</h1>
-          <h4 class="descripcion2">Sigue los video tutoriales paso a paso y también descarga el material adicional <img src="img/tick.png" style="width:16px; height:16px;display:inline;"></h4>
-      </div>
-      </div>
-      </div>
-      </div>
-    </div>
-  </div>-->
   </div>
-  
-   <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white; margin-top:1px;">
+</div>
+</div>
+</div>
+<div class="container-fluid" id="cartascursos" style="position:relative; background-color:white; margin-top:1px;">
     <div class="row">
     <div class="col-12" style="text-align:center; margin-top:30px;margin-bottom:10px;">
     <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:black;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> Nuestros estudiantes</h1>
     </div>
-</div>
-</div>
 <div class="container-fluid">
   <div class="row">
     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
@@ -325,18 +285,6 @@
 </div>
 </div>
 
-</div>
-</div>
-<style>
-  .loco{
-    background-image: linear-gradient(to right bottom, #e62f2d, #c42322, #a31718, #840a0e, #660000);
-    background-repeat:no-repeat;
-    opacity:0.9;
-    background-size:cover;
-  }
-</style>
-<div style="background-image:url('img/fondo2-2.jpg'); width:100%;height:100%;">
-<div class="loco" style="width:100%; height:100%; position:relative;">
 </div>
 </div>
 </body>
