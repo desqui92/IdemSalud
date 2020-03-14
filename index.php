@@ -258,14 +258,15 @@
         <h1 class="text-center wow fadeInUp" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:black;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt=""> Nuestros estudiantes</h1>
       </div>
     </div>
-    <div class="row  wow fadeIn slow">
+    <div class="row  wow fadeIn slow" style="margin-bottom:150px;">
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
           <div class="card" style="height:245px;margin-top:60px;width:100%;">
             <img class="card-img-top" src="img/opinion1.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
             <div class="card-body">
             <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
               <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-                <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1</h1></span><small class="text-muted"></small>
+                <p class="card-text m-0" style="display:block;text-align:center;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p>
+                <h1 class="text-center mt-2" style="font-size:16px;">Curso de Enfermería 1</h1>
           </div>
         </div>
       </div>
@@ -277,7 +278,8 @@
           <div class="card-body">
           <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
             <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-              <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1</h1></span><small class="text-muted"></small>
+              <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br>
+              <h1 style="font-size:16px;">Curso de Enfermería 1</h1></span><small class="text-muted"></small>
           </div>
         </div>
       </div>
