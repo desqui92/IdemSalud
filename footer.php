@@ -66,6 +66,14 @@
                     <li style="display:inline;margin-left:5px;margin-right:5px;"><a href=""><img src="img/messenger.png" height="40" alt=""></a></li>
                     <li style="display:inline;margin-left:5px;margin-right:5px;"><a href=""><img src="img/youtube.png" height="40" alt=""></a></li>
                 </ul>
+                <div class="text-center">
+                    <div class="fb-page" 
+                        data-href="https://www.facebook.com/idem.salud/"
+                        data-width="320"
+                        data-hide-cover="false"
+                        data-show-facepile="false" style="border:1px solid white;margin-top:20px;">
+                    </div>
+                </div>
             </div>
     </div>
     <div class="row mt-4">
