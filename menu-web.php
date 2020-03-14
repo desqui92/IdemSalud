@@ -6,16 +6,16 @@
 <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="text-align:justify;">
     <ul class="navbar-nav mr-auto margenabajo ordenaritems" style="font-weight:600;">
         <li class="nav-item margenabajo" id="inicio1">
-            <a class="link1 text-muted spancito" href="index.php" style="font-family:Montserrat;"><img class="iconos" style="vertical-align:baseline;" src="img/home.png" height="25" alt=""> Inicio</a>
+            <a class="link1 text-muted" href="index.php" style="font-family:Montserrat;"><img class="iconos" style="vertical-align:baseline;" src="img/home.png" height="25" alt=""> Inicio</a>
       </li>
       <li class="nav-item margenabajo" id="quienesomos">
-          <a class="link1 text-muted spancito" id="quienessomos" href="nosotros.php" style="font-family:Montserrat;"></a>
+          <a class="link1 text-muted" id="quienessomos" href="nosotros.php" style="font-family:Montserrat;"></a>
       </li>
       <li class="nav-item margenabajo" id="cursos">
-        <a class="link1 text-muted spancito"href="misCursos.php" style="font-family:Montserrat;"><img class="iconos" style="vertical-align:baseline;" src="img/cursos.png" height="25" alt=""> Cursos</a>
+        <a class="link1 text-muted"href="misCursos.php" style="font-family:Montserrat;"><img class="iconos" style="vertical-align:baseline;" src="img/cursos.png" height="25" alt=""> Cursos</a>
       </li>
         <li class="nav-item margenabajo">
-        <a class="link1 text-muted spancito"href="blog.php" style="font-family:Montserrat;"><img class="iconos" style="vertical-align:baseline;" src="img/blog.png" height="25" alt=""> Blog</a>
+        <a class="link1 text-muted"href="blog.php" style="font-family:Montserrat;"><img class="iconos" style="vertical-align:baseline;" src="img/blog.png" height="25" alt=""> Blog</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
