@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <title>Inicio</title>
 </head>
 <body>
@@ -287,6 +284,17 @@
 
 </div>
 </div>
+
+
+
+<!-- SCRIPT CARGADOS EN EL BODY -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script>
+  new WOW().init();
+</script>
 </body>
 </html>
 
