@@ -75,8 +75,8 @@
         <div id="nuestroscursos">
         <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;"><img style="vertical-align:sub;" src="img/cursos-pc.png" height="40" alt=""> Cursos mas demandados</h1>
         <h2 class="text-center" style="font-size:22px; font-weight:300; color:#6c757d;margin-bottom:18px;margin-top:20px;">Elige uno de nuestros cursos y empieza a aprender con un profesional calificado.</h2>
-      <div  style="padding-bottom:8px;margin-top:60px;">
-        <a href="" style="padding-bottom:9px;"><h2 style="font-size:21px; display:inline;">Enfermería</h2></a>&nbsp;&nbsp;<a href=""><h2 style="font-size:21px; display:inline;">Otros</h2></a>
+      <div  style="padding-bottom:8px;margin-top:60px;text-align:center;">
+        <a  href="" style="padding-bottom:9px;"><h2 style="font-size:21px; display:inline;">Enfermería</h2></a>&nbsp;|&nbsp;<a href=""><h2 style="font-size:21px; display:inline;">Otros</h2></a>
       </div>
     </div>
   </div>
@@ -309,6 +309,13 @@
     </div>
 
 </div>
+
+
+
+<?php
+  include 'footer.php';
+
+?>
 
 
 
