@@ -206,7 +206,6 @@
 </div>
 </div>
 </div>
-</div>
 
 
 
@@ -246,12 +245,11 @@
   </div>
   </div>
 </div>
-</div>
-</div>
 
 
 
-<!-- CONTENEDOR DE CLIENTES -->
+
+<!-- CONTENEDOR DE CLIENTES  -->
 <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white; margin-top:1px;">
     <div class="row">
       <div class="col-12" style="text-align:center; margin-top:30px;margin-bottom:10px;">
@@ -265,7 +263,7 @@
             <div class="card-body">
             <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
               <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-              <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1<h1></span><small class="text-muted"></small>
+                <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1</h1></span><small class="text-muted"></small>
           </div>
         </div>
       </div>
@@ -277,7 +275,7 @@
           <div class="card-body">
           <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
             <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-            <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1<h1></span><small class="text-muted"></small>
+              <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1</h1></span><small class="text-muted"></small>
           </div>
         </div>
       </div>
@@ -289,7 +287,7 @@
           <div class="card-body">
           <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
             <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-            <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1<h1></span><small class="text-muted"></small>
+              <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1</h1></span><small class="text-muted"></small>
           </div>
         </div>
       </div>
@@ -301,7 +299,7 @@
           <div class="card-body">
           <h5 class="card-title" style="text-align:center;">Rodrigo</h5>
             <p class="card-text">Excelente curso de enfermería sobre los cuidados intensivos en personas mayores.</p>
-            <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1<h1></span><small class="text-muted"></small>
+              <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;"><br><h1 style="font-size:16px;">Curso de Enfermería 1</h1></span><small class="text-muted"></small>
           </div>
         </div>
       </div>
