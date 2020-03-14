@@ -10,12 +10,9 @@ Gris: #6c757d
 * /
 
 /* GENERAL */
-html,body{
-  height:100%;
-  width:100%;
+body{
   font-family: 'Montserrat', sans-serif;
   font-weight:200;
-  overflow-x: hidden;
 }
 .txt-shadow{
   text-shadow: 2px 2px 2px black;
