@@ -67,11 +67,7 @@ button.flickity-button.flickity-prev-next-button{
   color:red;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
-#cartascursos .flickity-viewport{
-  margin-right: 150px;
-  margin-left: 150px;
-  padding: 20px;
-}
+
 #cartascursos .card:hover{
   box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
 }
@@ -160,6 +156,11 @@ button.flickity-button.flickity-prev-next-button{
     div.carta{
       height:245px;
     }
+
+    #cartascursos .flickity-viewport{
+      padding: 20px;
+    }
+
 }
 
 @media screen and (min-width: 501px) and (max-width: 650px){
@@ -221,6 +222,11 @@ button.flickity-button.flickity-prev-next-button{
 div.carta{
   height:245px;
 }
+
+#cartascursos .flickity-viewport{
+  padding: 20px;
+}
+
 }
 
 
@@ -282,7 +288,11 @@ div.carta{
 #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
   display:none;
 }
-
+#cartascursos .flickity-viewport{
+  margin-right: 150px;
+  margin-left: 150px;
+  padding: 20px;
+}
 
 }
 @media screen and (min-width:700px) and (max-width:799px) {
@@ -340,6 +350,11 @@ margin-bottom:10px;
 div.carta{
   height:245px;
 }
+#cartascursos .flickity-viewport{
+  margin-right: 150px;
+  margin-left: 150px;
+  padding: 20px;
+}
 
 }
 
@@ -396,6 +411,11 @@ div.carta{
   }  
   div.carta{
     height:245px;
+  }
+  #cartascursos .flickity-viewport{
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 20px;
   }
 
   }
@@ -458,7 +478,11 @@ div.carta{
 div.carta{
   height:270px;
 }
-
+#cartascursos .flickity-viewport{
+  margin-right: 150px;
+  margin-left: 150px;
+  padding: 20px;
+}
 
 }
 @media screen and (min-width: 1401px) {
@@ -509,7 +533,11 @@ div.carta{
   div.carta{
     height:245px;
   }
-
+  #cartascursos .flickity-viewport{
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 20px;
+  }
 }
 
 
