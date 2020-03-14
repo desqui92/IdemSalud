@@ -1,5 +1,5 @@
 <!-- BOTON DE CONTACTO -->
-<div class="mensaje-ayuda animated fadeInUp faster">
+<div class="mensaje-ayuda">
     <i onclick="cerrarMensaje()" class="fas fa-times float-right"></i>
     <p class="m-0 p-0" style="color:black;">Hola, ¿necesitas ayuda? , háblame!</p>
 </div>
@@ -8,7 +8,7 @@
 
 
 <div class="container-fluid mt-5" style="background-image: linear-gradient(to right bottom, #e62f2d, #c42322, #a31718, #840a0e, #660000);">
-    <div class="row  wow fadeIn slow">
+    <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-12 seccion-footer">
                 <h4 class="text-center mt-4 text-white titulo">Nosotros</h4>
                 <div style="margin-top:40px;">

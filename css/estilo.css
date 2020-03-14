@@ -94,6 +94,9 @@ button.flickity-button.flickity-prev-next-button{
   #cajasubmenu{
     margin:auto;
     }
+    .iconos{
+      display:inline;
+    }
     /*boton de inicio registro*/
     .btn-op1{
       margin-bottom:10px;
@@ -167,6 +170,9 @@ button.flickity-button.flickity-prev-next-button{
   #cajasubmenu{
     margin:auto;
     }
+    .iconos{
+      display:inline;
+    }
     /*boton de inicio registro*/
     .btn-op1{
       margin-bottom:10px;
@@ -234,6 +240,9 @@ div.carta{
   #cajasubmenu{
     margin:auto;
     }
+    .iconos{
+      display:inline;
+    }
     /*boton de inicio registro*/
     .btn-op1{
       margin-bottom:10px;
@@ -299,6 +308,9 @@ div.carta{
 #cajasubmenu{
 margin:auto;
 }
+.iconos{
+  display:inline;
+}
 /*boton de inicio registro*/
 .btn-op1{
   margin-bottom:10px;
@@ -361,6 +373,9 @@ div.carta{
 @media screen and (min-width:800px) and (max-width:991px) {
   #cajasubmenu{
   margin:auto;
+  }
+  .iconos{
+    display:inline;
   }
   /*boton de inicio registro*/
   .btn-op1{
@@ -436,6 +451,9 @@ div.carta{
   #cajasubmenu{
   margin-top:29px;
   }
+  .iconos{
+    display:none;
+  }
 .btn-op1{
   margin-bottom:10px;
 }
@@ -489,6 +507,9 @@ div.carta{
 
   #cajasubmenu{
     margin-top:29px;
+    }
+    .iconos{
+      display:none;
     }
   .btn-op1{
     margin-bottom:10px;
