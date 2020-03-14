@@ -18,7 +18,20 @@
         <a class="link1 text-muted spancito"href="blog.php" style="font-family:Montserrat;"><img style="vertical-align:baseline;" src="img/blog.png" height="25" alt=""> Blog</a>
       </li>
     </ul>
-    <div style="margin-right:15px; margin-top:-10px;" class="d-flex justify-content-center">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="img/user-student.png" height="20" style="vertical-align: text-bottom;" alt=""> Mi Perfíl
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <div style="margin-right:15px; margin-top:-10px;" class="d-none justify-content-center"><!-- aca va un d-flex -->
       <form class="form-inline my-2 my-lg-0">
       <div class="input-group mb-3" style="margin-right:10px; margin-top:15px;">
  <!-- <div class="input-group-prepend">
@@ -48,6 +61,7 @@
     <i class="fa fa-phone text-danger"></i><span class="text-muted">&nbsp;0221-4707735</span>
       </div>
     <button onclick="window.location='iniciarSesion.php'" type="button" class="btn btn-op1"><i class="far fa-user-circle fa-lg"></i> Entrar / Registrarse</button> </div>-->
+    
 </div>
 </div>
    <!-- <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Iniciar Sesión</button></div>
