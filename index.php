@@ -243,38 +243,13 @@
       <h4  class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Todos los cursos vienen con certificado que avala que terminaste el mismo</h4>
     </div>
   </div>
-  <div class="row">
-   <div class="col-xl-3" style="display:block;margin:auto;text-align:center;padding:10px;">
-   <div style="background-color:white;opacity:1 !important; border-radius:4px 4px 0px 0px;">
-<span style="font-size:30px;font-weight:500;border-bottom:2px solid #000000;">IR A VER LOS CURSOS</span><br>
-<span style="font-size:20px;font-weight:300;">Listado de todos los cursos que hay<br>disponibles en el sitio.</span><br>
-     <a href="" class="btn">VER CURSOS</a>
-   </div>
-   </div>
-   <div class="col-xl-3" style="display:block;margin:auto;text-align:center;padding:10px;">
-   <div style="background-color:white;opacity:1 !important;">
-<span style="font-size:30px;font-weight:500;border-bottom:2px solid #000000;">ENTRAR A TU CUENTA</span><br>
-<span style="font-size:20px;font-weight:300;">Ingresa a tu perfil con tu email<br>y contraseña. O registrate.</span>
-<br>
-     <a href="" class="btn">ENTRAR / REGISTRARSE</a>
-   </div>
-   </div>
-   <div class="col-xl-3" style="display:block;margin:auto;text-align:center;padding:10px;">
-   <div style="background-color:white;opacity:1 !important;">
-<span style="font-size:30px;font-weight:500;border-bottom:2px solid #000000;">PREGUNTAR PRECIOS</span><br>
-<span style="font-size:20px;font-weight:300;">Consulta planes y métodos de pago<br>con nuestros profesionales.</span><br>
-     <a href="" class="btn">CONSULTAR PROFESIONAL</a>
-   </div>
-   </div>
-
-  </div>
   </div>
 </div>
 
 
 
 
-<!-- CONTENEDOR DE CLIENTES -->
+<!-- CONTENEDOR DE CLIENTES  -->
 <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white; margin-top:1px;">
     <div class="row">
       <div class="col-12" style="text-align:center; margin-top:30px;margin-bottom:10px;">
