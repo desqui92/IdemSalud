@@ -157,7 +157,9 @@ button.flickity-button.flickity-prev-next-button{
       display:block;
       font-size:12px !important;
     }
-
+    div.carta{
+      height:245px;
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width: 650px){
@@ -216,7 +218,9 @@ button.flickity-button.flickity-prev-next-button{
 #inicio-seccion > div > div.cont-iniciocelu > table.imageniniciotipscelu{
   display:none;
 }
-
+div.carta{
+  height:245px;
+}
 }
 
 
@@ -262,6 +266,10 @@ button.flickity-button.flickity-prev-next-button{
     }
     .navbar .navbar-collapse .navbar-nav .nav-item{
       margin-top: 10px;
+    }
+
+    div.carta{
+      height:245px;
     }
 
 /*carrucel*/
@@ -329,6 +337,10 @@ margin-bottom:10px;
   display:none;
 }
 
+div.carta{
+  height:245px;
+}
+
 }
 
 @media screen and (min-width:800px) and (max-width:991px) {
@@ -382,7 +394,10 @@ margin-bottom:10px;
   #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
     display:none;
   }  
-  
+  div.carta{
+    height:245px;
+  }
+
   }
 
 
@@ -440,6 +455,11 @@ margin-bottom:10px;
   display:none;
 }
 
+div.carta{
+  height:270px;
+}
+
+
 }
 @media screen and (min-width: 1401px) {
 
@@ -484,6 +504,10 @@ margin-bottom:10px;
   }
   #inicio-seccion > div > div.cont-inicio > table.imageniniciotipscelu{
     display:none;
+  }
+
+  div.carta{
+    height:245px;
   }
 
 }
