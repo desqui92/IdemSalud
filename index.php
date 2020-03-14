@@ -326,7 +326,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
-    <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:30px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Nuestro Blog</h1>
+    <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Nuestro Blog</h1>
     <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
     </div>
   </div>
