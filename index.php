@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/estilo.css">
     <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
     </script>
+   <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <title>Inicio</title>
 </head>
@@ -293,7 +293,6 @@
       </div>
 
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
-
         <div class="card" style="height:245px;margin-top:60px;width:100%;">
           <img class="card-img-top" src="img/opinion4.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
           <div class="card-body">
