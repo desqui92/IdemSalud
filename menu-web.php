@@ -39,7 +39,7 @@
     <span class="input-group-text" id="basic-addon1" style="background-color:red;"><i class="fa fa-search" style="color:white;"></i></span>
   </div>
   <input type="text" class="form-control" placeholder="Buscar..." aria-label="Username" aria-describedby="basic-addon1" style="font-size:15px;font-family:opensans">
-</div>-->
+</div> -->
           </form></div>
     <div id="div1" style="display:block;margin:auto;text-align:center;">  
     <script> 
