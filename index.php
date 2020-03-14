@@ -10,16 +10,13 @@
     <link rel="stylesheet" href="css/estilo.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/funciones.js"></script>
     <script>
       new WOW().init();
     </script>
     <script>
       $( document ).ready(function() {
-        setTimeout(function(){
-          var snd = new Audio("sound/mensaje.mp3");
-          snd.play();
-          $('.mensaje-ayuda').show();
-        },5000);
+        mensajeAyuda();
       });
     </script>
    <script src="js/bootstrap.min.js"></script>

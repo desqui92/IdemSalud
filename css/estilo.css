@@ -665,6 +665,9 @@ margin-bottom:10px;
   text-align: center;
   display:none;
 }
+.mensaje-ayuda .fa-times:hover{
+  cursor: pointer;
+}
 .boton-contacto{
   background: white;
   padding: 15px;
