@@ -251,7 +251,6 @@
 
 
 
-
 <!-- CONTENEDOR DE CLIENTES -->
 <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white; margin-top:1px;">
     <div class="row">
