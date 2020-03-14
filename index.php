@@ -322,7 +322,7 @@
 </div>
 
 
-<!-- COMO USAR EL SITIO -->
+<!-- SECCION BLOG -->
 <div class="container-fluid">
   <div class="row">
     <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
@@ -331,7 +331,36 @@
     </div>
   </div>
   <div class="row">
-  <span>Sigue los siguientes pasos para obtener tu curso y empezar a estudiar</span>
+  <div class="col-4 col-md-4 col-lg-4 col-sm-4 col-xl-4">
+  <div class="card" style="width: 25rem; margin:auto;">
+  <img src="img/coronavirus.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cuiados del Coronavirus</h5>
+    <p class="card-text">Como cuidarse de esta enfermedad que ya es una pandemia a nivel global.</p>
+    <button type="button" class="btn btn-op1">Ver noticia</button>
+  </div>
+  </div>
+</div>
+<div class="col-4 col-md-4 col-lg-4 col-sm-4 col-xl-4">
+<div class="card" style="width: 25rem; margin:auto;">
+  <img src="img/coronavirus.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cuidados del Coronavirus</h5>
+    <p class="card-text">Como cuidarse de esta enfermedad que ya es una pandemia a nivel global.</p>
+    <button type="button" class="btn btn-op1">Ver noticia</button>
+  </div>
+</div>
+  </div>
+<div class="col-4 col-md-4 col-lg-4 col-sm-4 col-xl-4">
+<div class="card" style="width: 25rem; margin:auto;">
+  <img src="img/coronavirus.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cuidados del Coronavirus</h5>
+    <p class="card-text">Como cuidarse de esta enfermedad que ya es una pandemia a nivel global.</p>
+    <button type="button" class="btn btn-op1">Ver noticia</button>
+  </div>
+</div>
+  </div>
   </div>
 </div>
 
