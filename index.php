@@ -73,15 +73,15 @@
     <div class="row">
       <div class="col-12">
         <div id="nuestroscursos">
-        <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;"><img style="vertical-align:sub;" src="img/cursos-pc.png" height="40" alt=""> Cursos mas demandados</h1>
-        <h2 class="text-center" style="font-size:22px; font-weight:300; color:#6c757d;margin-bottom:18px;margin-top:20px;">Elige uno de nuestros cursos y empieza a aprender con un profesional calificado.</h2>
+        <h1 class="text-center wow fadeInUp" style="font-size:36px; margin-bottom:5px;margin-top:60px;"><img style="vertical-align:sub;" src="img/cursos-pc.png" height="40" alt=""> Cursos mas demandados</h1>
+        <h2 class="text-center wow fadeInUp" style="font-size:22px; font-weight:300; color:#6c757d;margin-bottom:18px;margin-top:20px;">Elige uno de nuestros cursos y empieza a aprender con un profesional calificado.</h2>
       <div  style="padding-bottom:8px;margin-top:60px;text-align:center;">
         <a  href="" style="padding-bottom:9px;"><h2 style="font-size:21px; display:inline;">Enfermería</h2></a>&nbsp;|&nbsp;<a href=""><h2 style="font-size:21px; display:inline;">Otros</h2></a>
       </div>
     </div>
   </div>
     <div class="col-12">
-      <div class="carousel" data-flickity='{ "wrapAround": true, "percentPosition": false, "cellAlign": "left" }'>
+      <div class="carousel wow fadeIn slow" data-flickity='{ "wrapAround": true, "percentPosition": false, "cellAlign": "left" }'>
         <div class="carousel-cell">
           <div class="card">
             <img class="card-img-top" src="img/card4.jpg" style="width:278px;height:160px;" alt="Card image cap">
@@ -217,28 +217,28 @@
   <div class="container-fluid">
     <div class="row">
     <div class="col-12" style="text-align:center;">
-        <h1 class="text-center" style="font-size:36px;margin-top:60px;color:white;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> ¡Tus beneficios!</h1>
+        <h1 class="text-center wow fadeInUp" style="font-size:36px;margin-top:60px;color:white;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> ¡Tus beneficios!</h1>
     </div>
     </div>
     <div class="row">
-      <div class="col-4 offset-2" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
+      <div class="col-4 offset-2 wow fadeInLeft" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
         <img src="img/bookread.png" class="imagenformavirtual img-responsive d-block mx-auto" style="width:64px;height:64px; margin-right:5px;">
         <h1 class="titulo2 text-center ">ESTUDIA EL DÍA Y LA HORA QUE QUIERAS</h1>
         <h4 class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Aprovecha tus momentos libres para aprender un nuevo curso</h4>
       </div>
-      <div class="col-4" style="background:white;margin-left:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
+      <div class="col-4 wow fadeInRight" style="background:white;margin-left:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
         <img src="img/worldwide.png" class="imagenformavirtual img-responsive d-block mx-auto" style="display:inline; width:64px;height:64px; margin-right:5px;">
         <h1 class="titulo2 text-center">REALIZA LOS CURSOS DE FORMA VIRTUAL</h1>
         <h4 class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Desde tu casa a travez de tu computadora o celular de forma online</h4>
       </div>
     </div>
     <div class="row pb-5">
-      <div class="col-4 offset-2" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
+      <div class="col-4 offset-2 wow fadeInLeft" style="background:white;margin-right:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
         <img src="img/books.png" class="imagenformavirtual img-responsive d-block m-auto" style="width:64px;height:64px; margin-right:5px;">
         <h1  class="titulo2 text-center">APROVECHA TODO NUESTRO MATERIAL ONLINE</h1>
         <h4  class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Sigue los video tutoriales paso a paso y también descarga el material adicional</h4>
       </div>
-      <div class="col-4" style="background:white;margin-left:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
+      <div class="col-4 wow fadeInRight" style="background:white;margin-left:10px;padding:20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);margin-bottom:10px;">
         <img src="img/certificate.png" class="imagenformavirtual img-responsive d-block m-auto" style="width:64px;height:64px; margin-right:5px;">
         <h1  class="titulo2 text-center">COMPLETA EL CURSO Y OBTEN TU CERTIFICADO</h1>
         <h4  class="descripcion2 text-center"><img src="img/tickrojo.png" style="height:20px;display:inline;vertical-align:text-bottom;"> Todos los cursos vienen con certificado que avala que terminaste el mismo</h4>
@@ -255,10 +255,10 @@
 <div class="container-fluid" id="cartascursos" style="position:relative; background-color:white; margin-top:1px;">
     <div class="row">
       <div class="col-12" style="text-align:center; margin-top:30px;margin-bottom:10px;">
-        <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:black;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/beneficios.png" height="40" alt=""> Nuestros estudiantes</h1>
+        <h1 class="text-center wow fadeInUp" style="font-size:36px; margin-bottom:5px;margin-top:60px;color:black;margin-bottom:40px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt=""> Nuestros estudiantes</h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row  wow fadeIn slow">
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
           <div class="card" style="height:245px;margin-top:60px;width:100%;">
             <img class="card-img-top" src="img/opinion1.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
