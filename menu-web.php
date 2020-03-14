@@ -20,14 +20,15 @@
     </ul>
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:gray;font-weight:400;text-decoration:none;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:gray;font-weight:400;text-decoration:none;margin-right: 20px;">
           <img src="img/user-student.png" height="20" style="vertical-align: text-bottom;" alt=""> Mi Perfíl
         </a>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+        <div  id="submenu" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-address-card fa-lg"></i> Mis datos</a>
+          <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-book-reader fa-lg"></i> Mis cursos</a>
+       <!--   <div class="dropdown-divider"></div>-->
+          <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-arrow-left fa-lg"></i> Ir a inicio</a>
+          <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-power-off fa-lg"></i> Cerrar Sesión</a>
         </div>
       </li>
     </ul>
