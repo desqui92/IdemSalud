@@ -280,8 +280,8 @@
         <hr style="border-top: 2px solid red; width:60px;margin-bottom:40px;">
       </div>
     </div>
-    <div class="row  wow fadeIn slow" style="margin-bottom:150px;">
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
+    <div class="row" style="margin-bottom:150px;">
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12 wow fadeIn slow">
           <div class="card carta" style="margin-top:60px;width:100%;">
             <img class="card-img-top" src="img/opinion1.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
             <div class="card-body">
@@ -293,7 +293,7 @@
         </div>
       </div>
 
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12 wow fadeIn slow">
 
         <div class="card carta" style="margin-top:60px;width:100%;">
           <img class="card-img-top" src="img/opinion2.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
@@ -306,7 +306,7 @@
         </div>
       </div>
 
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12 wow fadeIn slow">
 
         <div class="card carta" style="margin-top:60px;width:100%;">
           <img class="card-img-top" src="img/opinion3.jpeg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
@@ -319,7 +319,7 @@
         </div>
       </div>
 
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12">
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-xs-12 wow fadeIn slow">
         <div class="card carta" style="margin-top:60px;width:100%;">
           <img class="card-img-top" src="img/opinion4.jpg" style="box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);width:90px;height:90px;border-radius:90px; display:block; margin:auto; margin-top:-45px;" alt="Card image cap">
           <div class="card-body">
