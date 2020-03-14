@@ -1,6 +1,6 @@
 <!-- BOTON DE CONTACTO -->
 <div class="mensaje-ayuda">
-    <i onclick="cerrarMensaje()" class="fas fa-times float-right"></i>
+    <i onclick="cerrarMensaje()" class="fas fa-times float-right mr-2 fa-lg"></i>
     <p class="m-0 p-0" style="color:black;">Hola, ¿necesitas ayuda? , háblame!</p>
 </div>
 <a class="boton-contacto" href="https://wa.me/525551532131" target="_blank"><img width="50" height="50" src="img/support.png" alt=""></a>
