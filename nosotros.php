@@ -13,7 +13,8 @@
     <?php
         include 'menu-web.php';
     ?>
-    <div class="container-fluid">
+    <div class="container-fluid" >
+    <div class="animate col">
         <div class="row">
             <div class="col wow fadeInUp">
                 <h1 class="text-center" style="font-size:36px;margin-top:60px;color:black;"><img style="vertical-align:sub;" src="img/nosotros.png" height="40" alt=""> ¿Quienes Somos?</h1>
@@ -26,7 +27,7 @@
         </div>
         <div class="row">
             <div class="col wow fadeInUp">
-                <h1 class="text-center" style="font-size:36px;margin-top:60px;color:black;"><img style="vertical-align:sub;" src="img/goal.png" height="40" alt=""> Nuestro Objetivo</h1>
+                <h1 class="text-center" style="font-size:36px;margin-top:60px;color:black;">Nuestro Objetivo <img style="vertical-align:sub;" src="img/goal.png" height="40" alt=""></h1>
             </div>
         </div>
         <div class="row">
@@ -34,11 +35,15 @@
                 <p class="text-center wow fadeInUp" style="font-weight:400;color:gray;font-size:18px;">
                 Queremos lograr en el portal, un lugar: Donde se congregue la profesión de enfermería de toda Latinoamérica y se fomente la integración con sus colegas. Donde puedan interactuar entre sí y enriquecer conocimientos…
                 </p>
-                <p class="text-center wow fadeInUp" style="font-weight:400;color:gray;font-size:18px;">
-                
-                </p>
+                <h2 class="text-center wow fadeInUp" style="color:#e62f2d;font-weight:300;">
+                ”Un lugar; donde estrechar lazos con enfermeros de otras naciones”
+                </h2>
+                <h2 class="text-center wow fadeInDown mt-5" style="font-style:italic;">
+                    “Enfermeros… de hoy y del mañana”
+                </h2>
             </div>
         </div>
+    </div>
     </div>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/wow.min.js"></script>
