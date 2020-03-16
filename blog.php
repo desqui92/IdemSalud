@@ -26,8 +26,8 @@
             <h1 class="text-center" style="font-size:36px;margin-top:60px;color:black;"><img style="vertical-align:sub;" src="img/blog.png" height="40" alt=""> Blog</h1>
             </div>
         </div>
-        <div class="row mt-5 wow fadeIn slow">
-            <div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+        <div class="row  wow fadeIn slow">
+            <div class="col-4-auto col-md-6-auto col-lg-6-auto col-sm-4-auto col-xl-4-auto mx-auto mt-5">
                 <div class="card" style="width: 25rem; margin:auto;">
                     <img src="img/coronavirus.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+            <div class="col-4-auto col-md-6-auto col-lg-6-auto col-sm-4-auto col-xl-4-auto mx-auto mt-5">
                 <div class="card" style="width: 25rem; margin:auto;">
                     <img src="img/coronavirus.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+            <div class="col-4-auto col-md-6-auto col-lg-6-auto col-sm-4-auto col-xl-4-auto mx-auto mt-5">
                 <div class="card" style="width: 25rem; margin:auto;">
                     <img src="img/coronavirus.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -57,9 +57,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mt-5 wow fadeIn slow">
-            <div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+
+            <div class="col-4-auto col-md-6-auto col-lg-6-auto col-sm-4-auto col-xl-4-auto mx-auto mt-5">
                 <div class="card" style="width: 25rem; margin:auto;">
                     <img src="img/coronavirus.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -69,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+            <div class="col-4-auto col-md-6-auto col-lg-6-auto col-sm-4-auto col-xl-4-auto mx-auto mt-5">
                 <div class="card" style="width: 25rem; margin:auto;">
                     <img src="img/coronavirus.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -79,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+            <div class="col-4-auto col-md-6-auto col-lg-6-auto col-sm-4-auto col-xl-4-auto mx-auto mt-5">
                 <div class="card" style="width: 25rem; margin:auto;">
                     <img src="img/coronavirus.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -89,9 +88,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mt-5 wow fadeIn slow">
-            <div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+
+ 
+            <div class="col-4-auto col-md-6-auto col-lg-6-auto col-sm-4-auto col-xl-4-auto mx-auto mt-5">
                 <div class="card" style="width: 25rem; margin:auto;">
                     <img src="img/coronavirus.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -101,7 +100,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+            <div class="col-4-auto col-md-6-auto col-lg-6-auto col-sm-4-auto col-xl-4-auto mx-auto mt-5">
                 <div class="card" style="width: 25rem; margin:auto;">
                     <img src="img/coronavirus.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -111,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+            <div class="col-4-auto col-md-6-auto col-lg-6-auto col-sm-4-auto col-xl-4-auto mx-auto mt-5">
                 <div class="card" style="width: 25rem; margin:auto;">
                     <img src="img/coronavirus.png" class="card-img-top" alt="...">
                     <div class="card-body">
