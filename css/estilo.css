@@ -728,20 +728,35 @@ div.carta{
   
 
   /* NOSOTROS */
-  .cont-nosotros .titulo{
-    font-weight: 800;
-    font-size:50px;
-    padding: 20px;
-    color:#e62f2d;
-    text-shadow: 1px 1px 1px black;
-  }
-  .cont-nosotros p{
-    font-size: 16px;
-    font-weight: 300;
-  }
-  .cont-nosotros ul>li{
-    font-weight: bold;
-  }
+  .animate	{ 
+    background-image: url('../img/item-enf1.png'), url('../img/item-enf2.png'), url('');
+    background-size: 200px 200px;
+    background-position: 100px 100px, 1050px 450px,-400px 10px;
+  opacity: 0.5;
+    z-index: -1; 
+    background-repeat: no-repeat, no-repeat, repeat;
+    animation: animated 4s linear infinite;
+    -webkit-animation: animated 4s linear infinite;
+    width: 100%;
+    margin: 0 auto
+}
+
+@keyframes animated {
+    0%   {background-position: 100px 120px,1050px 470px, 0 0;}
+50%  {background-position: 100px 100px, 1050px 450px, 50% 0;}
+100% {background-position: 100px 120px, 1050px 470px, 100% 0;}
+}
+
+@-webkit-keyframes animated {
+
+    0%   {background-position: 100px 120px,-400px 10px, 0 0;}
+50%  {background-position: 100px 100px, -400px 10px, 50% 0;}
+100% {background-position: 100px 120px, 700px 10px, 100% 0;}
+
+}
+
+
+
 
 
 /*CARRUCEL*/
@@ -781,7 +796,6 @@ div.carta{
   color:gray;
   text-align: center;
   display:none;
-  border-top: 5px solid #1C6EA4;
   border:1px solid #e62f2d;
   border-radius: 40px 40px 0px 40px;
 }

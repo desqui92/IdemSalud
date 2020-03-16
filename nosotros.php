@@ -13,38 +13,38 @@
     <?php
         include 'menu-web.php';
     ?>
-    <div class="container-fluid">
+    <div class="container-fluid" >
+    <div class="animate col">
         <div class="row">
-            <div class="col cont-nosotros">
-                <h1 class="mt-5 titulo animated fadeInLeft slower">¿QUIÉNES SOMOS?</h1>
-                <div class="row">
-                    <div class="col-6 p-5 animated fadeInLeft slower">
-                        <p>
-                        Un grupo de enfermeros avocados a la tarea de conseguir un espacio que satisfaga las necesidades que día a día van surgiendo como consecuencia de la interacción con su medio ambiente. Embarcados en esta meta y con el apadrinamiento de la Editorial IDEM, es que nace este portal de enfermería, desde Argentina para toda Latinoamérica. Un sitio que consagra al personal de enfermería en su afán de servicio al cuidado de la salud, con el esmero y dedicación del cual son portadores. Un espacio brindado para los profesionales de enfermería y aquellos estudiantes, futuros enfermeros que ansían abrazar esta carrera.
-                        </p>
-                        <p>
-                        Queremos lograr en el portal, un lugar: Donde se congregue la profesión de enfermería de toda Latinoamérica y se fomente la integración con sus colegas. Donde puedan interactuar entre sí y enriquecer conocimientos…
-                        </p>
-                        <p>…”Un lugar; donde estrechar lazos con enfermeros de otras naciones”</p>
-                        <p>“Enfermeros… de hoy y del mañana” Son la “esencia y ser” de este sitio, por lo que nos complace invitarlos a participar del mismo y sumarse a ser parte de el, haciendo de éste Portal un lugar propio donde su colaboración y aporte serán de gran importancia.</p>
-                        <p>Este aporte se puede dar a través de:</p>
-                        <ul>
-                            <li>El envío de trabajos de investigación.</li>
-                            <li>La confección de notas o artículos de salud.</li>
-                            <li>Apuntes y monografías</li>
-                            <li>Proyectos y planes de salud</li>
-                            <li>Entre otros.</li>
-                        </ul>
-                    </div>
-                    <div class="col-6 animated fadeInUp slower">
-                        <img src="img/enfermeros-nosotros.png" alt="">
-                    </div>
-                </div>
+            <div class="col wow fadeInUp">
+                <h1 class="text-center" style="font-size:36px;margin-top:60px;color:black;"><img style="vertical-align:sub;" src="img/nosotros.png" height="40" alt=""> ¿Quienes Somos?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 offset-2 mt-4">
+                <p class="text-center wow fadeInUp" style="font-weight:400;color:gray;font-size:18px;">Un grupo de enfermeros avocados a la tarea de conseguir un espacio que satisfaga las necesidades que día a día van surgiendo como consecuencia de la interacción con su medio ambiente. Embarcados en esta meta y con el apadrinamiento de la Editorial IDEM, es que nace este portal de enfermería, desde Argentina para toda Latinoamérica. Un sitio que consagra al personal de enfermería en su afán de servicio al cuidado de la salud, con el esmero y dedicación del cual son portadores. Un espacio brindado para los profesionales de enfermería y aquellos estudiantes, futuros enfermeros que ansían abrazar esta carrera.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col wow fadeInUp">
+                <h1 class="text-center" style="font-size:36px;margin-top:60px;color:black;">Nuestro Objetivo <img style="vertical-align:sub;" src="img/goal.png" height="40" alt=""></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 offset-2 mt-4">
+                <p class="text-center wow fadeInUp" style="font-weight:400;color:gray;font-size:18px;">
+                Queremos lograr en el portal, un lugar: Donde se congregue la profesión de enfermería de toda Latinoamérica y se fomente la integración con sus colegas. Donde puedan interactuar entre sí y enriquecer conocimientos…
+                </p>
+                <h2 class="text-center wow fadeInUp" style="color:#e62f2d;font-weight:300;">
+                ”Un lugar; donde estrechar lazos con enfermeros de otras naciones”
+                </h2>
+                <h2 class="text-center wow fadeInDown mt-5" style="font-style:italic;">
+                    “Enfermeros… de hoy y del mañana”
+                </h2>
             </div>
         </div>
     </div>
-    <h1 class="wow animated bounceInLeft">sadsa</h1>
-    <h1 class="wow flash">sdsad</h1>
+    </div>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
