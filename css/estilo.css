@@ -91,6 +91,11 @@ button.flickity-button.flickity-prev-next-button{
 /* PARA ADAPTAR */
 
 @media screen and (max-width: 500px) {
+  /*Blog inicio*/
+  .anchoblog{
+  max-width: 25rem !important;
+  }
+
   #cajasubmenu{
     margin:auto;
     }
@@ -170,6 +175,10 @@ button.flickity-button.flickity-prev-next-button{
 }
 
 @media screen and (min-width: 501px) and (max-width: 650px){
+  /*Blog inicio*/
+  .anchoblog{
+    width: 25rem !important;
+  }
   #cajasubmenu{
     margin:auto;
     }
@@ -240,6 +249,10 @@ div.carta{
 
 
 @media screen and (min-width: 651px) and (max-width: 699px){
+  /*Blog inicio*/
+  .anchoblog{
+    width: 25rem !important;
+  }
   #cajasubmenu{
     margin:auto;
     }
@@ -308,6 +321,10 @@ div.carta{
 
 }
 @media screen and (min-width:700px) and (max-width:799px) {
+  /*Blog inicio*/
+  .anchoblog{
+    width: 25rem !important;
+  }
 #cajasubmenu{
 margin:auto;
 }
@@ -374,6 +391,10 @@ div.carta{
 }
 
 @media screen and (min-width:800px) and (max-width:991px) {
+  /*Blog inicio*/
+  .anchoblog{
+    width: 25rem !important;
+  }
   #cajasubmenu{
   margin:auto;
   }
@@ -451,6 +472,10 @@ div.carta{
 }
 
 @media screen and (min-width: 992px) and (max-width:1400px){
+  /*Blog inicio*/
+  .anchoblog{
+    width: 25rem !important;
+  }
   #cajasubmenu{
   margin-top:29px;
   }
@@ -507,6 +532,10 @@ div.carta{
 
 }
 @media screen and (min-width: 1401px) {
+  /*Blog inicio*/
+  .anchoblog{
+    width: 25rem !important;
+  }
 
   #cajasubmenu{
     margin-top:29px;
