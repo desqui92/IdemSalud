@@ -52,6 +52,9 @@ body{
   background-size:cover;
   margin-top:150px;
 }
+.redes-sociales li>a:hover img{
+  animation:bounceIn 1s forwards;
+}
 
 /*  SLIDE */
 #cartascursos .dot{

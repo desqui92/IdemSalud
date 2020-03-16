@@ -60,8 +60,8 @@
             </div>
             <div class="col-xl-4 col-lg-4 col-md-12 seccion-footer">
                 <h4 class="text-center mt-4 text-white titulo">Seguinos</h4>
-                <ul class="text-center mt-4" style="padding-left:0px;">
-                    <li style="display:inline;margin-left:5px;margin-right:5px;"><a href=""><img src="img/facebook.png" height="40" alt=""></a></li>
+                <ul class="text-center mt-4 redes-sociales" style="padding-left:0px;">
+                    <li style="display:inline;margin-left:5px;margin-right:5px;"><a href="https://www.w3schools.com"><img src="img/facebook.png" height="40" alt=""></a></li>
                     <li style="display:inline;margin-left:5px;margin-right:5px;"><a href=""><img src="img/instagram.png" height="40" alt=""></a></li>
                     <li style="display:inline;margin-left:5px;margin-right:5px;"><a href=""><img src="img/messenger.png" height="40" alt=""></a></li>
                     <li style="display:inline;margin-left:5px;margin-right:5px;"><a href=""><img src="img/youtube.png" height="40" alt=""></a></li>
