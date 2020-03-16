@@ -43,8 +43,19 @@
                 </h2>
             </div>
         </div>
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2  mt-4">
+                <img class="wow fadeInLeft" height="300" src="img/enfermerasola2.png" alt="" style="float:left;">
+                <p class="text-center wow fadeIn" style="font-weight:500;color:gray;font-size:18px;margin-top:100px;">
+                Son la “esencia y ser” de este sitio, por lo que nos complace invitarlos a participar del mismo y sumarse a ser parte de el, haciendo de éste Portal un lugar propio donde su colaboración y aporte serán de gran importancia.
+                </p>
+            </div>
+        </div>
     </div>
     </div>
+    <?php
+        include 'footer.php';
+    ?>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
