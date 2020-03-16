@@ -342,8 +342,8 @@
       </div>
   </div>
 </div>
-<div class="col-4 col-md-4 col-lg-4 col-sm-4 col-xl-4">
-<div class="card" style="width: 25rem; margin:auto;">
+<div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+<div class="card" style="width: 25rem; margin: auto;">
   <img src="img/coronavirus.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Cuidados del Coronavirus</h5>
@@ -352,8 +352,8 @@
   </div>
 </div>
   </div>
-<div class="col-4 col-md-4 col-lg-4 col-sm-4 col-xl-4">
-<div class="card" style="width: 25rem; margin:auto;">
+<div class="col-4-auto col-md-4-auto col-lg-4-auto col-sm-4-auto col-xl-4-auto mx-auto">
+<div class="card" style="width: 25rem; margin: auto;">
   <img src="img/coronavirus.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Cuidados del Coronavirus</h5>
