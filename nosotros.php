@@ -22,7 +22,7 @@
         </div>
         <div class="row">
             <div class="col-xl-8 offset-xl-2 col-md-8 offset-md-2 mt-4  col-sm-10 offset-sm-1">
-                <p class="text-center wow fadeInUp" style="font-weight:400;color:gray;font-size:18px;">Un grupo de enfermeros avocados a la tarea de conseguir un espacio que satisfaga las necesidades que día a día van surgiendo como consecuencia de la interacción con su medio ambiente. Embarcados en esta meta y con el apadrinamiento de la Editorial IDEM, es que nace este portal de enfermería, desde Argentina para toda Latinoamérica. Un sitio que consagra al personal de enfermería en su afán de servicio al cuidado de la salud, con el esmero y dedicación del cual son portadores. Un espacio brindado para los profesionales de enfermería y aquellos estudiantes, futuros enfermeros que ansían abrazar esta carrera.</p>
+                <p class="text-center wow fadeInUp" style="font-weight:500;color:gray;font-size:18px;">Un grupo de enfermeros avocados a la tarea de conseguir un espacio que satisfaga las necesidades que día a día van surgiendo como consecuencia de la interacción con su medio ambiente. Embarcados en esta meta y con el apadrinamiento de la Editorial IDEM, es que nace este portal de enfermería, desde Argentina para toda Latinoamérica. Un sitio que consagra al personal de enfermería en su afán de servicio al cuidado de la salud, con el esmero y dedicación del cual son portadores. Un espacio brindado para los profesionales de enfermería y aquellos estudiantes, futuros enfermeros que ansían abrazar esta carrera.</p>
             </div>
         </div>
         <div class="row">
@@ -32,7 +32,7 @@
         </div>
         <div class="row">
             <div class="col-xl-8 offset-xl-2 col-md-8 offset-md-2 mt-4  col-sm-10 offset-sm-1">
-                <p class="text-center wow fadeInUp" style="font-weight:400;color:gray;font-size:18px;">
+                <p class="text-center wow fadeInUp" style="font-weight:500;color:gray;font-size:18px;">
                 Queremos lograr en el portal, un lugar: Donde se congregue la profesión de enfermería de toda Latinoamérica y se fomente la integración con sus colegas. Donde puedan interactuar entre sí y enriquecer conocimientos…
                 </p>
                 <h2 class="text-center wow fadeInUp" style="color:#e62f2d;font-weight:300;">
