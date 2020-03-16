@@ -332,14 +332,14 @@
     </div>
   </div>
   <div class="row">
-  <div class="col-4 col-md-4 col-lg-4 col-sm-4 col-xl-4">
-  <div class="card" style="width: 25rem; margin:auto;">
-  <img src="img/coronavirus.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Cuiados del Coronavirus</h5>
-    <p class="card-text">Como cuidarse de esta enfermedad que ya es una pandemia a nivel global.</p>
-    <button type="button" class="btn btn-op1">Ver noticia</button>
-  </div>
+    <div class="col-4 col-md-4 col-lg-4 col-sm-4 col-xl-4">
+      <div class="card" style="width: 25rem; margin:auto;">
+      <img src="img/coronavirus.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cuiados del Coronavirus</h5>
+        <p class="card-text">Como cuidarse de esta enfermedad que ya es una pandemia a nivel global.</p>
+        <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver noticia</button>
+      </div>
   </div>
 </div>
 <div class="col-4 col-md-4 col-lg-4 col-sm-4 col-xl-4">
@@ -348,7 +348,7 @@
   <div class="card-body">
     <h5 class="card-title">Cuidados del Coronavirus</h5>
     <p class="card-text">Como cuidarse de esta enfermedad que ya es una pandemia a nivel global.</p>
-    <button type="button" class="btn btn-op1">Ver noticia</button>
+    <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver noticia</button>
   </div>
 </div>
   </div>
@@ -358,7 +358,7 @@
   <div class="card-body">
     <h5 class="card-title">Cuidados del Coronavirus</h5>
     <p class="card-text">Como cuidarse de esta enfermedad que ya es una pandemia a nivel global.</p>
-    <button type="button" class="btn btn-op1">Ver noticia</button>
+    <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver noticia</button>
   </div>
 </div>
   </div>
