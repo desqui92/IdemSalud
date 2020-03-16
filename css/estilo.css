@@ -731,7 +731,7 @@ div.carta{
   .animate	{ 
     background-image: url('../img/item-enf1rotate.png'), url('../img/item-enf2rotate.png'), url('');
     background-size: 150px 150px;
-    background-position: 80px 100px, 1100px 450px,-400px 10px;
+    background-position: 5% 100px, 95% 450px,-400px 10px;
     background-repeat: no-repeat, no-repeat, repeat;
     animation: animated 4s linear infinite;
     -webkit-animation: animated 4s linear infinite;
@@ -740,9 +740,9 @@ div.carta{
 }
 
 @keyframes animated {
-    0%   {background-position: 80px 120px,1100px 470px, 0 0;}
-50%  {background-position: 80px 100px, 1100px 450px, 50% 0;}
-100% {background-position: 80px 120px, 1100px 470px, 100% 0;}
+    0%   {background-position: 5% 120px,95% 470px, 0 0;}
+50%  {background-position: 5% 100px, 95% 450px, 50% 0;}
+100% {background-position: 5% 120px, 95% 470px, 100% 0;}
 }
 
 @-webkit-keyframes animated {
