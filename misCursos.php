@@ -99,11 +99,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12 offset-xl-1">
-                        <div style="float:left;">
+            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
+                        <div style="float:left; margin-right:10px;">
                             <img src="//placehold.it/200" class="img-fluid" alt="">
                         </div>
-                        <div style="float:left;" style="padding-left:10px;">
+                        <div style="margin-left:10px;">
                                     <h4 class="card-title">Curso de Enfermería 1</h4>
                                     <p class="card-text">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
                                     <a href="#" class="btn btn-primary">BUTTON</a>
