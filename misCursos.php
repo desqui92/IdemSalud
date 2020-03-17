@@ -99,24 +99,15 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
-                <div class="card">
-                    <div class="row no-gutters">
-                        <div class="col-12-auto">
+            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12 offset-xl-1">
+                        <div style="float:left;">
                             <img src="//placehold.it/200" class="img-fluid" alt="">
                         </div>
-                        <div class="col-12-auto">
-                            <div class="card-block px-2">
-                                <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Description</p>
+                        <div style="float:left;" style="padding-left:10px;">
+                                    <h4 class="card-title">Curso de Enfermería 1</h4>
+                                    <p class="card-text">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
                                     <a href="#" class="btn btn-primary">BUTTON</a>
-                            </div>
                         </div>
-                    </div>
-                    <div class="card-footer w-100 text-muted">
-                        Footer stating cats are CUTE little animals
-                    </div>
-                </div>
             </div>
         </div>
     </div>
