@@ -16,6 +16,40 @@
     <div class="container-fluid" style="margin-top:60px;">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
+                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Sigue nuestros pasos</h1>
+                <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
+                <h2 class="text-center wow fadeInUp" style="text-align:center; font-size:14px;color:#6c757d; margin-bottom:40px;">Te recomedamos que sigas los siguientes pasos para poder realizar los cursos.</h2>
+            </div>
+        </div>
+        <div class="row" style="margin-top:20px; margin-bottom:40px;">
+            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12 text-center">
+                <figure class="figure" style="display:inline-table;">
+                <img class="wow fadeInUp" src="img/credencial.png" style="padding-bottom:30px;margin-right:34px; margin-left:34px;">
+                <figcaption class="figure-caption text-center" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Registrate en el sitio</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Crea una cuenta de usuario</span></figcaption>
+                </figure>
+                <h2 class="wow fadeinUp" style="font-size:14;color:#6c757d; display:inline;">---------------------</h2>
+                <img class="wow fadeInUp" src="img/flechacostadoderecha.png" style="display:inline;">
+                <h2 class="wow fadeinUp" style="font-size:14;color:#6c757d; display:inline;">---------------------</h2>
+                <figure class="figure" style="display:inline-table;">
+                <img class="wow fadeInUp" src="img/lapicera.png" style="padding-bottom:30px; display:inline; margin-right:34px; margin-left:34px;">
+                <figcaption class="figure-caption text-center" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Elige un curso</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Compra uno o mas cursos</span></figcaption>
+                </figure>
+                <h2 class="wow fadeinUp" style="font-size:14;color:#6c757d; display:inline;">---------------------</h2>
+                <img class="wow fadeInUp" src="img/flechacostadoderecha.png" style="display:inline;">
+                <h2 class="wow fadeinUp" style="font-size:14;color:#6c757d; display:inline;">---------------------</h2>
+                <figure class="figure" style="display:inline-table;">
+                <img class="wow fadeinUp" src="img/certificado.png" style="padding-bottom:30px; display:inline; margin-right:34px; margin-left:34px;">
+                <figcaption class="figure-caption text-center" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Termina el curso</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Recibe tu certificado</span></figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
                 <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Nuestros Profesores</h1>
                 <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
@@ -58,21 +92,34 @@
                 </div>
             </div>
         </div>
-    <div class="row">
+        <div class="row">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
                 <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Nuestros cursos</h1>
                 <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
         </div>
-    </div>
-    <div class="row">
+        <div class="row">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
-                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Nuestros cursos</h1>
-                <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-12-auto">
+                            <img src="//placehold.it/200" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-12-auto">
+                            <div class="card-block px-2">
+                                <h4 class="card-title">Title</h4>
+                                    <p class="card-text">Description</p>
+                                    <a href="#" class="btn btn-primary">BUTTON</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer w-100 text-muted">
+                        Footer stating cats are CUTE little animals
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
