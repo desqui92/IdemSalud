@@ -100,7 +100,7 @@
                 <div class="row">
                     <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
                         <div style="float:left; margin-right:10px;">
-                            <img src="img/card3.jpg" class="img-fluid" alt="">
+                            <img src="img/card4.jpg" class="img-fluid" alt="">
                         </div>
                         <div style="margin-left:10px;">
                             <h4 class="card-title">Curso de Enfermería 1</h4>
@@ -144,7 +144,7 @@
                 <div class="row">
                     <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
                         <div style="float:left; margin-right:10px;">
-                            <img src="img/card5.jpg" class="img-fluid" alt="">
+                            <img src="img/card4.jpg" class="img-fluid" alt="">
                         </div>
                         <div style="margin-left:10px;">
                             <h4 class="card-title">Curso de Enfermería 3</h4>
@@ -166,7 +166,7 @@
                 <div class="row">
                     <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
                         <div style="float:left; margin-right:10px;">
-                            <img src="img/card6.jpg" class="img-fluid" alt="">
+                            <img src="img/card4.jpg" class="img-fluid" alt="">
                         </div>
                         <div style="margin-left:10px;">
                             <h4 class="card-title">Curso de Enfermería 4</h4>
@@ -188,7 +188,7 @@
                 <div class="row">
                     <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
                         <div style="float:left; margin-right:10px;">
-                            <img src="img/card7.jpg" class="img-fluid" alt="">
+                            <img src="img/card4.jpg" class="img-fluid" alt="">
                         </div>
                         <div style="margin-left:10px;">
                             <h4 class="card-title">Curso de Enfermería 1</h4>
