@@ -24,14 +24,14 @@
                     <img class="d-block mx-auto" src="img/logo.png" height="50" alt="">
                     <h6 class="text-center mt-2">A continuación ingrese sus datos</h6>
                     <div class="form-group">
-                        <label for="exampleInputEmail1"><i class="far fa-user fa-lg"></i> Email</label>
-                        <input type="email" class="form-control input-op1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese email">
+                        <label for="email"><i class="far fa-user fa-lg"></i> Email</label>
+                        <input type="email" class="form-control input-op1" name="email" id="email" aria-describedby="emailHelp" placeholder="Ingrese email">
                         <small id="emailHelp" class="form-text text-muted">Aquí va la validacion de error de email</small>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1"><i class="fas fa-unlock-alt fa-lg"></i> Contraseña</label>
-                        <input type="password" class="form-control input-op1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese email">
-                        <small id="emailHelp" class="form-text text-muted">Aquí va la validacion de error de password</small>
+                        <label for="clave"><i class="fas fa-unlock-alt fa-lg"></i> Contraseña</label>
+                        <input type="password" class="form-control input-op1" name="clave" id="clave" aria-describedby="claveHelp" placeholder="Ingrese contraseña">
+                        <small id="claveHelp" class="form-text text-muted">Aquí va la validacion de error de password</small>
                     </div>
                     <p class="text-center">¡Los datos son incorrectos!</p>
                     <div class="text-center">
@@ -45,9 +45,9 @@
                     <img class="d-block mx-auto" src="img/logo.png" height="50" alt="">
                     <h6 class="text-center mt-2">A continuación ingrese sus datos</h6>
                     <div class="form-group">
-                        <label for="exampleInputEmail1"><i class="far fa-user fa-lg"></i> Nombre y Apellido</label>
-                        <input type="email" class="form-control input-op1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese Nombre y Apellido">
-                        <small id="emailHelp" class="form-text text-muted">Aquí va la validacion de error de nombre y apellido</small>
+                        <label for="nomApe"><i class="far fa-user fa-lg"></i> Nombre y Apellido</label>
+                        <input type="text"  class="form-control input-op1" name="nomApe" id="nomApe" aria-describedby="nomApeHelp" placeholder="Ingrese Nombre y Apellido">
+                        <small id="nomApeHelp" class="form-text text-muted">Aquí va la validacion de error de nombre y apellido</small>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1"><i class="far fa-envelope fa-lg"></i> Email</label>
