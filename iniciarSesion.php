@@ -33,7 +33,7 @@
                         <input type="password" class="form-control input-op1" name="clave" id="clave" aria-describedby="claveHelp" placeholder="Ingrese contraseña">
                         <small id="claveHelp" class="form-text text-muted">Aquí va la validacion de error de password</small>
                     </div>
-                    <p class="text-center">¡Los datos son incorrectos!</p>
+                    <p class="text-center" id="avisoLogin"></p>
                     <div class="text-center">
                         <div class="btn-group" role="group" aria-label="Basic example">
                             <button type="button" id="registrarme" onclick="irRegistro()" class="btn btn-op1 mr-2"><i class="fas fa-user-plus fa-lg"></i> Registrarme</button>

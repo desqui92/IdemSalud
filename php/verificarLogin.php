@@ -42,19 +42,23 @@ if(mysqli_num_rows($res)==1){
             /* Variable de sesion que indica que esta logueado */
             $_SESSION['conectado']='true';
         
-            echo "entras!! puto!";
+            /* 1 sigfinica que logueo */
+            echo "1";
         
         }else{
             /* Variable de sesion que indica que no esta logueado */
             $_SESSION['conectado']='false';
         
-            echo "le pifiaste algun dato conchudo";
+            /* 2 significa que tiene el email validado pero los datos ingredos son incorrectos*/
+            echo "2";
         }   
     }else{
-        echo "pelotudo te olvidaste de validar el email";
+        /* 3 significa que falta validad el email de la cuenta */
+        echo "3";
     }
 }else{
-    echo "No existe la cuenta";
+    /* 0 signifia que la cuenta no existe */
+    echo "0";
 }
 
 
