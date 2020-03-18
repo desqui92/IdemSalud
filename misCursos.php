@@ -27,21 +27,17 @@
         </div>
         <div class="row" style="margin-top:20px; margin-bottom:40px;">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12 text-center">
-                <figure class="figure" style="display:inline-table;">
+                <figure class="figure">
                 <img class="wow fadeInUp" src="img/credencial.png" style="padding-bottom:30px;margin-right:34px; margin-left:34px;">
                 <figcaption class="figure-caption text-center" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Registrate en el sitio</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Crea una cuenta de usuario</span></figcaption>
                 </figure>
-                <h2 class="wow fadeinUp" style="font-size:14;color:#6c757d; display:inline;">---------------------</h2>
-                <img class="wow fadeInUp" src="img/flechacostadoderecha.png" style="display:inline;">
-                <h2 class="wow fadeinUp" style="font-size:14;color:#6c757d; display:inline;">---------------------</h2>
-                <figure class="figure" style="display:inline-table;">
+                <img class="wow fadeInUp" src="img/flechacostadoderecha.png" style="display:inline; padding-bottom:100px;">
+                <figure class="figure">
                 <img class="wow fadeInUp" src="img/lapicera.png" style="padding-bottom:30px; display:inline; margin-right:34px; margin-left:34px;">
                 <figcaption class="figure-caption text-center" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Elige un curso</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Compra uno o mas cursos</span></figcaption>
                 </figure>
-                <h2 class="wow fadeinUp" style="font-size:14;color:#6c757d; display:inline;">---------------------</h2>
-                <img class="wow fadeInUp" src="img/flechacostadoderecha.png" style="display:inline;">
-                <h2 class="wow fadeinUp" style="font-size:14;color:#6c757d; display:inline;">---------------------</h2>
-                <figure class="figure" style="display:inline-table;">
+                <img class="wow fadeInUp" src="img/flechacostadoderecha.png" style="display:inline; padding-bottom:100px;">
+                <figure class="figure">
                 <img class="wow fadeinUp" src="img/certificado.png" style="padding-bottom:30px; display:inline; margin-right:34px; margin-left:34px;">
                 <figcaption class="figure-caption text-center" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Termina el curso</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Recibe tu certificado</span></figcaption>
                 </figure>
@@ -54,8 +50,8 @@
                 <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
         </div>
-        <div class="row">
-            <div class="col-3-auto col-md-3-auto col-lg-3-auto col-sm-3-auto col-xl-3-auto mx-auto">
+        <div class="row" style="display:-webkit-box;">
+            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto">
                 <div class="card" style="width: 18rem; border:none;">
                     <img class="card-img-top" src="img/img-1.jpg" alt="Card image cap">
                     <div class="card-body text-center">
@@ -64,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3-auto col-md-3-auto col-lg-3-auto col-sm-3-auto col-xl-3-auto mx-auto">
+            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto">
                 <div class="card" style="width: 18rem; border:none;">
                     <img class="card-img-top" src="img/img-2.jpg" alt="Card image cap">
                     <div class="card-body text-center">
@@ -73,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3-auto col-md-3-auto col-lg-3-auto col-sm-3-auto col-xl-3-auto mx-auto">
+            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto">
                 <div class="card" style="width: 18rem; border:none;">
                     <img class="card-img-top" src="img/img-3.jpg" alt="Card image cap">
                     <div class="card-body text-center">
@@ -82,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3-auto col-md-3-auto col-lg-3-auto col-sm-3-auto col-xl-3-auto mx-auto">
+            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto">
                 <div class="card" style="width: 18rem; border:none;">
                     <img class="card-img-top" src="img/img-4.jpg" alt="Card image cap">
                     <div class="card-body text-center">
