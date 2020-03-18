@@ -16,7 +16,7 @@
     <div class="container-fluid" style="margin-top:60px;">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
-                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Sigue nuestros pasos</h1>
+                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/pasos.png" height="40" alt="">Sigue nuestros pasos</h1>
                 <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
         </div>
@@ -46,7 +46,7 @@
 
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
-                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Nuestros Profesores</h1>
+                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/profesores.png" height="40" alt="">Nuestros Profesores</h1>
                 <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
         </div>
@@ -90,7 +90,7 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
-                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Nuestros cursos</h1>
+                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos-pc.png" height="40" alt="">Nuestros cursos</h1>
                 <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
         </div>
