@@ -106,7 +106,7 @@
                             <h4 class="card-title">Curso de Enfermería 1</h4>
                             <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
                             <p class="card-text" style="width:60%;">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
-                            <a href="#" class="btn btn-primary">BUTTON</a>
+                            <button type="button" class="btn btn-op1"><i class="far fa-user-circle fa-lg"></i> Ver curso</button>
                         </div>
                     </div>
                     <div class="col-2 col-md-2 col-lg-2 col-sm-2 col-xl-2">
@@ -128,7 +128,7 @@
                             <h4 class="card-title">Curso de Enfermería 2</h4>
                             <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
                             <p class="card-text" style="width:60%;">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
-                            <a href="#" class="btn btn-primary">BUTTON</a>
+                            <button type="button" class="btn btn-op1"><i class="far fa-user-circle fa-lg"></i> Ver curso</button>
                         </div>
                     </div>
                     <div class="col-2 col-md-2 col-lg-2 col-sm-2 col-xl-2">
@@ -150,7 +150,7 @@
                             <h4 class="card-title">Curso de Enfermería 3</h4>
                             <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
                             <p class="card-text" style="width:60%;">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
-                            <a href="#" class="btn btn-primary">BUTTON</a>
+                            <button type="button" class="btn btn-op1"><i class="far fa-user-circle fa-lg"></i> Ver curso</button>
                         </div>
                     </div>
                     <div class="col-2 col-md-2 col-lg-2 col-sm-2 col-xl-2">
@@ -172,7 +172,7 @@
                             <h4 class="card-title">Curso de Enfermería 4</h4>
                             <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
                             <p class="card-text" style="width:60%;">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
-                            <a href="#" class="btn btn-primary">BUTTON</a>
+                            <button type="button" class="btn btn-op1"><i class="far fa-user-circle fa-lg"></i> Ver curso</button>
                         </div>
                     </div>
                     <div class="col-2 col-md-2 col-lg-2 col-sm-2 col-xl-2">
@@ -194,7 +194,7 @@
                             <h4 class="card-title">Curso de Enfermería 1</h4>
                             <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
                             <p class="card-text" style="width:60%;">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
-                            <a href="#" class="btn btn-primary">BUTTON</a>
+                            <button type="button" class="btn btn-op1"><i class="far fa-user-circle fa-lg"></i> Ver curso</button>
                         </div>
                     </div>
                     <div class="col-2 col-md-2 col-lg-2 col-sm-2 col-xl-2">
