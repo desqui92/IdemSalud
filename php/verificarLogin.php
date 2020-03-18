@@ -18,7 +18,9 @@ $sql->bind_param("ss",$email,$clave);
 $sql->execute();
 $res=$sql->get_result();
 $user=$res->fetch_assoc();
-echo $user['idUsuario'];
+echo mysqli_num_rows($res);
+
+/* 
 
 
 
