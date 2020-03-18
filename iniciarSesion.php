@@ -20,7 +20,7 @@
         </div>
         <div class="row">
             <div class="col-xl-4 offset-xl-4">
-                <form action="" method="post" id="form-login" class="animated fadeInUp">
+                <form action="" method="post" id="form-login" class="animated fadeInUp" onsubmit="verificarLogin()">
                     <img class="d-block mx-auto" src="img/logo.png" height="50" alt="">
                     <h6 class="text-center mt-2">A continuación ingrese sus datos</h6>
                     <div class="form-group">
@@ -37,7 +37,7 @@
                     <div class="text-center">
                         <div class="btn-group" role="group" aria-label="Basic example">
                             <button type="button" id="registrarme" onclick="irRegistro()" class="btn btn-op1 mr-2"><i class="fas fa-user-plus fa-lg"></i> Registrarme</button>
-                            <button type="button" id="entrar" onclick="loguearme()" class="btn btn-op1 ml-2"><i class="fas fa-sign-in-alt fa-lg"></i> Entrar</button>
+                            <button type="submit" id="entrar" onclick="" class="btn btn-op1 ml-2"><i class="fas fa-sign-in-alt fa-lg"></i> Entrar</button>
                         </div>
                     </div>
                 </form>
@@ -84,5 +84,6 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/funciones.js"></script>
+    <script src="ajax/functiones.js"></script>
 </body>
 </html>
