@@ -18,28 +18,50 @@
         <a class="link1 text-muted"href="blog.php" style="font-family:Montserrat;"><img class="iconos" style="vertical-align:baseline;" src="img/blog.png" height="25" alt=""> Blog</a>
       </li>
     </ul>
+
+
+<?php
+    if ($_SESSION['conectado']=="true") {
+?>
+
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:gray;font-weight:400;text-decoration:none;margin-right: 20px;">
-          <img src="img/user-student.png" height="20" style="vertical-align: text-bottom;" alt=""> Mi Perfíl
+          <?php
+            switch ($_SESSION['rango']) {
+              case '1':
+                echo "<img src='img/user-admin.png' height='20' style='vertical-align: text-bottom;' alt=''>";
+                break;
+              case '2':
+                echo "<img src='img/user-teacher.png' height='20' style='vertical-align: text-bottom;' alt=''>";
+              break; 
+              case '3':
+                echo "<img src='img/user-publicista.png' height='20' style='vertical-align: text-bottom;' alt=''>";
+              break; 
+              case '4':
+                echo "<img src='img/user-student.png' height='20' style='vertical-align: text-bottom;' alt=''>";
+              break;   
+            }
+          ?>
+           Mi Perfíl
         </a>
         <div  id="submenu" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-address-card fa-lg"></i> Mis datos</a>
           <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-book-reader fa-lg"></i> Mis cursos</a>
-       <!--   <div class="dropdown-divider"></div>-->
+          <!--   <div class="dropdown-divider"></div>-->
           <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-arrow-left fa-lg"></i> Ir a inicio</a>
-          <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-power-off fa-lg"></i> Cerrar Sesión</a>
+          <a class="dropdown-item" href="cerrarSesion.php" style="padding:20px 60px 20px 60px;"><i class="fas fa-power-off fa-lg"></i> Cerrar Sesión</a>
         </div>
       </li>
     </ul>
-    <div style="margin-right:15px; margin-top:-10px;" class="d-none justify-content-center"><!-- aca va un d-flex -->
+
+<?php
+    }else{
+?>
+
+    <div style="margin-right:15px; margin-top:-10px;" class="d-flex justify-content-center"><!-- aca va un d-flex -->
       <form class="form-inline my-2 my-lg-0">
       <div class="input-group mb-3" style="margin-right:10px; margin-top:15px;">
- <!-- <div class="input-group-prepend">
-    <span class="input-group-text" id="basic-addon1" style="background-color:red;"><i class="fa fa-search" style="color:white;"></i></span>
-  </div>
-  <input type="text" class="form-control" placeholder="Buscar..." aria-label="Username" aria-describedby="basic-addon1" style="font-size:15px;font-family:opensans">
-</div> -->
           </form></div>
     <div id="div1" style="display:block;margin:auto;text-align:center;">  
     <script> 
@@ -63,8 +85,11 @@
       </div>
     <button onclick="window.location='iniciarSesion.php'" type="button" class="btn btn-op1"><i class="far fa-user-circle fa-lg"></i> Entrar / Registrarse</button> </div>-->
     
-</div>
-</div>
+  </div>
+  </div>
+<?php
+  } 
+?>
    <!-- <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Iniciar Sesión</button></div>
     <div style="margin-right:15px;"><button type="button" class="btn btn-outline-danger">Regístrate</button></div>-->
 </nav>

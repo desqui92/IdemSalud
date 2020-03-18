@@ -12,7 +12,7 @@ function verificarLogin() {
               $('#avisoLogin').text('¡Datos incorrectos!');
               break;
             case '1':
-              alert('usted se logueo');
+              window.location='index.php';
               break;
             case '2':
                 $('#avisoLogin').text('¡Datos incorrectos!');

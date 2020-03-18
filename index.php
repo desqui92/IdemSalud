@@ -1,3 +1,8 @@
+<?php
+  session_start();
+?>
+
+
 <html lang="es">
 <head> <!-- sdfsdfsdfajja para qu-->
     <meta charset="UTF-8">
@@ -30,6 +35,7 @@
   <?php
     include 'menu-web.php';
   ?>
+  
 
   <!-- CONETENEDOR DE INFORMACION DE INICIO -->
   <div class="container-fluid" id="inicio-seccion" style="position:relative;">

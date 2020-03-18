@@ -53,10 +53,16 @@ if(mysqli_num_rows($res)==1){
             echo "2";
         }   
     }else{
+        /* Variable de sesion que indica que no esta logueado */
+        $_SESSION['conectado']='false';
+
         /* 3 significa que falta validad el email de la cuenta */
         echo "3";
     }
 }else{
+    /* Variable de sesion que indica que no esta logueado */
+    $_SESSION['conectado']='false';
+    
     /* 0 signifia que la cuenta no existe */
     echo "0";
 }

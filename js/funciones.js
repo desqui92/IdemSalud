@@ -18,7 +18,7 @@ function mensajeAyuda(){
         var snd = new Audio("sound/mensaje.mp3");
         snd.play();
         $('.mensaje-ayuda').show();
-      },1000);
+      },30000);
 }
 
 function cerrarMensaje(){
