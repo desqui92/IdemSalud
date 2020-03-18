@@ -50,7 +50,7 @@
                         <small id="emailHelp" class="form-text text-muted">Aquí va la validacion de error de nombre y apellido</small>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1"><i class="far fa-user fa-lg"></i> Email</label>
+                        <label for="exampleInputEmail1"><i class="far fa-envelope fa-lg"></i> Email</label>
                         <input type="email" class="form-control input-op1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese email">
                         <small id="emailHelp" class="form-text text-muted">Aquí va la validacion de error de email</small>
                     </div>
