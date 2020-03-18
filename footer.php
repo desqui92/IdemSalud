@@ -21,7 +21,7 @@
                     <p class="text-center text-white"><img style="vertical-align:bottom;" src="img/telefono.png" height="40" alt=""> +54 221 655-2211</p>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-12 seccion-footer">
+            <div class="col-xl-4-auto col-lg-4-auto col-md-12-auto seccion-footer mx-auto">
                 <h4 class="text-center mt-4 text-white titulo">Últimas noticias</h4>
                 <div class="mt-4">
                     <div class="row">
