@@ -18,6 +18,7 @@
         <div class="row">
             <div class="col wow fadeInUp">
                 <h1 class="text-center" style="font-size:36px;margin-top:60px;color:black;"><img style="vertical-align:sub;" src="img/nosotros.png" height="40" alt=""> ¿Quienes Somos?</h1>
+                <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
         </div>
         <div class="row">
@@ -28,6 +29,7 @@
         <div class="row">
             <div class="col wow fadeInUp">
                 <h1 class="text-center" style="font-size:36px;margin-top:60px;color:black;">Nuestro Objetivo <img style="vertical-align:sub;" src="img/goal.png" height="40" alt=""></h1>
+                <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
         </div>
         <div class="row">

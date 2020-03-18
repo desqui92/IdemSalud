@@ -23,7 +23,8 @@
     <div class="container-fluid">
     <div class="row">
             <div class="col wow fadeInUp">
-            <h1 class="text-center" style="font-size:36px;margin-top:60px;color:black;"><img style="vertical-align:sub;" src="img/blog.png" height="40" alt=""> Blog</h1>
+            <h1 class="text-center" style="font-size:36px;margin-top:60px;color:black;"><img style="vertical-align:sub;" src="img/blog.png" height="40" alt="">Nuestro Blog</h1>
+            <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
     </div>
     <div class="row  wow fadeIn slow">

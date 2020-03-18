@@ -16,7 +16,7 @@
     <div class="container-fluid" style="margin-top:60px;">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
-                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Sigue nuestros pasos</h1>
+                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/pasos.png" height="40" alt="">Sigue nuestros pasos</h1>
                 <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
         </div>
@@ -26,32 +26,32 @@
             </div>
         </div>
         <div class="row" style="margin-top:20px; margin-bottom:40px;">
-            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12 text-center">
+            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12 text-center wow fadInUp">
                 <figure class="figure">
-                <img class="wow fadeInUp" src="img/credencial.png" style="padding-bottom:30px;margin-right:34px; margin-left:34px;">
-                <figcaption class="figure-caption text-center" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Registrate en el sitio</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Crea una cuenta de usuario</span></figcaption>
+                <img class="wow fadeIn" src="img/credencial.png" style="padding-bottom:30px;margin-right:34px; margin-left:34px;">
+                <figcaption class="figure-caption text-center wow fadeIn" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Registrate en el sitio</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Crea una cuenta de usuario</span></figcaption>
                 </figure>
-                <img class="wow fadeInUp" src="img/flechacostadoderecha.png" style="display:inline; padding-bottom:100px;">
+                <img class="wow fadeIn" src="img/flechacostadoderecha.png" style="display:inline; padding-bottom:100px;">
                 <figure class="figure">
-                <img class="wow fadeInUp" src="img/lapicera.png" style="padding-bottom:30px; display:inline; margin-right:34px; margin-left:34px;">
-                <figcaption class="figure-caption text-center" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Elige un curso</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Compra uno o mas cursos</span></figcaption>
+                <img class="wow fadeIn" src="img/lapicera.png" style="padding-bottom:30px; display:inline; margin-right:34px; margin-left:34px;">
+                <figcaption class="figure-caption text-center wow fadeIn" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Elige un curso</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Compra uno o mas cursos</span></figcaption>
                 </figure>
-                <img class="wow fadeInUp" src="img/flechacostadoderecha.png" style="display:inline; padding-bottom:100px;">
+                <img class="wow fadeIn" src="img/flechacostadoderecha.png" style="display:inline; padding-bottom:100px;">
                 <figure class="figure">
-                <img class="wow fadeinUp" src="img/certificado.png" style="padding-bottom:30px; display:inline; margin-right:34px; margin-left:34px;">
-                <figcaption class="figure-caption text-center" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Termina el curso</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Recibe tu certificado</span></figcaption>
+                <img class="wow fadein" src="img/certificado.png" style="padding-bottom:30px; display:inline; margin-right:34px; margin-left:34px;">
+                <figcaption class="figure-caption text-center wow fadeIn" style="margin-top:-10px;"><span style="font-size:16px; font-weight:600;">Termina el curso</span><br><span style="font-size:14px;color:#6c757d;font-weight:400;">Recibe tu certificado</span></figcaption>
                 </figure>
             </div>
         </div>
 
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
-                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Nuestros Profesores</h1>
+                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/profesores.png" height="40" alt="">Nuestros Profesores</h1>
                 <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
         </div>
         <div class="row" style="display:-webkit-box;">
-            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto">
+            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto wow fadeIn">
                 <div class="card" style="width: 18rem; border:none;">
                     <img class="card-img-top" src="img/img-1.jpg" alt="Card image cap">
                     <div class="card-body text-center">
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto">
+            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto wow fadeIn">
                 <div class="card" style="width: 18rem; border:none;">
                     <img class="card-img-top" src="img/img-2.jpg" alt="Card image cap">
                     <div class="card-body text-center">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto">
+            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto wow fadeIn">
                 <div class="card" style="width: 18rem; border:none;">
                     <img class="card-img-top" src="img/img-3.jpg" alt="Card image cap">
                     <div class="card-body text-center">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto">
+            <div class="col-3-auto col-md-6-auto col-lg-6-auto col-sm-3-auto col-xl-3-auto mx-auto wow fadeIn">
                 <div class="card" style="width: 18rem; border:none;">
                     <img class="card-img-top" src="img/img-4.jpg" alt="Card image cap">
                     <div class="card-body text-center">
@@ -90,11 +90,11 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
-                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos.png" height="40" alt="">Nuestros cursos</h1>
+                <h1 class="text-center wow fadeInUp" style="text-align:center; margin-top:-20px; margin-bottom:10px;"><img style="vertical-align:sub;" src="img/cursos-pc.png" height="40" alt="">Nuestros cursos</h1>
                 <hr style="border-top: 2px solid red; width:60px; margin-bottom:40px;">
             </div>
         </div>
-        <div class="row" style="margin-top:20px;">
+        <div class="row wow fadeIn" style="margin-top:20px;">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
                 <hr style="border:1px solid gainsboro;">
                 <div class="row">
@@ -117,7 +117,7 @@
                 <hr style="border:1px solid gainsboro;">
             </div>
         </div>
-        <div class="row">
+        <div class="row wow fadeIn">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
                 <div class="row">
                     <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
@@ -139,7 +139,7 @@
                 <hr style="border:1px solid gainsboro;">
             </div>
         </div>
-        <div class="row">
+        <div class="row wow fadeIn">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
                 <div class="row">
                     <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
@@ -161,7 +161,7 @@
                 <hr style="border:1px solid gainsboro;">
             </div>
         </div>
-        <div class="row">
+        <div class="row wow fadeIn">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
                 <div class="row">
                     <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
@@ -183,7 +183,7 @@
                 <hr style="border:1px solid gainsboro;">
             </div>
         </div>
-        <div class="row">
+        <div class="row wow fadeIn">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
                 <div class="row">
                     <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
@@ -213,5 +213,9 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/funciones.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0&appId=1931725970234358&autoLogAppEvents=1"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 </html>
