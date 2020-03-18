@@ -13,12 +13,10 @@
 
 
 -- Volcando estructura de base de datos para idemsalud
-DROP DATABASE IF EXISTS `idemsalud`;
 CREATE DATABASE IF NOT EXISTS `idemsalud` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `idemsalud`;
 
 -- Volcando estructura para tabla idemsalud.cursos
-DROP TABLE IF EXISTS `cursos`;
 CREATE TABLE IF NOT EXISTS `cursos` (
   `idCurso` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `nombre` varchar(90) NOT NULL,
@@ -38,7 +36,6 @@ CREATE TABLE IF NOT EXISTS `cursos` (
 /*!40000 ALTER TABLE `cursos` ENABLE KEYS */;
 
 -- Volcando estructura para tabla idemsalud.usuarios
-DROP TABLE IF EXISTS `usuarios`;
 CREATE TABLE IF NOT EXISTS `usuarios` (
   `idUsuario` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `dni` char(8) DEFAULT NULL,
@@ -48,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `ciudad` varchar(50) DEFAULT NULL,
   `telefono` varchar(30) DEFAULT NULL,
   `email` varchar(50) NOT NULL,
-  `clave` varchar(50) NOT NULL,
+  `clave` varchar(200) NOT NULL,
   `tokenEmail` varchar(50) NOT NULL,
   `estado` tinyint(1) NOT NULL DEFAULT 0,
   `rango` tinyint(2) unsigned NOT NULL DEFAULT 0,
@@ -61,11 +58,10 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 -- Volcando datos para la tabla idemsalud.usuarios: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
 INSERT INTO `usuarios` (`idUsuario`, `dni`, `nomApe`, `fechaNac`, `provincia`, `ciudad`, `telefono`, `email`, `clave`, `tokenEmail`, `estado`, `rango`, `fotoPerfil`) VALUES
-	(3, '40714325', 'Flores Mariano', '1994-03-12', 'Buenos Aires', 'La Plata', '2216775544', 'pepe@hotmail.com', 'pepe', 'sjdajdj23j2jjsdsd', 0, 0, NULL);
+	(3, '40714325', 'Flores Mariano', '1994-03-12', 'Buenos Aires', 'La Plata', '2216775544', 'pepe@hotmail.com', '$2y$10$L4sJKaamvqqlvLB8qYM7y.Pzr/dIctpPBxsnj24bgF3Vhp.f4xHXG', 'sjdajdj23j2jjsdsd', 0, 0, NULL);
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 
 -- Volcando estructura para tabla idemsalud.usuarios_cursos
-DROP TABLE IF EXISTS `usuarios_cursos`;
 CREATE TABLE IF NOT EXISTS `usuarios_cursos` (
   `idUsuarioCurso` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `idUsuario` int(11) unsigned NOT NULL,
