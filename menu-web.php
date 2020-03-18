@@ -47,7 +47,21 @@
         </a>
         <div  id="submenu" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-address-card fa-lg"></i> Mis datos</a>
-          <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-book-reader fa-lg"></i> Mis cursos</a>
+          <?php
+           if ($_SESSION['rango']=='4') {
+          ?>
+            <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-book-reader fa-lg"></i> Mis cursos</a>
+          <?php
+            } 
+          ?>
+          <?php
+            if ($_SESSION['rango']='1') {
+              
+          ?>
+            <a class="dropdown-item" href="administracion.php" style="padding:20px 60px 20px 60px;"><i class="fas fa-tools fa-lg"></i> Administración</a>
+          <?php
+            }
+          ?>
           <!--   <div class="dropdown-divider"></div>-->
           <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-arrow-left fa-lg"></i> Ir a inicio</a>
           <a class="dropdown-item" href="cerrarSesion.php" style="padding:20px 60px 20px 60px;"><i class="fas fa-power-off fa-lg"></i> Cerrar Sesión</a>

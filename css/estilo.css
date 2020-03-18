@@ -891,3 +891,41 @@ body > div:nth-child(2) > div:nth-child(3) > div > img:nth-child(4){
   animation: bounceInRight 1s forwards;
   box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
 }
+
+
+/* MENU ADMINISTRACION */
+#menu-administracion{
+  /* rojo oscuro */
+  background:#CE2D2B;
+  padding: 0px;
+  box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.75);
+  height: 100vh;
+  overflow-y:auto;
+}
+#saludo{
+  margin-top:30%;
+}
+#saludo h1{
+  font-weight: 200;
+}
+#menu-administracion #logo-menu{
+  background: white;
+  padding: 20px;
+}
+#menu-administracion #foto-perfil{
+  border:2px solid white;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+#menu-administracion .nav .nav-item>a{
+  color:white;
+  font-weight: 400;
+  padding: 15px;
+}
+#menu-administracion .nav .nav-item>a:hover{
+  background: white;
+}
+
+
+
+
