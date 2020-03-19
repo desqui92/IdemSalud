@@ -1,8 +1,14 @@
-<nav class="navbar navbar-expand-lg" id="navid" style="box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);z-index:1;font-family:Montserrat; font-size:15px;">
+<nav class="navbar navbar-expand-lg navbar-light" id="navid" style="box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);z-index:1;font-family:Montserrat; font-size:15px;">
 <a class="navbar-brand" href="#"><img src="img/logo.png" style="margin-left:10px;"></a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-<i class="fas fa-bars"></i>
-  </button>
+<!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+  <i class="fas fa-bars"></i>
+ <span class="navbar-toggler-icon"></span>
+</button>-->
+<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>				
+</button>
 <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="text-align:justify;">
     <ul class="navbar-nav mr-auto margenabajo ordenaritems" style="font-weight:600;">
         <li class="nav-item margenabajo" id="inicio1">

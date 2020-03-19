@@ -927,5 +927,49 @@ body > div:nth-child(2) > div:nth-child(3) > div > img:nth-child(4){
 }
 
 
+/* ANIMACION BOTON MENU RESPONSIVE */
+.icon-bar {
+	width: 20px; 
+  height: 2px;
+  background-color: black;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggler:focus{
+  outline: none;
+  box-shadow: 0px;
+}
+
+.navbar-toggler .top-bar {
+    transform: rotate(52deg);
+    transform-origin: 10% 10%;
+  }
+   
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+   
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-52deg);
+    transform-origin: 10% 90%;
+  }
+   
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+   
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+   
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+
 
 
