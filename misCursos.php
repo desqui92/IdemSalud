@@ -98,18 +98,18 @@
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
                 <hr style="border:1px solid gainsboro;">
                 <div class="row">
-                    <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
-                        <div style="float:left; margin-right:10px;">
-                            <img src="img/card4.jpg" class="img-fluid" alt="">
+                    <div class="col-12 col-md-10 col-lg-10 col-sm-12 col-xl-10 dblockimagen">
+                        <div style="margin-right:10px;" class="dblock imagenizquierda">
+                            <img src="img/card4.jpg" style="width:250px; height:230px;" alt="">
                         </div>
-                        <div style="margin-left:10px;">
+                        <div style="margin-left:10px;" class="dblock">
                             <h4 class="card-title">Curso de Enfermería 1</h4>
                             <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
-                            <p class="card-text" style="width:60%;">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
+                            <p class="card-text anchocursos" >Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
                             <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver curso</button>
                         </div>
                     </div>
-                    <div class="col-2 col-md-2 col-lg-2 col-sm-2 col-xl-2">
+                    <div class="col-md-2 col-lg-2 col-xl-2 dblock">
                             <h4 class="card-title" style="font-size:20px;">1240$ (10 cuotas)<br><span style="color:#6c757d;"><s>2400$</s></span></h4>
                             <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;4,5<br>(1250) calificaciones</span>
                     </div>
@@ -117,87 +117,109 @@
                 <hr style="border:1px solid gainsboro;">
             </div>
         </div>
-        <div class="row wow fadeIn">
+        <div class="row wow fadeIn" style="margin-top:20px;">
             <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
                 <div class="row">
-                    <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
-                        <div style="float:left; margin-right:10px;">
-                            <img src="img/card4.jpg" class="img-fluid" alt="">
+                    <div class="col-12 col-md-10 col-lg-10 col-sm-12 col-xl-10 dblockimagen">
+                        <div style="margin-right:10px;" class="dblock imagenizquierda">
+                            <img src="img/card4.jpg" style="width:250px; height:230px;" alt="">
                         </div>
-                        <div style="margin-left:10px;">
-                            <h4 class="card-title">Curso de Enfermería 2</h4>
-                            <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
-                            <p class="card-text" style="width:60%;">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
-                            <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver curso</button>
-                        </div>
-                    </div>
-                    <div class="col-2 col-md-2 col-lg-2 col-sm-2 col-xl-2">
-                            <h4 class="card-title" style="font-size:20px;">1240$ (10 cuotas)<br><span style="color:#6c757d;"><s>2400$</s></span></h4>
-                            <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;4,5<br>(1250) calificaciones</span>
-                    </div>
-                </div>
-                <hr style="border:1px solid gainsboro;">
-            </div>
-        </div>
-        <div class="row wow fadeIn">
-            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
-                <div class="row">
-                    <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
-                        <div style="float:left; margin-right:10px;">
-                            <img src="img/card4.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div style="margin-left:10px;">
-                            <h4 class="card-title">Curso de Enfermería 3</h4>
-                            <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
-                            <p class="card-text" style="width:60%;">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
-                            <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver curso</button>
-                        </div>
-                    </div>
-                    <div class="col-2 col-md-2 col-lg-2 col-sm-2 col-xl-2">
-                            <h4 class="card-title" style="font-size:20px;">1240$ (10 cuotas)<br><span style="color:#6c757d;"><s>2400$</s></span></h4>
-                            <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;4,5<br>(1250) calificaciones</span>
-                    </div>
-                </div>
-                <hr style="border:1px solid gainsboro;">
-            </div>
-        </div>
-        <div class="row wow fadeIn">
-            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
-                <div class="row">
-                    <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
-                        <div style="float:left; margin-right:10px;">
-                            <img src="img/card4.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div style="margin-left:10px;">
-                            <h4 class="card-title">Curso de Enfermería 4</h4>
-                            <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
-                            <p class="card-text" style="width:60%;">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
-                            <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver curso</button>
-                        </div>
-                    </div>
-                    <div class="col-2 col-md-2 col-lg-2 col-sm-2 col-xl-2">
-                            <h4 class="card-title" style="font-size:20px;">1240$ (10 cuotas)<br><span style="color:#6c757d;"><s>2400$</s></span></h4>
-                            <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;4,5<br>(1250) calificaciones</span>
-                    </div>
-                </div>
-                <hr style="border:1px solid gainsboro;">
-            </div>
-        </div>
-        <div class="row wow fadeIn">
-            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
-                <div class="row">
-                    <div class="col-10 col-md-10 col-lg-10 col-sm-10 col-xl-10">
-                        <div style="float:left; margin-right:10px;">
-                            <img src="img/card4.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div style="margin-left:10px;">
+                        <div style="margin-left:10px;" class="dblock">
                             <h4 class="card-title">Curso de Enfermería 1</h4>
                             <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
-                            <p class="card-text" style="width:60%;">Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
+                            <p class="card-text anchocursos" >Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
                             <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver curso</button>
                         </div>
                     </div>
-                    <div class="col-2 col-md-2 col-lg-2 col-sm-2 col-xl-2">
+                    <div class="col-md-2 col-lg-2 col-xl-2 dblock">
+                            <h4 class="card-title" style="font-size:20px;">1240$ (10 cuotas)<br><span style="color:#6c757d;"><s>2400$</s></span></h4>
+                            <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;4,5<br>(1250) calificaciones</span>
+                    </div>
+                </div>
+                <hr style="border:1px solid gainsboro;">
+            </div>
+        </div>
+        <div class="row wow fadeIn" style="margin-top:20px;">
+            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-10 col-sm-12 col-xl-10 dblockimagen">
+                        <div style="margin-right:10px;" class="dblock imagenizquierda">
+                            <img src="img/card4.jpg" style="width:250px; height:230px;" alt="">
+                        </div>
+                        <div style="margin-left:10px;" class="dblock">
+                            <h4 class="card-title">Curso de Enfermería 1</h4>
+                            <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
+                            <p class="card-text anchocursos" >Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
+                            <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver curso</button>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 dblock">
+                            <h4 class="card-title" style="font-size:20px;">1240$ (10 cuotas)<br><span style="color:#6c757d;"><s>2400$</s></span></h4>
+                            <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;4,5<br>(1250) calificaciones</span>
+                    </div>
+                </div>
+                <hr style="border:1px solid gainsboro;">
+            </div>
+        </div>
+        <div class="row wow fadeIn" style="margin-top:20px;">
+            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-10 col-sm-12 col-xl-10 dblockimagen">
+                        <div style="margin-right:10px;" class="dblock imagenizquierda">
+                            <img src="img/card4.jpg" style="width:250px; height:230px;" alt="">
+                        </div>
+                        <div style="margin-left:10px;" class="dblock">
+                            <h4 class="card-title">Curso de Enfermería 1</h4>
+                            <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
+                            <p class="card-text anchocursos" >Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
+                            <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver curso</button>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 dblock">
+                            <h4 class="card-title" style="font-size:20px;">1240$ (10 cuotas)<br><span style="color:#6c757d;"><s>2400$</s></span></h4>
+                            <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;4,5<br>(1250) calificaciones</span>
+                    </div>
+                </div>
+                <hr style="border:1px solid gainsboro;">
+            </div>
+        </div>
+        <div class="row wow fadeIn" style="margin-top:20px;">
+            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-10 col-sm-12 col-xl-10 dblockimagen">
+                        <div style="margin-right:10px;" class="dblock imagenizquierda">
+                            <img src="img/card4.jpg" style="width:250px; height:230px;" alt="">
+                        </div>
+                        <div style="margin-left:10px;" class="dblock">
+                            <h4 class="card-title">Curso de Enfermería 1</h4>
+                            <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
+                            <p class="card-text anchocursos" >Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
+                            <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver curso</button>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 dblock">
+                            <h4 class="card-title" style="font-size:20px;">1240$ (10 cuotas)<br><span style="color:#6c757d;"><s>2400$</s></span></h4>
+                            <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;4,5<br>(1250) calificaciones</span>
+                    </div>
+                </div>
+                <hr style="border:1px solid gainsboro;">
+            </div>
+        </div>
+        <div class="row wow fadeIn" style="margin-top:20px;">
+            <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-10 offset-xl-1">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-10 col-sm-12 col-xl-10 dblockimagen">
+                        <div style="margin-right:10px;" class="dblock imagenizquierda">
+                            <img src="img/card4.jpg" style="width:250px; height:230px;" alt="">
+                        </div>
+                        <div style="margin-left:10px;" class="dblock">
+                            <h4 class="card-title">Curso de Enfermería 1</h4>
+                            <h2 class="card-subtitle" style="font-size:14px; color:#6c757d;">248 clases<br>Profesor Pepe Fernandez</h2>
+                            <p class="card-text anchocursos" >Curso de enfemería para el cuidado de adultos mayores. En el que encontraras las mejores tecnicas para poder realizar los mejores cuidados.</p>
+                            <button type="button" class="btn btn-op1"><i class="fas fa-eye"></i> Ver curso</button>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 dblock">
                             <h4 class="card-title" style="font-size:20px;">1240$ (10 cuotas)<br><span style="color:#6c757d;"><s>2400$</s></span></h4>
                             <p class="card-text" style="display:inline;"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starllena.png"><img src="img/starmedia.png"></p><span style="font-size:14px; display:inline;">&nbsp;4,5<br>(1250) calificaciones</span>
                     </div>
