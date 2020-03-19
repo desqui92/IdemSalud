@@ -27,6 +27,7 @@
     </script>
    <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
     <title>Inicio</title>
 </head>
 <body>
