@@ -42,7 +42,8 @@
 
 
 <?php
-    if ($_SESSION['conectado']=="true") {
+
+    if (isset($_SESSION['conectado']) && ($_SESSION['conectado']=="true")) {
 ?>
 
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -119,5 +120,6 @@
   </div>
 <?php
   } 
+
 ?>
 </nav>
