@@ -55,7 +55,7 @@
             } 
           ?>
           <?php
-            if ($_SESSION['rango']='1') {
+            if ($_SESSION['rango']=='1') {
               
           ?>
             <a class="dropdown-item" href="administracion.php" style="padding:20px 60px 20px 60px;"><i class="fas fa-tools fa-lg"></i> Administración</a>
