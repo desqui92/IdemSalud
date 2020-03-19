@@ -28,10 +28,16 @@
                 </div>
                 <ul class="nav flex-column text-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Opcion</a>
+                        <a class="nav-link active" href="#"><i class="fas fa-book-reader fa-lg"></i> Cursos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Opcion</a>
+                        <a class="nav-link" href="#"><i class="fas fa-chalkboard-teacher fa-lg"></i> Profesores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-user fa-lg"></i> Alumnos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-blogger-b fa-lg"></i> Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.php"><i class="fas fa-arrow-left fa-lg"></i> Página principal</a>
