@@ -4,10 +4,10 @@
   <i class="fas fa-bars"></i>
  <span class="navbar-toggler-icon"></span>
 </button>-->
-<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="icon-bar top-bar"></span>
-          <span class="icon-bar middle-bar"></span>
-          <span class="icon-bar bottom-bar"></span>				
+<button style="text-align:center;" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar-alto top-bar"></span>
+          <span class="icon-bar-medio middle-bar"></span>
+          <span class="icon-bar-bajo bottom-bar"></span>				
 </button>
 <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="text-align:justify;">
     <ul class="navbar-nav mr-auto margenabajo ordenaritems" style="font-weight:600;">

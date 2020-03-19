@@ -928,15 +928,37 @@ body > div:nth-child(2) > div:nth-child(3) > div > img:nth-child(4){
 
 
 /* ANIMACION BOTON MENU RESPONSIVE */
-.icon-bar {
+.icon-bar-alto {
 	width: 20px; 
   height: 2px;
   background-color: black;
 	display: block;
 	transition: all 0.2s;
-	margin-top: 4px
+  margin-top: 0px;
+  margin-bottom:4px;
 }
+
+.icon-bar-medio {
+	width: 20px; 
+  height: 2px;
+  background-color: black;
+	display: block;
+	transition: all 0.2s;
+  margin-top: 5px;
+  margin-bottom:5px;
+}
+.icon-bar-bajo {
+	width: 20px; 
+  height: 2px;
+  background-color: black;
+	display: block;
+	transition: all 0.2s;
+  margin-top: 4px;
+  margin-bottom:0px;
+}
+
 .navbar-toggler {
+  transition-duration: 0.2s;
   border: none;
   background: transparent !important;
 }
@@ -946,8 +968,8 @@ body > div:nth-child(2) > div:nth-child(3) > div > img:nth-child(4){
 }
 
 .navbar-toggler .top-bar {
-    transform: rotate(52deg);
-    transform-origin: 10% 10%;
+    transform-origin: left; 
+    transform: rotate(45deg);
   }
    
   .navbar-toggler .middle-bar {
@@ -955,10 +977,15 @@ body > div:nth-child(2) > div:nth-child(3) > div > img:nth-child(4){
   }
    
   .navbar-toggler .bottom-bar {
-    transform: rotate(-52deg);
-    transform-origin: 10% 90%;
+    transform-origin: left; 
+    transform: rotate(-45deg);
   }
-   
+  
+  .navbar-toggler.collapsed{
+    transition-duration: 0.2s;
+    transform: translateX(-3px);
+  }
+
   .navbar-toggler.collapsed .top-bar {
     transform: rotate(0);
   }
