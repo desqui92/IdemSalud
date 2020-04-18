@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-6 offset-xl-3 text-center animated fadeInUp d-none" id="cont-validar-email">
+            <div class="col-xl-6 offset-xl-3 text-center animated fadeInUp" style="display:none;" id="cont-validar-email">
                 <img src="img/mensaje.png" height="60" alt="">
                 <h4 class="mt-2">¡Genial! , ahora revise su correo y valide su email</h4>
                 <h5 class="mt-4 mb-4">Podrá reenviar la validación en 50s</h5>

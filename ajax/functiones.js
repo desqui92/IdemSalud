@@ -33,6 +33,7 @@ function registrar(){
     data:$("#form-registro").serialize()
   })
   .done(function (res) {
-    alert(res);
+    $("#form-registro").hide();
+    $("#cont-validar-email").show();
   })
 }
