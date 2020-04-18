@@ -10,14 +10,6 @@
 </head>
 <body>
     <div class="container-fluid" id="cont-login">
-        <div class="row h-100" style="display:none;" id="cont-loading">
-            <div class="col-8 offset-2 text-center my-auto">
-                    <div id="loading" class="d-block mx-auto">
-                        <img src="img/loading.gif" height="80" width="80" alt="">
-                        <p style="font-size:12px;text-align:center;font-weight:300;">CARGANDO...</p>
-                    </div>
-            </div>
-        </div>
         <div class="row">
             <div class="col-xl-4 offset-xl-4">
                 <form action="" method="post" id="form-login" class="animated fadeInUp" onsubmit="verificarLogin()">

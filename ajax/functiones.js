@@ -6,7 +6,6 @@ function verificarLogin() {
         data:$('#form-login').serialize()
     })
     .done(function(res) {
-
         switch(res) {
             case '0':
               $('#avisoLogin').text('¡Datos incorrectos!');
@@ -15,10 +14,10 @@ function verificarLogin() {
               window.location='index.php';
               break;
             case '2':
-                $('#avisoLogin').text('¡Datos incorrectos!');
+              $('#avisoLogin').text('¡Datos incorrectos!');
             break;
             case '3':
-                $('#avisoLogin').text('¡Por favor valide el email!');
+               $('#avisoLogin').text('¡Por favor valide el email!');
             break;
         }
     })
