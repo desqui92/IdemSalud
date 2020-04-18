@@ -23,3 +23,16 @@ function verificarLogin() {
     })
     
 }
+
+
+function registrar(){
+  event.preventDefault();
+  $.ajax({
+    type: "post",
+    url: "./php/registrar.php",
+    data:$("#form-registro").serialize()
+  })
+  .done(function (res) {
+    alert(res);
+  })
+}

@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </form>
-                <form action="" method="post" id="form-registro"  class="animated fadeInUp">
+                <form action="" method="post" id="form-registro"  class="animated fadeInUp" onsubmit="registrar()">
                     <img class="d-block mx-auto" src="img/logo.png" height="50" alt="">
                     <h6 class="text-center mt-2">A continuación ingrese sus datos</h6>
                     <div class="form-group">
