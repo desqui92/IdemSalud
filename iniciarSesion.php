@@ -12,7 +12,7 @@
     <div class="container-fluid" id="cont-login">
         <div class="row">
             <div class="col-xl-4 offset-xl-4">
-                <form action="" method="post" id="form-login" class="animated fadeInUp" style="display:none;" onsubmit="verificarLogin()">
+                <form action="" method="post" id="form-login" class="animated fadeInUp" onsubmit="verificarLogin()">
                     <img class="d-block mx-auto" src="img/logo.png" height="50" alt="">
                     <h6 class="text-center mt-2">A continuación ingrese sus datos</h6>
                     <div class="form-group">
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </form>
-                <form action="" method="post" id="form-registro"  class="animated fadeInUp" onsubmit="registrar()">
+                <form action="" method="post" id="form-registro"  class="animated fadeInUp" style="display:none;" onsubmit="registrar()">
                     <img class="d-block mx-auto" src="img/logo.png" height="50" alt="">
                     <h6 class="text-center mt-2">A continuación ingrese sus datos</h6>
                     <div class="form-group">
