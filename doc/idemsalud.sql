@@ -2,7 +2,7 @@
 -- Host:                         127.0.0.1
 -- Versión del servidor:         10.4.10-MariaDB - mariadb.org binary distribution
 -- SO del servidor:              Win64
--- HeidiSQL Versión:             9.4.0.5125
+-- HeidiSQL Versión:             11.0.0.5919
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `ciudad` varchar(50) DEFAULT NULL,
   `telefono` varchar(30) DEFAULT NULL,
   `email` varchar(50) NOT NULL,
-  `clave` varchar(200) NOT NULL,
+  `clave` varchar(255) NOT NULL,
   `tokenEmail` varchar(50) NOT NULL,
   `estado` tinyint(1) NOT NULL DEFAULT 0,
   `rango` tinyint(2) unsigned NOT NULL DEFAULT 0,
@@ -53,12 +53,14 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   PRIMARY KEY (`idUsuario`),
   UNIQUE KEY `email` (`email`),
   UNIQUE KEY `dni` (`dni`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
--- Volcando datos para la tabla idemsalud.usuarios: ~1 rows (aproximadamente)
+-- Volcando datos para la tabla idemsalud.usuarios: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
 INSERT INTO `usuarios` (`idUsuario`, `dni`, `nomApe`, `fechaNac`, `provincia`, `ciudad`, `telefono`, `email`, `clave`, `tokenEmail`, `estado`, `rango`, `fotoPerfil`) VALUES
-	(3, '40714325', 'Flores Mariano', '1994-03-12', 'Buenos Aires', 'La Plata', '2216775544', 'pepe@hotmail.com', '$2y$10$L4sJKaamvqqlvLB8qYM7y.Pzr/dIctpPBxsnj24bgF3Vhp.f4xHXG', 'sjdajdj23j2jjsdsd', 0, 0, NULL);
+	(3, '40714325', 'Flores Mariano', '1994-03-12', 'Buenos Aires', 'La Plata', '2216775544', 'pepe@hotmail.com', '$2y$10$L4sJKaamvqqlvLB8qYM7y.Pzr/dIctpPBxsnj24bgF3Vhp.f4xHXG', 'sjdajdj23j2jjsdsd', 1, 4, NULL),
+	(9, NULL, 'Rodrigo Garcia', NULL, NULL, NULL, NULL, 'rodri@gmail.com', '$2y$10$9jDiEkJk34Zd6Woeswo3jufQGeB2qpQaqKpKeHhUx3x9nKw2qXQNy', 'uat1oz6dmhekwl94d3b630n4q9xt4earkm8snfm39nw5onsn6w', 1, 3, NULL),
+	(10, NULL, 'mariano flores', NULL, NULL, NULL, NULL, 'marianobc12@hotmail.com', '$2y$10$CFPsCgoTfkTF7zsaHeuMted2LMy7qvD24H7eYjgOMOIOTUPyCKhjK', 'ynst5y0ko7h64skyi322fsa90tibmtlryancaszfxr9sunzdl8', 0, 4, NULL);
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 
 -- Volcando estructura para tabla idemsalud.usuarios_cursos

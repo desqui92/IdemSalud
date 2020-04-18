@@ -68,7 +68,14 @@
            Mi Perfíl
         </a>
         <div  id="submenu" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-address-card fa-lg"></i> Mis datos</a>
+          <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-address-card fa-lg"></i> Mis datos</a>  
+          <?php
+            if ($_SESSION['rango']=='3') {
+          ?>
+             <a class="dropdown-item" href="diseñador/administrarBlog.php" style="padding:20px 60px 20px 60px;"><i class="fas fa-address-card fa-lg"></i> Blog</a>
+          <?php
+            }
+          ?>
           <?php
            if ($_SESSION['rango']=='4') {
           ?>
