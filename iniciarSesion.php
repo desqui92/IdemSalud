@@ -18,12 +18,12 @@
                     <div class="form-group">
                         <label for="email"><i class="far fa-user fa-lg"></i> Email</label>
                         <input type="email" class="form-control input-op1" name="email" id="email" aria-describedby="emailHelp" placeholder="Ingrese email">
-                        <small id="emailHelp" class="form-text text-muted">Aquí va la validacion de error de email</small>
+                        <small id="emailHelp" style="display:none;color:red;" class="form-text">Aquí va la validacion de error de email</small>
                     </div>
                     <div class="form-group">
                         <label for="clave"><i class="fas fa-unlock-alt fa-lg"></i> Contraseña</label>
                         <input type="password" class="form-control input-op1" name="clave" id="clave" aria-describedby="claveHelp" placeholder="Ingrese contraseña">
-                        <small id="claveHelp" class="form-text text-muted">Aquí va la validacion de error de password</small>
+                        <small id="claveHelp" style="display:none;color:red;" class="form-text">Aquí va la validacion de error de password</small>
                     </div>
                     <p class="text-center" id="avisoLogin"></p>
                     <div class="text-center">

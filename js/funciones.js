@@ -25,3 +25,5 @@ function cerrarMensaje(){
     const element =  document.querySelector('.mensaje-ayuda');
     element.classList.add('animated', 'fadeOutDown','faster');
 }
+
+
