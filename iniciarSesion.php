@@ -12,7 +12,7 @@
     <div class="container-fluid" id="cont-login">
         <div class="row">
             <div class="col-xl-4 offset-xl-4">
-                <form action="" method="post" id="form-login" class="animated fadeInUp" onsubmit="verificarLogin()">
+                <form action="" method="post" id="form-login" class="animated fadeInUp" style="display:none;" onsubmit="verificarLogin()">
                     <img class="d-block mx-auto" src="img/logo.png" height="50" alt="">
                     <h6 class="text-center mt-2">A continuación ingrese sus datos</h6>
                     <div class="form-group">
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </form>
-                <form action="" method="post" id="form-registro" style="display:none;" class="animated fadeInUp">
+                <form action="" method="post" id="form-registro"  class="animated fadeInUp">
                     <img class="d-block mx-auto" src="img/logo.png" height="50" alt="">
                     <h6 class="text-center mt-2">A continuación ingrese sus datos</h6>
                     <div class="form-group">
@@ -70,6 +70,21 @@
                         </div>
                     </div>
                 </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6 offset-xl-3 text-center animated fadeInUp d-none" id="cont-validar-email">
+                <img src="img/mensaje.png" height="60" alt="">
+                <h4 class="mt-2">¡Genial! , ahora revise su correo y valide su email</h4>
+                <h5 class="mt-4 mb-4">Podrá reenviar la validación en 50s</h5>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <button type="button" id="yaValide" onclick="irLogin()" class="btn btn-op1"><i class="fas fa-check fa-lg"></i> Listo</button>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <button type="submit" id="reenvioValidacion"  class="btn btn-op1"><i class="fas fa-redo-alt fa-lg"></i> Reenviar validación</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
