@@ -20,7 +20,8 @@ $token=generarToken(50);
 $sql="INSERT INTO usuarios (nomApe,email,clave,rango,estado,tokenEmail) VALUES ('$nombreYApellido','$email','$clave','4','0','$token')";
 
 if(mysqli_query($link,$sql)){
-    echo "se registro";
+    $urlValidacion=emailValidacion($link,$email);
+    echo $urlValidacion;
 }else{
     echo "algo paso";
 }
