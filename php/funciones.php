@@ -55,4 +55,35 @@ function emailValidacion($link,$email){
 }
 
 
+function validarEmail($link){
+    $idUsuario=$_GET['id'];
+    $tokenEmail=$_GET['token'];
+
+    $sql="SELECT estado FROM usuarios WHERE idUsuario='$idUsuario' AND tokenEmail='$tokenEmail' LIMIT 1";
+    $res=mysqli_query($link,$sql);
+    $encontro=mysqli_num_rows($res);
+    
+    if ($encontro==1) {
+        $arr=mysqli_fetch_array($res);
+        $estado=$arr[0];
+        if ($estado==0) {
+            $sql="UPDATE usuarios SET estado='1' WHERE idUsuario='$idUsuario' AND tokenEmail='$tokenEmail'";
+            mysqli_query($link,$sql);
+            /* retorna 1 porque se valido */
+            return 1;
+        }else{
+            /* retorna 2 si ya esta validado*/
+            return 2;
+        }
+    }else{
+        /* retorna 4 si no se encontro el usuario */
+        return 3;
+    }
+
+   
+
+
+}
+
+
 ?>
