@@ -27,11 +27,11 @@
                     <img src="../img/logo.png" height="50" alt="">
                 </div>
                 <div class="text-center mt-5 mb-5">
-                    <img id="foto-perfil"  src="../img/sin-foto.png" height="100" alt="">
+                    <img id="foto-perfil"  src="/img/sin-foto.png" height="100" alt="">
                 </div>
                 <ul class="nav flex-column text-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="/diseñador/agregarpublicacion.php"><i class="fas fa-user fa-lg"></i> Subir publicación</a>
+                        <a class="nav-link" href="#"><i class="fas fa-user fa-lg"></i> Subir publicación</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-edit fa-lg"></i> Editar publicación</a>
@@ -48,10 +48,11 @@
                 </ul>
             </div>
             <div class="col-xl-8">
-                <div class="text-center wow fadeIn" id="saludo">
-                    <img src="/img/hello.png" height="80" alt="">
-                    <h1 class="">Hola <?php echo $_SESSION['nomApe']; ?></h1>
+                <div class="wow fadeInUp">
+                    <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;"><img style="vertical-align:sub;" src="/img/cursos-pc.png" height="40" alt=""> Subir Publicación</h1>
+                    <hr style="border-top: 2px solid red; width:60px;">
                 </div>
+                <input>
             </div>
         </div>
     </div>
