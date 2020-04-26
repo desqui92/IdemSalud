@@ -85,24 +85,22 @@ cropper.getCroppedCanvas().toBlob((blob) => {
   const formData = new FormData();
 
   // Pass the image file name as the third parameter if necessary.
-  formData.append('croppedImage', blob);
+  formData.append('file', blob,'example.png');
 
-  // Use `jQuery.ajax` method for example
-  $.ajax('../files/portadaBlog', {
+  $.ajax({
+    url:'subirimagen.php',
     method: 'POST',
-    url: 'subirimagen.php',
     data: formData,
     processData: false,
-    contentType: false,
-    success() {
-      console.log('Upload success');
-      alert ("calarilarileron ");
-    },
-    error() {
-      console.log('Upload error');
-    },
+    contentType: false
+  })
+  .done(function(res) {
+     alert(res);
   });
-}, 'image/png');
+
+});
+
+
 }
                             </script>
                             <!--<script>
