@@ -62,10 +62,24 @@
                             <input type="text" name="titulopublicacion" id="titulopublicacion"></input>
                             <h1 class="text-center" style="font-size:24px; margin-top:10px;">Imagen de portada</h1>
                             <div>
+                            <input type="file" id="imgInp" onchange="tomarimagen(this)" name="files">
                             <img id="image" src="../img/background.jpg" style="max-width: 100%;">
                             </div>
                             <input type="button" onclick="recorte()" value="Recortar Imagen"></button>
                             <script>
+                            
+    function tomarimagen(event){
+    var reader = new FileReader();
+    var img = document.getElementById('image');
+    var file = event.files[0];
+
+    reader.onload = function(e) {
+      $('#image').attr('src', e.target.result);
+    }
+    
+    reader.readAsDataURL(event.files[0]);
+    }
+
 
 const image = document.getElementById('image');
 const cropper = new Cropper(image, {
@@ -102,6 +116,8 @@ cropper.getCroppedCanvas().toBlob((blob) => {
 
 
 }
+
+
                             </script>
                             <!--<script>
                             var $image = $('#image');
