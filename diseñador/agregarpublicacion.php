@@ -25,154 +25,98 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-4 wow fadeInLeft" id="menu-administracion">
-                <div class="text-center wow fadeIn" data-wow-delay="1s" id="logo-menu">
-                    <img src="../img/logo.png" height="50" alt="">
-                </div>
-                <div class="text-center mt-5 mb-5">
-                    <img id="foto-perfil"  src="/img/sin-foto.png" height="100" alt="">
-                </div>
-                <ul class="nav flex-column text-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-user fa-lg"></i> Subir publicación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-edit fa-lg"></i> Editar publicación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-edit fa-lg"></i> Borrar publicación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fab fa-blogger-b fa-lg"></i> Ver Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/index.php"><i class="fas fa-arrow-left fa-lg"></i> Página principal</a>
-                    </li>
-                </ul>
-            </div>
+            <?php include 'menuDiseñador.php'; ?>
+            
             <div class="col-xl-8">
                 <div class="wow fadeInUp">
-                    <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;"><img style="vertical-align:sub;" src="/img/cursos-pc.png" height="40" alt=""> Subir Publicación</h1>
+                    <h1 class="text-center" style="font-size:36px; margin-bottom:5px;margin-top:60px;"><img style="vertical-align:sub;" src="../img/cursos-pc.png" height="40" alt=""> Subir Publicación</h1>
                     <hr style="border-top: 2px solid red; width:60px;">
                 </div>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 text-center">
+                        <div class="col-12 text-center cont-subirBlog">
                             <h1 class="text-center" style="font-size:24px; margin-top:10px;">Título</h1>
-                            <input type="text" name="titulopublicacion" id="titulopublicacion"></input>
-                            <h1 class="text-center" style="font-size:24px; margin-top:10px;">Imagen de portada</h1>
-                            <div>
-                            <input type="file" id="imgInp" onchange="tomarimagen(this)" name="files">
-                            <img id="image" src="../img/background.jpg" style="max-width: 100%;">
+                            <input type="text" class="form-control" name="titulopublicacion" id="titulopublicacion"></input>
+                            <h1 class="text-center" style="font-size:24px; margin-top:10px;">Portada</h1>
+                            <div class="alert" id="portadaLista" style="width:300px;border-radius:0px;display:none;margin:auto;" role="alert">
+                            <p style="margin:0px;"><i class="fas fa-check fa-lg" style="color:#CE2D2B;"></i>  ¡Su portada está lista!</p>
                             </div>
-                            <input type="button" onclick="recorte()" value="Recortar Imagen"></button>
+                            <div>
+                            <label for="imgInp" id="labelimgInp" class="btn-subirPortada"><i class="fas fa-upload fa-lg"></i> Subir Portada</label>
+                            <input type="file" class="d-none" id="imgInp" onchange="tomarimagen(this)" name="files">
+                            <img id="image" src="" style="max-width: 100%;">
+                            </div>
+                            <button type="button" id="btn-recortar" class="btn btn-subirPortada mt-4" style="display:none;" onclick="recorte()"><i class="fas fa-cut fa-lg"></i> Recortar</button>
                             <script>
+
+                                const cropper=inicializarCropper();
+
+
+                                function inicializarCropper(){
+                                    const image = document.getElementById('image');
+                                    const cropper = new Cropper(image, {
+                                    aspectRatio: 16 / 9,
+                                    crop(event) {
+                                        console.log(event.detail.x);
+                                        console.log(event.detail.y);
+                                        console.log(event.detail.width);
+                                        console.log(event.detail.height);
+                                        console.log(event.detail.rotate);
+                                        console.log(event.detail.scaleX);
+                                        console.log(event.detail.scaleY);
+                                    },
+                                    });
+                                    return cropper;
+                                }    
+
+
+                                function tomarimagen(event){
+                                 var reader = new FileReader();
+                                 var img = document.getElementById('image');
+                                 var file = event.files[0];
                             
-    function tomarimagen(event){
-    var reader = new FileReader();
-    var img = document.getElementById('image');
-    var file = event.files[0];
+                                reader.readAsDataURL(event.files[0]);
+                                reader.onload = function(e) {
+                                    $('#image').attr('src', e.target.result);
+                                    cropper.replace(e.target.result);
+                                }
 
-    reader.onload = function(e) {
-      $('#image').attr('src', e.target.result);
-    }
+                                $("#btn-recortar").show();
+
+                                }
     
-    reader.readAsDataURL(event.files[0]);
-    }
 
 
-const image = document.getElementById('image');
-const cropper = new Cropper(image, {
-  aspectRatio: 16 / 9,
-  crop(event) {
-    console.log(event.detail.x);
-    console.log(event.detail.y);
-    console.log(event.detail.width);
-    console.log(event.detail.height);
-    console.log(event.detail.rotate);
-    console.log(event.detail.scaleX);
-    console.log(event.detail.scaleY);
-  },
-});
-function recorte(){
-cropper.getCroppedCanvas().toBlob((blob) => {
-  const formData = new FormData();
 
-  // Pass the image file name as the third parameter if necessary.
-  formData.append('file', blob,'example.png');
+                                function recorte(){
+                                    cropper.getCroppedCanvas().toBlob((blob) => {
+                                    const formData = new FormData();
 
-  $.ajax({
-    url:'subirimagen.php',
-    method: 'POST',
-    data: formData,
-    processData: false,
-    contentType: false
-  })
-  .done(function(res) {
-     alert(res);
-  });
+                                    // Pass the image file name as the third parameter if necessary.
+                                    formData.append('file', blob,'example.png');
 
-});
+                                    $.ajax({
+                                        url:'subirimagen.php',
+                                        method: 'POST',
+                                        data: formData,
+                                        processData: false,
+                                        contentType: false
+                                    })
+                                    .done(function(res) {
+                                        //alert(res);
+                                        $("#portadaLista").show();
+                                        $(".cropper-container").hide();
+                                        $("#labelimgInp").hide();
+                                        $("#btn-recortar").hide();
+                                        
+                                    });
 
+                                    });
 
-}
+                                }
 
 
                             </script>
-                            <!--<script>
-                            var $image = $('#image');
-
-                            $image.cropper({
-                              aspectRatio: 16 / 9,
-                              crop: function(event) {
-                                console.log(event.detail.x);
-                                console.log(event.detail.y);
-                                console.log(event.detail.width);
-                               console.log(event.detail.height);
-                                console.log(event.detail.rotate);
-                               console.log(event.detail.scaleX);
-                                console.log(event.detail.scaleY);
-                             }
-                            });
-
-                            // Get the Cropper.js instance after initialized
-                            var cropper = $image.data('cropper');
-                            function recorte(){
-                                cropper.getCroppedCanvas().toBlob((blob) => {
-                               const formData = new FormData();
-                               var id = "";
-                                $.ajax({
-                                type: 'POST',
-                                url: 'pediridimagen.php',
-                                success: function (data) {
-                                    alert("pedirimagen " + data);
-                                    subirimagen(data, formData, blob);
-                                }
-                                });
-                                })
-                            }
-                                function subirimagen(id, formData, blob){
-                                alert(formData);
-                                var nombre = "imagen" + id + ".png";
-                                // Pass the image file name as the third parameter if necessary.
-                                formData.append('croppedImage', blob, nombre);
-                                // Use `jQuery.ajax` method for example
-                                $.ajax('../files/portadaBlog', {
-                                  method: 'POST',
-                                  url: 'subirimagen.php',
-                                  data: formData,
-                                  processData: false,
-                                  contentType: false,
-                                  success: function(data) {
-                                    alert (data);
-                                    console.log('Upload success');
-                                  },
-                                  error() {
-                                    console.log('Upload error');
-                                   },
-                                  });
-                                } 
-                            </script>-->
                             <h1 class="text-center" style="font-size:24px; margin-top:10px;">Contenido</h1>
                         </div>
                     </div>
