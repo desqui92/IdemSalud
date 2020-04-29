@@ -63,6 +63,7 @@
         include 'footer.php';
     ?>
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0&appId=1931725970234358&autoLogAppEvents=1"></script>
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();

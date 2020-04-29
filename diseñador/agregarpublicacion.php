@@ -36,7 +36,7 @@
                     <div class="row">
                         <div class="col-12 text-center cont-subirBlog">
                             <h1 class="text-center" style="font-size:24px; margin-top:10px;">Título</h1>
-                            <input type="text" class="form-control" name="titulopublicacion" id="titulopublicacion"></input>
+                            <input type="text" placeholder="Escriba el título del blog..." class="form-control" name="titulopublicacion" id="titulopublicacion"></input>
                             <h1 class="text-center" style="font-size:24px; margin-top:10px;">Portada</h1>
                             <div class="alert" id="portadaLista" style="width:300px;border-radius:0px;display:none;margin:auto;" role="alert">
                             <p style="margin:0px;"><i class="fas fa-check fa-lg" style="color:#CE2D2B;"></i>  ¡Su portada está lista!</p>
