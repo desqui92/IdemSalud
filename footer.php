@@ -23,7 +23,25 @@
             </div>
             <div class="col-xl-4-auto col-lg-4-auto col-md-12-auto seccion-footer mx-auto">
                 <h4 class="text-center mt-4 text-white titulo">Últimas noticias</h4>
-                <div class="mt-4">
+                <?php
+                    while($blog=$res->fetch_assoc()){
+                ?>
+                    <div class="mt-4">
+                        <div class="row">
+                            <div class="p-2 text-white" style="border:1px solid white;width:60px;">
+                                <p class="text-center m-0" style="font-weight:bold;"><?php echo sacarDia($blog['fechaSubida']); ?></p>
+                                <p class="text-center m-0" style="font-weight:bold;"><?php echo sacarMes($blog['fechaSubida']); ?></p>
+                            </div>
+                            <div class="ml-4" style="margin:auto;">
+                                <p class="m-0 text-white"><?php echo $blog['titulo'];?></p>
+                            </div>
+                        </div>
+                    </div>
+                <?php
+                    }
+
+                ?>
+                <!--<div class="mt-4">
                     <div class="row">
                         <div class="p-2 text-white" style="border:1px solid white;width:60px;">
                             <p class="text-center m-0" style="font-weight:bold;">22</p>
@@ -55,7 +73,7 @@
                             <p class="m-0 text-white">¿Como protegerse del virus?</p>
                         </div>
                     </div>
-                </div>
+                </div>-->
 
             </div>
             <div class="col-xl-4 col-lg-4 col-md-12 seccion-footer">

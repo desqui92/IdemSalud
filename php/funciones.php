@@ -80,9 +80,59 @@ function validarEmail($link){
         return 3;
     }
 
-   
+}
 
+function traer3Blog($link){
+    $sql="SELECT * FROM blog ORDER BY fechaSubida DESC LIMIT 3";
+    $res=mysqli_query($link,$sql);
+    return $res;
+}
 
+function sacarDia($fecha){
+    $dia=date("d", strtotime($fecha));
+    return $dia;
+}
+function sacarMes($fecha){
+    $mes=date("m", strtotime($fecha));
+    switch ($mes) {
+        case '01':
+            $mes="ENE";
+            break;
+        case '02':
+            $mes="FEB";
+            break;
+        case '03':
+            $mes="MAR";
+            break;
+        case '04':
+            $mes="ABR";
+            break;
+        case '05':
+            $mes="MAY";
+            break;
+        case '06':
+            $mes="JUN";
+            break;
+        case '07':
+            $mes="JUL";
+            break;
+        case '08':
+            $mes="AGO";
+            break;
+        case '09':
+            $mes="SEPT";
+            break;
+        case '10':
+            $mes="OCT";
+            break;
+        case '11':
+            $mes="NOV";
+            break;
+        case '12':
+            $mes="DIC";
+            break;
+    }
+    return strtoupper($mes);
 }
 
 

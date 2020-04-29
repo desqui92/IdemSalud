@@ -1,5 +1,10 @@
 <?php
   session_start();
+
+  include 'php/conexion.php';
+  include 'php/funciones.php';
+  $link=conexion();
+  $res=traer3Blog($link);
 ?>
 
 
