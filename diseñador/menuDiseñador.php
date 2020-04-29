@@ -3,7 +3,7 @@
                     <img src="../img/logo.png" height="50" alt="">
                 </div>
                 <div class="text-center mt-5 mb-5">
-                    <img id="foto-perfil"  src="../img/sin-foto.png" height="100" alt="">
+                    <img id="foto-perfil"  src="../img/pruebaPersona.jpg" height="100" width="100" alt="">
                 </div>
                 <ul class="nav flex-column text-center">
                     <li class="nav-item">

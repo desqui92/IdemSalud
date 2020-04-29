@@ -67,7 +67,7 @@
           ?>
            Mi Perfíl
         </a>
-        <div  id="submenu" class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        <div  id="submenu" class="dropdown-menu dropdown-menu-right animated fadeIn fast" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-address-card fa-lg"></i> Mis datos</a>  
           <?php
             if ($_SESSION['rango']=='3') {
@@ -92,7 +92,7 @@
             }
           ?>
           <!--   <div class="dropdown-divider"></div>-->
-          <a class="dropdown-item" href="#" style="padding:20px 60px 20px 60px;"><i class="fas fa-arrow-left fa-lg"></i> Ir a inicio</a>
+          <a class="dropdown-item" href="index.php" style="padding:20px 60px 20px 60px;"><i class="fas fa-arrow-left fa-lg"></i> Ir a inicio</a>
           <a class="dropdown-item" href="cerrarSesion.php" style="padding:20px 60px 20px 60px;"><i class="fas fa-power-off fa-lg"></i> Cerrar Sesión</a>
         </div>
       </li>
